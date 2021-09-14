@@ -1,0 +1,2886 @@
+{
+  "themes": {
+    "dark": {
+      "cssSelector": ".theme-dark",
+      "colors": [
+        {
+          "category": [
+            "backgrounds"
+          ],
+          "fill": {
+            "r": 19,
+            "g": 18,
+            "b": 23,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(19, 18, 23)",
+          "name": "basement",
+          "value": "#131217"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 28,
+            "g": 156,
+            "b": 254,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(28, 156, 254)",
+          "name": "blue",
+          "value": "#1c9cfe"
+        },
+        {
+          "category": [
+            "text"
+          ],
+          "fill": {
+            "r": 166,
+            "g": 172,
+            "b": 176,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(166, 172, 176)",
+          "name": "body-and-labels",
+          "value": "#a6acb0"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 211,
+            "g": 25,
+            "b": 18,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(211, 25, 18)",
+          "name": "brand",
+          "value": "#d31912"
+        },
+        {
+          "category": [
+            "hues",
+            "code-blocks"
+          ],
+          "fill": {
+            "r": 233,
+            "g": 110,
+            "b": 157,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(233, 110, 157)",
+          "name": "code-base-64",
+          "value": "#e96e9d"
+        },
+        {
+          "category": [
+            "hues",
+            "code-blocks"
+          ],
+          "fill": {
+            "r": 35,
+            "g": 35,
+            "b": 38,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(35, 35, 38)",
+          "name": "code-bg",
+          "value": "#232326"
+        },
+        {
+          "category": [
+            "hues",
+            "code-blocks"
+          ],
+          "fill": {
+            "r": 28,
+            "g": 28,
+            "b": 33,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(28, 28, 33)",
+          "name": "code-outline",
+          "value": "#1c1c21"
+        },
+        {
+          "category": [
+            "hues",
+            "code-blocks"
+          ],
+          "fill": {
+            "r": 157,
+            "g": 193,
+            "b": 253,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(157, 193, 253)",
+          "name": "code-text",
+          "value": "#9dc1fd"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 246,
+            "g": 65,
+            "b": 71,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(246, 65, 71)",
+          "name": "critical",
+          "value": "#f64147"
+        },
+        {
+          "category": [
+            "interactive",
+            "destructive"
+          ],
+          "fill": {
+            "r": 250,
+            "g": 148,
+            "b": 151,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(250, 148, 151)",
+          "name": "destructive-hover",
+          "value": "#fa9497"
+        },
+        {
+          "category": [
+            "interactive",
+            "destructive"
+          ],
+          "fill": {
+            "r": 30,
+            "g": 29,
+            "b": 32,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(30, 29, 32)",
+          "name": "destructive-idle",
+          "value": "#1e1d20"
+        },
+        {
+          "category": [
+            "interactive",
+            "destructive"
+          ],
+          "fill": {
+            "r": 249,
+            "g": 88,
+            "b": 93,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(249, 88, 93)",
+          "name": "destructive-pressed",
+          "value": "#f9585d"
+        },
+        {
+          "category": [
+            "text"
+          ],
+          "fill": {
+            "r": 119,
+            "g": 121,
+            "b": 143,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(119, 121, 143)",
+          "name": "disabled",
+          "value": "#77798f"
+        },
+        {
+          "category": [
+            "hues",
+            "process-actions"
+          ],
+          "fill": {
+            "r": 219,
+            "g": 98,
+            "b": 249,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(219, 98, 249)",
+          "name": "disc-operations",
+          "value": "#db62f9"
+        },
+        {
+          "category": [
+            "hues",
+            "process-actions"
+          ],
+          "fill": {
+            "r": 133,
+            "g": 86,
+            "b": 254,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(133, 86, 254)",
+          "name": "dns-requests",
+          "value": "#8556fe"
+        },
+        {
+          "category": [
+            "interactive",
+            "focus"
+          ],
+          "fill": {
+            "r": 102,
+            "g": 136,
+            "b": 255,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(102, 136, 255)",
+          "name": "focus",
+          "value": "#6688ff"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 247,
+            "g": 80,
+            "b": 86,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(247, 80, 86)",
+          "name": "graph-1",
+          "value": "#f75056"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 183,
+            "g": 183,
+            "b": 183,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(183, 183, 183)",
+          "name": "graph-10",
+          "value": "#b7b7b7"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 239,
+            "g": 239,
+            "b": 239,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(239, 239, 239)",
+          "name": "graph-11",
+          "value": "#efefef"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 246,
+            "g": 150,
+            "b": 103,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(246, 150, 103)",
+          "name": "graph-2",
+          "value": "#f69667"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 252,
+            "g": 220,
+            "b": 92,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(252, 220, 92)",
+          "name": "graph-3",
+          "value": "#fcdc5c"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 142,
+            "g": 238,
+            "b": 199,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(142, 238, 199)",
+          "name": "graph-4",
+          "value": "#8eeec7"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 157,
+            "g": 193,
+            "b": 253,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(157, 193, 253)",
+          "name": "graph-5",
+          "value": "#9dc1fd"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 102,
+            "g": 136,
+            "b": 255,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(102, 136, 255)",
+          "name": "graph-6",
+          "value": "#6688ff"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 193,
+            "g": 121,
+            "b": 246,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(193, 121, 246)",
+          "name": "graph-7",
+          "value": "#c179f6"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 255,
+            "g": 181,
+            "b": 216,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(255, 181, 216)",
+          "name": "graph-8",
+          "value": "#ffb5d8"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 160,
+            "g": 110,
+            "b": 110,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(160, 110, 110)",
+          "name": "graph-9",
+          "value": "#a06e6e"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 80,
+            "g": 82,
+            "b": 101,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(80, 82, 101)",
+          "name": "graph-disabled",
+          "value": "#505265"
+        },
+        {
+          "category": [
+            "backgrounds"
+          ],
+          "fill": {
+            "r": 39,
+            "g": 38,
+            "b": 44,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(39, 38, 44)",
+          "name": "ground-floor",
+          "value": "#27262c"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 247,
+            "g": 125,
+            "b": 64,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(247, 125, 64)",
+          "name": "high",
+          "value": "#f77d40"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 157,
+            "g": 193,
+            "b": 253,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(157, 193, 253)",
+          "name": "informational",
+          "value": "#9dc1fd"
+        },
+        {
+          "category": [
+            "divider-lines"
+          ],
+          "fill": {
+            "r": 9,
+            "g": 9,
+            "b": 12,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(9, 9, 12)",
+          "name": "lines-dark",
+          "value": "#09090c"
+        },
+        {
+          "category": [
+            "divider-lines"
+          ],
+          "fill": {
+            "r": 20,
+            "g": 20,
+            "b": 26,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(20, 20, 26)",
+          "name": "lines-light",
+          "value": "#14141a"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 206,
+            "g": 242,
+            "b": 206,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(206, 242, 206)",
+          "name": "low",
+          "value": "#cef2ce"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 255,
+            "g": 204,
+            "b": 0,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(255, 204, 0)",
+          "name": "medium",
+          "value": "#ffcc00"
+        },
+        {
+          "category": [
+            "backgrounds"
+          ],
+          "fill": {
+            "r": 33,
+            "g": 33,
+            "b": 33,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(33, 33, 33)",
+          "name": "mezzanine",
+          "value": "#212121"
+        },
+        {
+          "category": [
+            "deprecated"
+          ],
+          "fill": {
+            "r": 250,
+            "g": 250,
+            "b": 250,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(250, 250, 250)",
+          "name": "nav-text-and-icons",
+          "value": "#fafafa"
+        },
+        {
+          "category": [
+            "deprecated"
+          ],
+          "fill": {
+            "r": 166,
+            "g": 172,
+            "b": 176,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(166, 172, 176)",
+          "name": "nav-text-secondary",
+          "value": "#a6acb0"
+        },
+        {
+          "category": [
+            "hues",
+            "process-actions"
+          ],
+          "fill": {
+            "r": 251,
+            "g": 80,
+            "b": 147,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(251, 80, 147)",
+          "name": "network-operations",
+          "value": "#fb5093"
+        },
+        {
+          "category": [
+            "interactive",
+            "normal"
+          ],
+          "fill": {
+            "r": 99,
+            "g": 100,
+            "b": 110,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(99, 100, 110)",
+          "name": "normal-hover",
+          "value": "#63646e"
+        },
+        {
+          "category": [
+            "interactive",
+            "normal"
+          ],
+          "fill": {
+            "r": 78,
+            "g": 79,
+            "b": 90,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(78, 79, 90)",
+          "name": "normal-idle",
+          "value": "#4e4f5a"
+        },
+        {
+          "category": [
+            "interactive",
+            "normal"
+          ],
+          "fill": {
+            "r": 61,
+            "g": 61,
+            "b": 72,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(61, 61, 72)",
+          "name": "normal-pressed",
+          "value": "#3d3d48"
+        },
+        {
+          "category": [
+            "transparency"
+          ],
+          "fill": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.1
+          },
+          "hasAlpha": true,
+          "rgbFill": "rgba(0, 0, 0, 0.1)",
+          "name": "overlay-0\\.5",
+          "value": "#0000001a"
+        },
+        {
+          "category": [
+            "transparency"
+          ],
+          "fill": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.25
+          },
+          "hasAlpha": true,
+          "rgbFill": "rgba(0, 0, 0, 0.25)",
+          "name": "overlay-1",
+          "value": "#00000040"
+        },
+        {
+          "category": [
+            "transparency"
+          ],
+          "fill": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.6
+          },
+          "hasAlpha": true,
+          "rgbFill": "rgba(0, 0, 0, 0.6)",
+          "name": "overlay-2",
+          "value": "#00000099"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 6,
+            "g": 229,
+            "b": 183,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(6, 229, 183)",
+          "name": "positive",
+          "value": "#06e5b7"
+        },
+        {
+          "category": [
+            "interactive",
+            "primary"
+          ],
+          "fill": {
+            "r": 225,
+            "g": 236,
+            "b": 254,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(225, 236, 254)",
+          "name": "primary-hover",
+          "value": "#e1ecfe"
+        },
+        {
+          "category": [
+            "interactive",
+            "primary"
+          ],
+          "fill": {
+            "r": 200,
+            "g": 220,
+            "b": 254,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(200, 220, 254)",
+          "name": "primary-idle",
+          "value": "#c8dcfe"
+        },
+        {
+          "category": [
+            "interactive",
+            "primary"
+          ],
+          "fill": {
+            "r": 125,
+            "g": 155,
+            "b": 255,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(125, 155, 255)",
+          "name": "primary-pressed",
+          "value": "#7d9bff"
+        },
+        {
+          "category": [
+            "hues",
+            "process-actions"
+          ],
+          "fill": {
+            "r": 98,
+            "g": 156,
+            "b": 251,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(98, 156, 251)",
+          "name": "process-operations",
+          "value": "#629cfb"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 177,
+            "g": 90,
+            "b": 242,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(177, 90, 242)",
+          "name": "purple",
+          "value": "#b15af2"
+        },
+        {
+          "category": [
+            "hues",
+            "process-actions"
+          ],
+          "fill": {
+            "r": 93,
+            "g": 99,
+            "b": 254,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(93, 99, 254)",
+          "name": "registry-operations",
+          "value": "#5d63fe"
+        },
+        {
+          "category": [
+            "transparency"
+          ],
+          "fill": {
+            "r": 125,
+            "g": 155,
+            "b": 255,
+            "a": 0.1
+          },
+          "hasAlpha": true,
+          "rgbFill": "rgba(125, 155, 255, 0.1)",
+          "name": "selected",
+          "value": "#7d9bff1a"
+        },
+        {
+          "category": [
+            "surfaces"
+          ],
+          "fill": {
+            "r": 61,
+            "g": 60,
+            "b": 64,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(61, 60, 64)",
+          "name": "surface-2xl",
+          "value": "#3d3c40"
+        },
+        {
+          "category": [
+            "surfaces"
+          ],
+          "fill": {
+            "r": 38,
+            "g": 37,
+            "b": 42,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(38, 37, 42)",
+          "name": "surface-base",
+          "value": "#26252a"
+        },
+        {
+          "category": [
+            "surfaces"
+          ],
+          "fill": {
+            "r": 23,
+            "g": 22,
+            "b": 26,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(23, 22, 26)",
+          "name": "surface-inner",
+          "value": "#17161a"
+        },
+        {
+          "category": [
+            "surfaces"
+          ],
+          "fill": {
+            "r": 52,
+            "g": 51,
+            "b": 55,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(52, 51, 55)",
+          "name": "surface-lg",
+          "value": "#343337"
+        },
+        {
+          "category": [
+            "surfaces"
+          ],
+          "fill": {
+            "r": 45,
+            "g": 44,
+            "b": 49,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(45, 44, 49)",
+          "name": "surface-md",
+          "value": "#2d2c31"
+        },
+        {
+          "category": [
+            "surfaces"
+          ],
+          "fill": {
+            "r": 56,
+            "g": 55,
+            "b": 60,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(56, 55, 60)",
+          "name": "surface-xl",
+          "value": "#38373c"
+        },
+        {
+          "category": [
+            "interactive",
+            "text-and-icons"
+          ],
+          "fill": {
+            "r": 250,
+            "g": 250,
+            "b": 250,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(250, 250, 250)",
+          "name": "text-and-icons",
+          "value": "#fafafa"
+        },
+        {
+          "category": [
+            "text"
+          ],
+          "fill": {
+            "r": 226,
+            "g": 226,
+            "b": 228,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(226, 226, 228)",
+          "name": "titles-and-attributes",
+          "value": "#e2e2e4"
+        }
+      ],
+      "shadows": [
+        {
+          "name": "elevation-2xl",
+          "effects": [
+            "0px 25px 50px 0px rgba(0, 0, 0, 0.62)"
+          ]
+        },
+        {
+          "name": "elevation-base",
+          "effects": [
+            "0px 1px 2px 0px rgba(0, 0, 0, 0.46)",
+            "0px 1px 3px 0px rgba(0, 0, 0, 0.1)"
+          ]
+        },
+        {
+          "name": "elevation-inner-lg",
+          "effects": [
+            "inset 0px 2px 4px 0px rgba(0, 0, 0, 0.36)"
+          ]
+        },
+        {
+          "name": "elevation-inner-md",
+          "effects": [
+            "inset 0px 1px 2px 0px rgba(0, 0, 0, 0.25)"
+          ]
+        },
+        {
+          "name": "elevation-lg",
+          "effects": [
+            "0px 10px 15px 0px rgba(0, 0, 0, 0.3)",
+            "0px 4px 6px 0px rgba(0, 0, 0, 0.15)"
+          ]
+        },
+        {
+          "name": "elevation-md",
+          "effects": [
+            "0px 2px 4px 0px rgba(0, 0, 0, 0.33)",
+            "0px 4px 6px 0px rgba(0, 0, 0, 0.1)"
+          ]
+        },
+        {
+          "name": "elevation-xl",
+          "effects": [
+            "0px 20px 25px 0px rgba(0, 0, 0, 0.3)",
+            "0px 10px 10px 0px rgba(0, 0, 0, 0.12)"
+          ]
+        }
+      ]
+    },
+    "light": {
+      "cssSelector": ".theme-light",
+      "colors": [
+        {
+          "category": [
+            "backgrounds"
+          ],
+          "fill": {
+            "r": 235,
+            "g": 235,
+            "b": 235,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(235, 235, 235)",
+          "name": "basement",
+          "value": "#ebebeb"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 36,
+            "g": 105,
+            "b": 240,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(36, 105, 240)",
+          "name": "blue",
+          "value": "#2469f0"
+        },
+        {
+          "category": [
+            "text"
+          ],
+          "fill": {
+            "r": 118,
+            "g": 118,
+            "b": 118,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(118, 118, 118)",
+          "name": "body-and-labels",
+          "value": "#767676"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 211,
+            "g": 28,
+            "b": 18,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(211, 28, 18)",
+          "name": "brand",
+          "value": "#d31c12"
+        },
+        {
+          "category": [
+            "hues",
+            "code-blocks"
+          ],
+          "fill": {
+            "r": 168,
+            "g": 21,
+            "b": 78,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(168, 21, 78)",
+          "name": "code-base-64",
+          "value": "#a8154e"
+        },
+        {
+          "category": [
+            "hues",
+            "code-blocks"
+          ],
+          "fill": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(255, 255, 255)",
+          "name": "code-bg",
+          "value": "#ffffff"
+        },
+        {
+          "category": [
+            "hues",
+            "code-blocks"
+          ],
+          "fill": {
+            "r": 229,
+            "g": 229,
+            "b": 229,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(229, 229, 229)",
+          "name": "code-outline",
+          "value": "#e5e5e5"
+        },
+        {
+          "category": [
+            "hues",
+            "code-blocks"
+          ],
+          "fill": {
+            "r": 11,
+            "g": 84,
+            "b": 193,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(11, 84, 193)",
+          "name": "code-text",
+          "value": "#0b54c1"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 237,
+            "g": 24,
+            "b": 31,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(237, 24, 31)",
+          "name": "critical",
+          "value": "#ed181f"
+        },
+        {
+          "category": [
+            "interactive",
+            "destructive"
+          ],
+          "fill": {
+            "r": 244,
+            "g": 116,
+            "b": 121,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(244, 116, 121)",
+          "name": "destructive-hover",
+          "value": "#f47479"
+        },
+        {
+          "category": [
+            "interactive",
+            "destructive"
+          ],
+          "fill": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(255, 255, 255)",
+          "name": "destructive-idle",
+          "value": "#ffffff"
+        },
+        {
+          "category": [
+            "interactive",
+            "destructive"
+          ],
+          "fill": {
+            "r": 232,
+            "g": 18,
+            "b": 26,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(232, 18, 26)",
+          "name": "destructive-pressed",
+          "value": "#e8121a"
+        },
+        {
+          "category": [
+            "text"
+          ],
+          "fill": {
+            "r": 148,
+            "g": 148,
+            "b": 148,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(148, 148, 148)",
+          "name": "disabled",
+          "value": "#949494"
+        },
+        {
+          "category": [
+            "hues",
+            "process-actions"
+          ],
+          "fill": {
+            "r": 179,
+            "g": 8,
+            "b": 221,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(179, 8, 221)",
+          "name": "disc-operations",
+          "value": "#b308dd"
+        },
+        {
+          "category": [
+            "hues",
+            "process-actions"
+          ],
+          "fill": {
+            "r": 73,
+            "g": 2,
+            "b": 253,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(73, 2, 253)",
+          "name": "dns-requests",
+          "value": "#4902fd"
+        },
+        {
+          "category": [
+            "interactive",
+            "focus"
+          ],
+          "fill": {
+            "r": 3,
+            "g": 158,
+            "b": 186,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(3, 158, 186)",
+          "name": "focus",
+          "value": "#039eba"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 217,
+            "g": 31,
+            "b": 17,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(217, 31, 17)",
+          "name": "graph-1",
+          "value": "#d91f11"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 116,
+            "g": 120,
+            "b": 161,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(116, 120, 161)",
+          "name": "graph-10",
+          "value": "#7478a1"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 59,
+            "g": 54,
+            "b": 74,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(59, 54, 74)",
+          "name": "graph-11",
+          "value": "#3b364a"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 191,
+            "g": 72,
+            "b": 21,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(191, 72, 21)",
+          "name": "graph-2",
+          "value": "#bf4815"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 148,
+            "g": 102,
+            "b": 19,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(148, 102, 19)",
+          "name": "graph-3",
+          "value": "#946613"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 46,
+            "g": 92,
+            "b": 14,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(46, 92, 14)",
+          "name": "graph-4",
+          "value": "#2e5c0e"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 6,
+            "g": 122,
+            "b": 145,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(6, 122, 145)",
+          "name": "graph-5",
+          "value": "#067a91"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 28,
+            "g": 60,
+            "b": 174,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(28, 60, 174)",
+          "name": "graph-6",
+          "value": "#1c3cae"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 107,
+            "g": 48,
+            "b": 171,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(107, 48, 171)",
+          "name": "graph-7",
+          "value": "#6b30ab"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 150,
+            "g": 21,
+            "b": 116,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(150, 21, 116)",
+          "name": "graph-8",
+          "value": "#961574"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 104,
+            "g": 68,
+            "b": 68,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(104, 68, 68)",
+          "name": "graph-9",
+          "value": "#684444"
+        },
+        {
+          "category": [
+            "hues",
+            "graph"
+          ],
+          "fill": {
+            "r": 211,
+            "g": 211,
+            "b": 211,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(211, 211, 211)",
+          "name": "graph-disabled",
+          "value": "#d3d3d3"
+        },
+        {
+          "category": [
+            "backgrounds"
+          ],
+          "fill": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(255, 255, 255)",
+          "name": "ground-floor",
+          "value": "#ffffff"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 255,
+            "g": 126,
+            "b": 0,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(255, 126, 0)",
+          "name": "high",
+          "value": "#ff7e00"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 80,
+            "g": 130,
+            "b": 210,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(80, 130, 210)",
+          "name": "informational",
+          "value": "#5082d2"
+        },
+        {
+          "category": [
+            "divider-lines"
+          ],
+          "fill": {
+            "r": 217,
+            "g": 217,
+            "b": 217,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(217, 217, 217)",
+          "name": "lines-dark",
+          "value": "#d9d9d9"
+        },
+        {
+          "category": [
+            "divider-lines"
+          ],
+          "fill": {
+            "r": 238,
+            "g": 238,
+            "b": 238,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(238, 238, 238)",
+          "name": "lines-light",
+          "value": "#eeeeee"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 100,
+            "g": 159,
+            "b": 100,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(100, 159, 100)",
+          "name": "low",
+          "value": "#649f64"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 237,
+            "g": 176,
+            "b": 0,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(237, 176, 0)",
+          "name": "medium",
+          "value": "#edb000"
+        },
+        {
+          "category": [
+            "backgrounds"
+          ],
+          "fill": {
+            "r": 36,
+            "g": 36,
+            "b": 36,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(36, 36, 36)",
+          "name": "mezzanine",
+          "value": "#242424"
+        },
+        {
+          "category": [
+            "deprecated"
+          ],
+          "fill": {
+            "r": 250,
+            "g": 250,
+            "b": 250,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(250, 250, 250)",
+          "name": "nav-text-and-icons",
+          "value": "#fafafa"
+        },
+        {
+          "category": [
+            "deprecated"
+          ],
+          "fill": {
+            "r": 173,
+            "g": 173,
+            "b": 173,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(173, 173, 173)",
+          "name": "nav-text-secondary",
+          "value": "#adadad"
+        },
+        {
+          "category": [
+            "hues",
+            "process-actions"
+          ],
+          "fill": {
+            "r": 199,
+            "g": 15,
+            "b": 87,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(199, 15, 87)",
+          "name": "network-operations",
+          "value": "#c70f57"
+        },
+        {
+          "category": [
+            "interactive",
+            "normal"
+          ],
+          "fill": {
+            "r": 232,
+            "g": 232,
+            "b": 232,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(232, 232, 232)",
+          "name": "normal-hover",
+          "value": "#e8e8e8"
+        },
+        {
+          "category": [
+            "interactive",
+            "normal"
+          ],
+          "fill": {
+            "r": 224,
+            "g": 224,
+            "b": 224,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(224, 224, 224)",
+          "name": "normal-idle",
+          "value": "#e0e0e0"
+        },
+        {
+          "category": [
+            "interactive",
+            "normal"
+          ],
+          "fill": {
+            "r": 173,
+            "g": 173,
+            "b": 173,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(173, 173, 173)",
+          "name": "normal-pressed",
+          "value": "#adadad"
+        },
+        {
+          "category": [
+            "transparency"
+          ],
+          "fill": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.03
+          },
+          "hasAlpha": true,
+          "rgbFill": "rgba(0, 0, 0, 0.03)",
+          "name": "overlay-0\\.5",
+          "value": "#00000008"
+        },
+        {
+          "category": [
+            "transparency"
+          ],
+          "fill": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05
+          },
+          "hasAlpha": true,
+          "rgbFill": "rgba(0, 0, 0, 0.05)",
+          "name": "overlay-1",
+          "value": "#0000000d"
+        },
+        {
+          "category": [
+            "transparency"
+          ],
+          "fill": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.15
+          },
+          "hasAlpha": true,
+          "rgbFill": "rgba(0, 0, 0, 0.15)",
+          "name": "overlay-2",
+          "value": "#00000026"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 27,
+            "g": 142,
+            "b": 103,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(27, 142, 103)",
+          "name": "positive",
+          "value": "#1b8e67"
+        },
+        {
+          "category": [
+            "interactive",
+            "primary"
+          ],
+          "fill": {
+            "r": 22,
+            "g": 128,
+            "b": 147,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(22, 128, 147)",
+          "name": "primary-hover",
+          "value": "#168093"
+        },
+        {
+          "category": [
+            "interactive",
+            "primary"
+          ],
+          "fill": {
+            "r": 3,
+            "g": 102,
+            "b": 120,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(3, 102, 120)",
+          "name": "primary-idle",
+          "value": "#036678"
+        },
+        {
+          "category": [
+            "interactive",
+            "primary"
+          ],
+          "fill": {
+            "r": 2,
+            "g": 85,
+            "b": 100,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(2, 85, 100)",
+          "name": "primary-pressed",
+          "value": "#025564"
+        },
+        {
+          "category": [
+            "hues",
+            "process-actions"
+          ],
+          "fill": {
+            "r": 16,
+            "g": 85,
+            "b": 198,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(16, 85, 198)",
+          "name": "process-operations",
+          "value": "#1055c6"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 133,
+            "g": 50,
+            "b": 194,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(133, 50, 194)",
+          "name": "purple",
+          "value": "#8532c2"
+        },
+        {
+          "category": [
+            "hues",
+            "process-actions"
+          ],
+          "fill": {
+            "r": 1,
+            "g": 8,
+            "b": 198,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(1, 8, 198)",
+          "name": "registry-operations",
+          "value": "#0108c6"
+        },
+        {
+          "category": [
+            "transparency"
+          ],
+          "fill": {
+            "r": 3,
+            "g": 109,
+            "b": 128,
+            "a": 0.1
+          },
+          "hasAlpha": true,
+          "rgbFill": "rgba(3, 109, 128, 0.1)",
+          "name": "selected",
+          "value": "#036d801a"
+        },
+        {
+          "category": [
+            "surfaces"
+          ],
+          "fill": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(255, 255, 255)",
+          "name": "surface-2xl",
+          "value": "#ffffff"
+        },
+        {
+          "category": [
+            "surfaces"
+          ],
+          "fill": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(255, 255, 255)",
+          "name": "surface-base",
+          "value": "#ffffff"
+        },
+        {
+          "category": [
+            "surfaces"
+          ],
+          "fill": {
+            "r": 237,
+            "g": 237,
+            "b": 237,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(237, 237, 237)",
+          "name": "surface-inner",
+          "value": "#ededed"
+        },
+        {
+          "category": [
+            "surfaces"
+          ],
+          "fill": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(255, 255, 255)",
+          "name": "surface-lg",
+          "value": "#ffffff"
+        },
+        {
+          "category": [
+            "surfaces"
+          ],
+          "fill": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(255, 255, 255)",
+          "name": "surface-md",
+          "value": "#ffffff"
+        },
+        {
+          "category": [
+            "surfaces"
+          ],
+          "fill": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(255, 255, 255)",
+          "name": "surface-xl",
+          "value": "#ffffff"
+        },
+        {
+          "category": [
+            "interactive",
+            "text-and-icons"
+          ],
+          "fill": {
+            "r": 32,
+            "g": 32,
+            "b": 32,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(32, 32, 32)",
+          "name": "text-and-icons",
+          "value": "#202020"
+        },
+        {
+          "category": [
+            "text"
+          ],
+          "fill": {
+            "r": 61,
+            "g": 61,
+            "b": 61,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(61, 61, 61)",
+          "name": "titles-and-attributes",
+          "value": "#3d3d3d"
+        }
+      ],
+      "shadows": [
+        {
+          "name": "elevation-2xl",
+          "effects": [
+            "0px 0px 7px 0px rgba(0, 0, 0, 0.08)",
+            "0px 25px 50px 0px rgba(0, 0, 0, 0.15)"
+          ]
+        },
+        {
+          "name": "elevation-base",
+          "effects": [
+            "0px 0px 1px 0px rgba(0, 0, 0, 0.07)",
+            "0px 1px 2px 0px rgba(0, 0, 0, 0.15)"
+          ]
+        },
+        {
+          "name": "elevation-inner-lg",
+          "effects": [
+            "inset 0px 2px 5px 0px rgba(0, 0, 0, 0.09)"
+          ]
+        },
+        {
+          "name": "elevation-inner-md",
+          "effects": [
+            "inset 0px 2px 4px 0px rgba(0, 0, 0, 0.08)"
+          ]
+        },
+        {
+          "name": "elevation-lg",
+          "effects": [
+            "0px 10px 15px 0px rgba(0, 0, 0, 0.08)",
+            "0px 0px 3px 0px rgba(0, 0, 0, 0.07)"
+          ]
+        },
+        {
+          "name": "elevation-md",
+          "effects": [
+            "0px 0px 4px 0px rgba(0, 0, 0, 0.06)",
+            "0px 3px 6px 0px rgba(0, 0, 0, 0.1)"
+          ]
+        },
+        {
+          "name": "elevation-xl",
+          "effects": [
+            "0px 20px 25px 0px rgba(0, 0, 0, 0.08)",
+            "0px 0px 4px 0px rgba(0, 0, 0, 0.08)"
+          ]
+        }
+      ]
+    },
+    "mezzanine": {
+      "cssSelector": ".theme-light .theme-mezzanine",
+      "colors": [
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 28,
+            "g": 156,
+            "b": 254,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(28, 156, 254)",
+          "name": "blue",
+          "value": "#1c9cfe"
+        },
+        {
+          "category": [
+            "text"
+          ],
+          "fill": {
+            "r": 166,
+            "g": 172,
+            "b": 176,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(166, 172, 176)",
+          "name": "body-and-labels",
+          "value": "#a6acb0"
+        },
+        {
+          "category": [
+            "hues",
+            "code-blocks"
+          ],
+          "fill": {
+            "r": 233,
+            "g": 110,
+            "b": 157,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(233, 110, 157)",
+          "name": "code-base-64",
+          "value": "#e96e9d"
+        },
+        {
+          "category": [
+            "hues",
+            "code-blocks"
+          ],
+          "fill": {
+            "r": 157,
+            "g": 193,
+            "b": 253,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(157, 193, 253)",
+          "name": "code-text",
+          "value": "#9dc1fd"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 246,
+            "g": 65,
+            "b": 71,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(246, 65, 71)",
+          "name": "critical",
+          "value": "#f64147"
+        },
+        {
+          "category": [
+            "interactive",
+            "destructive"
+          ],
+          "fill": {
+            "r": 250,
+            "g": 148,
+            "b": 151,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(250, 148, 151)",
+          "name": "destructive-hover",
+          "value": "#fa9497"
+        },
+        {
+          "category": [
+            "interactive",
+            "destructive"
+          ],
+          "fill": {
+            "r": 30,
+            "g": 29,
+            "b": 32,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(30, 29, 32)",
+          "name": "destructive-idle",
+          "value": "#1e1d20"
+        },
+        {
+          "category": [
+            "interactive",
+            "destructive"
+          ],
+          "fill": {
+            "r": 249,
+            "g": 88,
+            "b": 93,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(249, 88, 93)",
+          "name": "destructive-pressed",
+          "value": "#f9585d"
+        },
+        {
+          "category": [
+            "text"
+          ],
+          "fill": {
+            "r": 119,
+            "g": 121,
+            "b": 143,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(119, 121, 143)",
+          "name": "disabled",
+          "value": "#77798f"
+        },
+        {
+          "category": [
+            "hues",
+            "process-actions"
+          ],
+          "fill": {
+            "r": 219,
+            "g": 98,
+            "b": 249,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(219, 98, 249)",
+          "name": "disc-operations",
+          "value": "#db62f9"
+        },
+        {
+          "category": [
+            "hues",
+            "process-actions"
+          ],
+          "fill": {
+            "r": 133,
+            "g": 86,
+            "b": 254,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(133, 86, 254)",
+          "name": "dns-requests",
+          "value": "#8556fe"
+        },
+        {
+          "category": [
+            "interactive",
+            "focus"
+          ],
+          "fill": {
+            "r": 3,
+            "g": 158,
+            "b": 186,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(3, 158, 186)",
+          "name": "focus",
+          "value": "#039eba"
+        },
+        {
+          "category": [
+            "backgrounds"
+          ],
+          "fill": {
+            "r": 39,
+            "g": 38,
+            "b": 44,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(39, 38, 44)",
+          "name": "ground-floor",
+          "value": "#27262c"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 247,
+            "g": 125,
+            "b": 64,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(247, 125, 64)",
+          "name": "high",
+          "value": "#f77d40"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 157,
+            "g": 193,
+            "b": 253,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(157, 193, 253)",
+          "name": "informational",
+          "value": "#9dc1fd"
+        },
+        {
+          "category": [
+            "divider-lines"
+          ],
+          "fill": {
+            "r": 9,
+            "g": 9,
+            "b": 12,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(9, 9, 12)",
+          "name": "lines-dark",
+          "value": "#09090c"
+        },
+        {
+          "category": [
+            "divider-lines"
+          ],
+          "fill": {
+            "r": 20,
+            "g": 20,
+            "b": 26,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(20, 20, 26)",
+          "name": "lines-light",
+          "value": "#14141a"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 206,
+            "g": 242,
+            "b": 206,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(206, 242, 206)",
+          "name": "low",
+          "value": "#cef2ce"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 255,
+            "g": 204,
+            "b": 0,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(255, 204, 0)",
+          "name": "medium",
+          "value": "#ffcc00"
+        },
+        {
+          "category": [
+            "backgrounds"
+          ],
+          "fill": {
+            "r": 33,
+            "g": 33,
+            "b": 33,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(33, 33, 33)",
+          "name": "mezzanine",
+          "value": "#212121"
+        },
+        {
+          "category": [
+            "hues",
+            "process-actions"
+          ],
+          "fill": {
+            "r": 251,
+            "g": 80,
+            "b": 147,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(251, 80, 147)",
+          "name": "network-operations",
+          "value": "#fb5093"
+        },
+        {
+          "category": [
+            "interactive",
+            "normal"
+          ],
+          "fill": {
+            "r": 91,
+            "g": 91,
+            "b": 91,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(91, 91, 91)",
+          "name": "normal-hover",
+          "value": "#5b5b5b"
+        },
+        {
+          "category": [
+            "interactive",
+            "normal"
+          ],
+          "fill": {
+            "r": 69,
+            "g": 69,
+            "b": 69,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(69, 69, 69)",
+          "name": "normal-idle",
+          "value": "#454545"
+        },
+        {
+          "category": [
+            "interactive",
+            "normal"
+          ],
+          "fill": {
+            "r": 58,
+            "g": 58,
+            "b": 58,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(58, 58, 58)",
+          "name": "normal-pressed",
+          "value": "#3a3a3a"
+        },
+        {
+          "category": [
+            "transparency"
+          ],
+          "fill": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.25
+          },
+          "hasAlpha": true,
+          "rgbFill": "rgba(0, 0, 0, 0.25)",
+          "name": "overlay-1",
+          "value": "#00000040"
+        },
+        {
+          "category": [
+            "transparency"
+          ],
+          "fill": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.6
+          },
+          "hasAlpha": true,
+          "rgbFill": "rgba(0, 0, 0, 0.6)",
+          "name": "overlay-2",
+          "value": "#00000099"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 6,
+            "g": 229,
+            "b": 183,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(6, 229, 183)",
+          "name": "positive",
+          "value": "#06e5b7"
+        },
+        {
+          "category": [
+            "interactive",
+            "primary"
+          ],
+          "fill": {
+            "r": 233,
+            "g": 251,
+            "b": 251,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(233, 251, 251)",
+          "name": "primary-hover",
+          "value": "#e9fbfb"
+        },
+        {
+          "category": [
+            "interactive",
+            "primary"
+          ],
+          "fill": {
+            "r": 201,
+            "g": 248,
+            "b": 253,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(201, 248, 253)",
+          "name": "primary-idle",
+          "value": "#c9f8fd"
+        },
+        {
+          "category": [
+            "interactive",
+            "primary"
+          ],
+          "fill": {
+            "r": 3,
+            "g": 158,
+            "b": 186,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(3, 158, 186)",
+          "name": "primary-pressed",
+          "value": "#039eba"
+        },
+        {
+          "category": [
+            "hues",
+            "process-actions"
+          ],
+          "fill": {
+            "r": 98,
+            "g": 156,
+            "b": 251,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(98, 156, 251)",
+          "name": "process-operations",
+          "value": "#629cfb"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 177,
+            "g": 90,
+            "b": 242,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(177, 90, 242)",
+          "name": "purple",
+          "value": "#b15af2"
+        },
+        {
+          "category": [
+            "hues",
+            "process-actions"
+          ],
+          "fill": {
+            "r": 93,
+            "g": 99,
+            "b": 254,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(93, 99, 254)",
+          "name": "registry-operations",
+          "value": "#5d63fe"
+        },
+        {
+          "category": [
+            "transparency"
+          ],
+          "fill": {
+            "r": 3,
+            "g": 158,
+            "b": 186,
+            "a": 0.1
+          },
+          "hasAlpha": true,
+          "rgbFill": "rgba(3, 158, 186, 0.1)",
+          "name": "selected",
+          "value": "#039eba1a"
+        },
+        {
+          "category": [
+            "surfaces"
+          ],
+          "fill": {
+            "r": 60,
+            "g": 60,
+            "b": 60,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(60, 60, 60)",
+          "name": "surface-2xl",
+          "value": "#3c3c3c"
+        },
+        {
+          "category": [
+            "surfaces"
+          ],
+          "fill": {
+            "r": 37,
+            "g": 37,
+            "b": 37,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(37, 37, 37)",
+          "name": "surface-base",
+          "value": "#252525"
+        },
+        {
+          "category": [
+            "surfaces"
+          ],
+          "fill": {
+            "r": 26,
+            "g": 26,
+            "b": 26,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(26, 26, 26)",
+          "name": "surface-inner",
+          "value": "#1a1a1a"
+        },
+        {
+          "category": [
+            "surfaces"
+          ],
+          "fill": {
+            "r": 51,
+            "g": 51,
+            "b": 51,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(51, 51, 51)",
+          "name": "surface-lg",
+          "value": "#333333"
+        },
+        {
+          "category": [
+            "surfaces"
+          ],
+          "fill": {
+            "r": 44,
+            "g": 44,
+            "b": 44,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(44, 44, 44)",
+          "name": "surface-md",
+          "value": "#2c2c2c"
+        },
+        {
+          "category": [
+            "surfaces"
+          ],
+          "fill": {
+            "r": 55,
+            "g": 55,
+            "b": 55,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(55, 55, 55)",
+          "name": "surface-xl",
+          "value": "#373737"
+        },
+        {
+          "category": [
+            "interactive",
+            "text-and-icons"
+          ],
+          "fill": {
+            "r": 250,
+            "g": 250,
+            "b": 250,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(250, 250, 250)",
+          "name": "text-and-icons",
+          "value": "#fafafa"
+        },
+        {
+          "category": [
+            "text"
+          ],
+          "fill": {
+            "r": 226,
+            "g": 226,
+            "b": 228,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(226, 226, 228)",
+          "name": "titles-and-attributes",
+          "value": "#e2e2e4"
+        }
+      ],
+      "shadows": [
+        {
+          "name": "elevation-2xl",
+          "effects": [
+            "0px 25px 50px 0px rgba(0, 0, 0, 0.2)"
+          ]
+        },
+        {
+          "name": "elevation-base",
+          "effects": [
+            "0px 1px 2px 0px rgba(0, 0, 0, 0.06)",
+            "0px 1px 3px 0px rgba(0, 0, 0, 0.1)"
+          ]
+        },
+        {
+          "name": "elevation-inner-lg",
+          "effects": [
+            "inset 0px 2px 5px 0px rgba(0, 0, 0, 0.09)"
+          ]
+        },
+        {
+          "name": "elevation-inner-md",
+          "effects": [
+            "inset 0px 2px 4px 0px rgba(0, 0, 0, 0.08)"
+          ]
+        },
+        {
+          "name": "elevation-lg",
+          "effects": [
+            "0px 10px 15px 0px rgba(0, 0, 0, 0.1)",
+            "0px 4px 6px 0px rgba(0, 0, 0, 0.05)"
+          ]
+        },
+        {
+          "name": "elevation-md",
+          "effects": [
+            "0px 2px 4px 0px rgba(0, 0, 0, 0.06)",
+            "0px 4px 6px 0px rgba(0, 0, 0, 0.1)"
+          ]
+        },
+        {
+          "name": "elevation-xl",
+          "effects": [
+            "0px 20px 25px 0px rgba(0, 0, 0, 0.1)",
+            "0px 10px 10px 0px rgba(0, 0, 0, 0.04)"
+          ]
+        }
+      ]
+    }
+  },
+  "aliases": [
+    {
+      "name": "command-line-base64",
+      "value": "code-base-64"
+    },
+    {
+      "name": "command-line-bg",
+      "value": "code-bg"
+    },
+    {
+      "name": "command-line-outline",
+      "value": "code-outline"
+    },
+    {
+      "name": "command-line-text",
+      "value": "code-text"
+    },
+    {
+      "name": "dash-background",
+      "value": "basement"
+    },
+    {
+      "name": "disabled-2",
+      "value": "graph-disabled"
+    },
+    {
+      "name": "falcon",
+      "value": "brand"
+    },
+    {
+      "name": "nav-swatch-14",
+      "value": "mezzanine"
+    },
+    {
+      "name": "page-title",
+      "value": "surface-base"
+    },
+    {
+      "name": "process-actions--disc-operations",
+      "value": "disc-operations"
+    },
+    {
+      "name": "process-actions--dns-requests",
+      "value": "dns-requests"
+    },
+    {
+      "name": "process-actions--network-operations",
+      "value": "network-operations"
+    },
+    {
+      "name": "process-actions--process-operations",
+      "value": "process-operations"
+    },
+    {
+      "name": "process-actions--registry-operations",
+      "value": "registry-operations"
+    },
+    {
+      "name": "scrollbar-thumb",
+      "value": "disabled"
+    },
+    {
+      "name": "scrollbar-track",
+      "value": "surface-2xl"
+    },
+    {
+      "name": "swatch-1",
+      "value": "lines-dark"
+    },
+    {
+      "name": "swatch-1-2",
+      "value": "overlay-1"
+    },
+    {
+      "name": "swatch-1-3",
+      "value": "overlay-2"
+    },
+    {
+      "name": "swatch-10",
+      "value": "surface-2xl"
+    },
+    {
+      "name": "swatch-11",
+      "value": "surface-lg"
+    },
+    {
+      "name": "swatch-12",
+      "value": "ground-floor"
+    },
+    {
+      "name": "swatch-14",
+      "value": "mezzanine"
+    },
+    {
+      "name": "swatch-15",
+      "value": "surface-inner"
+    },
+    {
+      "name": "swatch-16",
+      "value": "blue"
+    },
+    {
+      "name": "swatch-17",
+      "value": "informational"
+    },
+    {
+      "name": "swatch-18",
+      "value": "positive"
+    },
+    {
+      "name": "swatch-19",
+      "value": "low"
+    },
+    {
+      "name": "swatch-2",
+      "value": "primary-idle"
+    },
+    {
+      "name": "swatch-20",
+      "value": "medium"
+    },
+    {
+      "name": "swatch-21",
+      "value": "high"
+    },
+    {
+      "name": "swatch-22",
+      "value": "critical"
+    },
+    {
+      "name": "swatch-23",
+      "value": "purple"
+    },
+    {
+      "name": "swatch-3",
+      "value": "text-and-icons"
+    },
+    {
+      "name": "swatch-4",
+      "value": "titles-and-attributes"
+    },
+    {
+      "name": "swatch-5",
+      "value": "body-and-labels"
+    },
+    {
+      "name": "swatch-7",
+      "value": "disabled"
+    },
+    {
+      "name": "swatch-9",
+      "value": "normal-idle"
+    }
+  ]
+}

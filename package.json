@@ -1,0 +1,34 @@
+{
+  "name": "@crowdstrike/tailwind-toucan-base",
+  "version": "1.5.13",
+  "private": true,
+  "description": "Tailwind preset for CrowdStrikes Toucan styles",
+  "repository": "https://github.com/CrowdStrike/tailwind-toucan-base",
+  "license": "MIT",
+  "author": "CrowdStrike UX Team",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "plugins/**/*.js"
+  ],
+  "scripts": {
+    "figma:export-styles": "figma-export use-config",
+    "lint:fix": "yarn lint:js --fix",
+    "lint:js": "eslint ."
+  },
+  "dependencies": {
+    "@figma-export/cli": "3.3.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@2.2.9"
+  },
+  "devDependencies": {
+    "@nullvoxpopuli/eslint-configs": "1.4.5",
+    "eslint": "^7.32.0"
+  },
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "volta": {
+    "node": "14.17.6",
+    "yarn": "1.22.11"
+  }
+}
