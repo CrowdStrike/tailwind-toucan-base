@@ -1,0 +1,60 @@
+{
+  "name": "@crowdstrike/tailwind-toucan-base",
+  "version": "1.5.13",
+  "private": true,
+  "description": "Tailwind preset for CrowdStrike's Toucan design system",
+  "repository": "https://github.com/CrowdStrike/tailwind-toucan-base",
+  "license": "MIT",
+  "author": "CrowdStrike UX Team",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "index.css",
+    "toucan.css",
+    "plugins/**/*.js"
+  ],
+  "scripts": {
+    "build": "yarn clean && npm-run-all \"build:*\" && yarn postbuild",
+    "build:cdn": "NODE_ENV=production tailwind build -i ./lib/index.css -o ./index.css -c ./lib/tailwind.config.cdn.js",
+    "clean": "rm -f ./toucan.css ./index.css",
+    "postbuild": "cp index.css toucan.css",
+    "figma:export-styles": "figma-export use-config",
+    "lint:fix": "yarn lint:js --fix",
+    "lint:js": "eslint ."
+  },
+  "dependencies": {
+    "@figma-export/cli": "3.3.1",
+    "tailwindcss": "^2.2.15"
+  },
+  "devDependencies": {
+    "@nullvoxpopuli/eslint-configs": "1.4.5",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.1",
+    "autoprefixer": "^10.3.4",
+    "eslint": "^7.32.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.3.6",
+    "semantic-release": "^17.4.7"
+  },
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "release": {
+    "branches": [
+      "main",
+      "master"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      "@semantic-release/git"
+    ]
+  },
+  "volta": {
+    "node": "14.17.6",
+    "yarn": "1.22.11"
+  }
+}

@@ -1,0 +1,47 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - master
+  schedule:
+    - cron: "0 3 * * 0" # every Sunday at 3am
+
+env:
+  CI: true
+
+jobs:
+  tests:
+    if: "! contains(toJSON(github.event.commits.*.message), '[skip ci]')"
+    name: Base Tests
+    timeout-minutes: 5
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: volta-cli/action@v1
+
+      - run: yarn install
+      - run: |
+          echo "No tests yet"
+          exit 1
+
+  publish:
+    name: Release
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+    needs: [tests, try-scenarios, floating-dependencies]
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+      - uses: volta-cli/action@v1
+      - run: yarn install
+
+      - name: Release
+        run: yarn semantic-release
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
