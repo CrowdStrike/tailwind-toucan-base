@@ -23,6 +23,24 @@ module.exports = {
 };
 ```
 
+### CSS `@import`
+
+If your packager supports importing styles directly from an npm package, the Toucan styles are pre-built and can be imported at:
+
+```css
+@import "@crowdstrike/tailwind-toucan-base";
+```
+
+### CDN Usage
+
+Many JS CDNs scrape NPM and automatically serve and cache assets
+deployed to NPM.
+
+Here as an example with JSDelivr
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@crowdstrike/tailwind-toucan-base/toucan.css">
+```
+
 ### Ember
 
 The package `@crowdstrike/ember-toucan-styles` provides helpers for configuring
