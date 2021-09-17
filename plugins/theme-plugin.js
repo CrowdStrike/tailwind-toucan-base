@@ -14,17 +14,6 @@ module.exports = function (themesData) {
       return css;
     }, {});
 
-    // Temporary alias code
-    let aliasedColorSwatches = themesData.aliases.reduce((css, { name, value }) => {
-      css[`--${name}`] = `var(--${value})`;
-
-      return css;
-    }, {});
-
-    Object.values(themesData.themes).forEach(({ cssSelector }) => {
-      Object.assign(generatedCss[cssSelector], aliasedColorSwatches);
-    });
-
     addBase(generatedCss);
   };
 

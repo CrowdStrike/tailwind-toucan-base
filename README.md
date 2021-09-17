@@ -49,6 +49,18 @@ and the Toucan preset.
 
 See the README for in `@crowdstrike/ember-toucan-styles` for details.
 
+## Previewing the config locally
+
+```bash
+yarn start
+```
+which is an alias for:
+
+```bash
+yarn build:preview
+npx http-server ./dist
+```
+
 ## Importing colors and shadows from Figma
 
 This addon provides the ability to pull our palette information directly from Figma files and store them in
