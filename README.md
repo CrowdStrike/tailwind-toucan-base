@@ -43,6 +43,18 @@ Here as an example with JSDelivr
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@crowdstrike/tailwind-toucan-base/toucan.css">
 ```
 
+## Previewing the config locally
+
+```bash
+yarn start
+```
+which is an alias for:
+
+```bash
+yarn build:preview
+npx http-server ./dist
+```
+
 ## Importing colors and shadows from Figma
 
 This addon provides the ability to pull our palette information directly from Figma files and store them in
