@@ -674,12 +674,12 @@
             "r": 0,
             "g": 0,
             "b": 0,
-            "a": 0.1
+            "a": 0.13
           },
           "hasAlpha": true,
-          "rgbFill": "rgba(0, 0, 0, 0.1)",
+          "rgbFill": "rgba(0, 0, 0, 0.13)",
           "name": "overlay-0\\.5",
-          "value": "#0000001a"
+          "value": "#00000021"
         },
         {
           "category": [
@@ -2728,159 +2728,5 @@
         }
       ]
     }
-  },
-  "aliases": [
-    {
-      "name": "command-line-base64",
-      "value": "code-base-64"
-    },
-    {
-      "name": "command-line-bg",
-      "value": "code-bg"
-    },
-    {
-      "name": "command-line-outline",
-      "value": "code-outline"
-    },
-    {
-      "name": "command-line-text",
-      "value": "code-text"
-    },
-    {
-      "name": "dash-background",
-      "value": "basement"
-    },
-    {
-      "name": "disabled-2",
-      "value": "graph-disabled"
-    },
-    {
-      "name": "falcon",
-      "value": "brand"
-    },
-    {
-      "name": "nav-swatch-14",
-      "value": "mezzanine"
-    },
-    {
-      "name": "page-title",
-      "value": "surface-base"
-    },
-    {
-      "name": "process-actions--disc-operations",
-      "value": "disc-operations"
-    },
-    {
-      "name": "process-actions--dns-requests",
-      "value": "dns-requests"
-    },
-    {
-      "name": "process-actions--network-operations",
-      "value": "network-operations"
-    },
-    {
-      "name": "process-actions--process-operations",
-      "value": "process-operations"
-    },
-    {
-      "name": "process-actions--registry-operations",
-      "value": "registry-operations"
-    },
-    {
-      "name": "scrollbar-thumb",
-      "value": "disabled"
-    },
-    {
-      "name": "scrollbar-track",
-      "value": "surface-2xl"
-    },
-    {
-      "name": "swatch-1",
-      "value": "lines-dark"
-    },
-    {
-      "name": "swatch-1-2",
-      "value": "overlay-1"
-    },
-    {
-      "name": "swatch-1-3",
-      "value": "overlay-2"
-    },
-    {
-      "name": "swatch-10",
-      "value": "surface-2xl"
-    },
-    {
-      "name": "swatch-11",
-      "value": "surface-lg"
-    },
-    {
-      "name": "swatch-12",
-      "value": "ground-floor"
-    },
-    {
-      "name": "swatch-14",
-      "value": "mezzanine"
-    },
-    {
-      "name": "swatch-15",
-      "value": "surface-inner"
-    },
-    {
-      "name": "swatch-16",
-      "value": "blue"
-    },
-    {
-      "name": "swatch-17",
-      "value": "informational"
-    },
-    {
-      "name": "swatch-18",
-      "value": "positive"
-    },
-    {
-      "name": "swatch-19",
-      "value": "low"
-    },
-    {
-      "name": "swatch-2",
-      "value": "primary-idle"
-    },
-    {
-      "name": "swatch-20",
-      "value": "medium"
-    },
-    {
-      "name": "swatch-21",
-      "value": "high"
-    },
-    {
-      "name": "swatch-22",
-      "value": "critical"
-    },
-    {
-      "name": "swatch-23",
-      "value": "purple"
-    },
-    {
-      "name": "swatch-3",
-      "value": "text-and-icons"
-    },
-    {
-      "name": "swatch-4",
-      "value": "titles-and-attributes"
-    },
-    {
-      "name": "swatch-5",
-      "value": "body-and-labels"
-    },
-    {
-      "name": "swatch-7",
-      "value": "disabled"
-    },
-    {
-      "name": "swatch-9",
-      "value": "normal-idle"
-    }
-  ]
+  }
 }

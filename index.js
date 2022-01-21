@@ -1,16 +1,12 @@
 'use strict';
 
-const themesData = require('./themes.json');
+const themesData = require('./themes');
 
 let colors = themesData.themes['dark'].colors.reduce((acc, { name }) => {
   acc[name.replace('\\.', '.')] = `var(--${name})`;
 
   return acc;
 }, {});
-
-themesData.aliases.forEach(({ name, value }) => {
-  colors[name] = `var(--${value})`;
-});
 
 let boxShadow = themesData.themes['dark'].shadows.reduce((acc, { name }) => {
   acc[name.replace(/^elevation-/, '')] = `var(--${name})`;
@@ -39,6 +35,7 @@ module.exports = {
       none: 'none',
       'focusable-outline': 'inset 0 0 0 1px var(--lines-dark), var(--elevation-inner-md)',
       'focus-outline': 'inset 0 0 0 2px var(--focus)',
+      'error-outline': 'inset 0 0 0 2px var(--critical)',
       'search-input': 'inset 0 0 0 1px var(--nav-text-secondary)',
       ...boxShadow,
     },
@@ -115,6 +112,8 @@ module.exports = {
       gridTemplateColumns: {
         'centered-2/3': '2fr 8fr 2fr',
 
+        'auto-2': 'auto auto',
+
         'max-content-4': 'repeat(4, minmax(max-content, 1fr))',
         'max-content-6': 'repeat(6, minmax(max-content, 1fr))',
       },
@@ -160,6 +159,7 @@ module.exports = {
         return {
           3: theme('height.3'),
           4: theme('height.4'),
+          6: theme('height.6'),
           16: theme('height.16'),
         };
       },
@@ -195,6 +195,7 @@ module.exports = {
         2.5: '0.375rem',
         'max-content': 'max-content',
         7: '1.75rem',
+        15: '3.75rem',
       },
     },
 
@@ -240,6 +241,7 @@ module.exports = {
       'group-hover',
       'hover',
       'focus',
+      'focus-within',
       'focus-visible',
       'active',
       'disabled',
