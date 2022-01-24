@@ -30,13 +30,12 @@ const addLineClampUtilities = ({ addUtilities }) => {
   Examples
 
     <div>
-      <span class="clamp-7">
-        Green juice tumeric coloring book, before they sold out sartorial post-ironic edison bulb. Beard fashion axe +1 hell of, bushwick ugh kogi pickled williamsburg chartreuse. Kale chips normcore cornhole, art party before they sold out PBR&B kogi roof party listicle taxidermy asymmetrical actually hot chicken. Etsy XOXO freegan trust fund bicycle rights, cronut meditation chillwave ramps meggings letterpress.
-        Pork belly yr pickled twee shaman biodiesel hammock tattooed etsy keffiyeh literally semiotics forage tote bag. Kinfolk chicharrones wolf shaman butcher knausgaard. Ethical seitan beard hella asymmetrical. Prism trust fund lomo, next level sriracha iceland snackwave sustainable chillwave locavore gluten-free drinking vinegar raclette yr. Edison bulb celiac brunch flexitarian. Beard yuccie venmo keytar chillwave tbh trust fund locavore.
+      <span class="clamp-2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac tristique risus, non fermentum neque. Duis eget tempus libero. Sed magna erat, posuere ut mattis non, semper et tortor. Pellentesque ut quam vitae erat lobortis volutpat. Aliquam ornare augue sed mauris laoreet rhoncus. Pellentesque ut massa eros. Vestibulum venenatis tortor justo, tincidunt cursus arcu sollicitudin vitae.
       </span>
     </div>
 
-  This will truncate the paragraph after 7 lines and show an ellipsis
+  This will truncate the paragraph after 2 lines and show an ellipsis
 
 */
 module.exports = plugin(function (pluginApi) {
