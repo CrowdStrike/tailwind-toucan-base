@@ -14,8 +14,7 @@ env:
 
 jobs:
   tests:
-    if: "! contains(toJSON(github.event.commits.*.message), '[skip ci]')"
-    name: Base Tests
+    name: Tests
     timeout-minutes: 5
     runs-on: ubuntu-latest
     steps:
@@ -23,15 +22,13 @@ jobs:
       - uses: volta-cli/action@v1
 
       - run: yarn install
-      - run: |
-          echo "No tests yet"
-          exit 1
+      - run: yarn test
 
   publish:
     name: Release
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
-    needs: [tests, try-scenarios, floating-dependencies]
+    needs: [tests]
 
     steps:
       - uses: actions/checkout@v2

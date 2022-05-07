@@ -2,3 +2,5 @@
 /dist/
 /toucan.css
 /index.css
+/coverage/
+yarn-error.log
