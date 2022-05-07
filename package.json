@@ -29,7 +29,7 @@
     "tailwindcss": "^2.2.15"
   },
   "devDependencies": {
-    "@nullvoxpopuli/eslint-configs": "1.4.5",
+    "@nullvoxpopuli/eslint-configs": "2.2.16",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.1",
     "autoprefixer": "^10.3.4",
