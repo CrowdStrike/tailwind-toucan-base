@@ -16,11 +16,12 @@
   "scripts": {
     "start": "yarn build && npx http-server ./dist",
     "build": "npm-run-all clean build:cdn build:alias build:preview",
-    "build:preview": "node ./lib/build-preview.js",
+    "build:preview": "node ./lib/build-preview.mjs",
     "build:cdn": "NODE_ENV=production tailwind build -i ./lib/index.css -o ./index.css -c ./lib/tailwind.config.cdn.js",
     "clean": "rm -f ./toucan.css ./index.css",
     "build:alias": "cp index.css toucan.css",
     "figma:export-styles": "figma-export use-config",
+    "test": "yarn vitest --coverage --run",
     "lint:fix": "yarn lint:js --fix",
     "lint:js": "eslint ."
   },
@@ -32,15 +33,19 @@
     "@nullvoxpopuli/eslint-configs": "2.2.16",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.1",
+    "@types/fs-extra": "^9.0.13",
     "autoprefixer": "^10.3.4",
+    "c8": "^7.11.2",
     "common-tags": "^1.8.2",
     "eslint": "^7.32.0",
-    "execa": "^5.1.1",
+    "execa": "^6.1.0",
     "fs-extra": "^10.1.0",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.3.6",
     "semantic-release": "^17.4.7",
-    "tailwind-config-viewer": "^1.7.0"
+    "tailwind-config-viewer": "^1.7.0",
+    "typescript": "^4.6.4",
+    "vitest": "0.12.4"
   },
   "engines": {
     "node": ">=14.15.0"
@@ -60,7 +65,7 @@
     ]
   },
   "volta": {
-    "node": "14.17.6",
+    "node": "16.15.0",
     "yarn": "1.22.11",
     "npm": "8.9.0"
   }
