@@ -13,26 +13,30 @@ env:
 
 jobs:
   source:
-    if: "! contains(toJSON(github.event.commits.*.message), '[skip ci]')"
     name: Source
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
       - uses: volta-cli/action@v1
-      - uses: actions/cache@v2
+      - name: Cache pnpm modules
+        uses: actions/cache@v3
         with:
-          path: '**/node_modules'
-          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-
 
-      - run: yarn install --frozen-lockfile
+      - uses: pnpm/action-setup@v2.2.1
+        with:
+          version: 7.1.0
+          run_install: true
 
       - name: ESLint
-        run: yarn lint:js
+        run: pnpm run lint:js
 
 
   commits:
-    if: "! contains(toJSON(github.event.commits.*.message), '[skip ci]')"
     name: Commit Messages
     runs-on: ubuntu-latest
 

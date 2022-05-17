@@ -1,6 +1,6 @@
 {
   "name": "@crowdstrike/tailwind-toucan-base",
-  "version": "1.5.13",
+  "version": "2.6.3",
   "private": true,
   "description": "Tailwind preset for CrowdStrike's Toucan design system",
   "repository": "https://github.com/CrowdStrike/tailwind-toucan-base",
@@ -14,15 +14,15 @@
     "plugins/**/*.js"
   ],
   "scripts": {
-    "start": "yarn build && npx http-server ./dist",
+    "start": "pnpm run build && npx http-server ./dist",
     "build": "npm-run-all clean build:cdn build:alias build:preview",
     "build:preview": "node ./lib/build-preview.mjs",
     "build:cdn": "NODE_ENV=production tailwind build -i ./lib/index.css -o ./index.css -c ./lib/tailwind.config.cdn.js",
     "clean": "rm -f ./toucan.css ./index.css",
     "build:alias": "cp index.css toucan.css",
     "figma:export-styles": "figma-export use-config",
-    "test": "yarn vitest --coverage --run",
-    "lint:fix": "yarn lint:js --fix",
+    "test": "pnpm exec vitest --coverage --run",
+    "lint:fix": "pnpm run lint:js --fix",
     "lint:js": "eslint ."
   },
   "dependencies": {
@@ -64,6 +64,7 @@
       "@semantic-release/git"
     ]
   },
+  "packageManager": "pnpm@7.1.0",
   "volta": {
     "node": "16.15.0",
     "yarn": "1.22.11",
