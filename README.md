@@ -8,6 +8,8 @@ A Tailwind preset that provides the base styles for CrowdStrike's Toucan design 
 yarn add @crowdstrike/tailwind-toucan-base
 #
 npm install @crowdstrike/tailwind-toucan-base
+#
+pnpm add @crowdstrike/tailwind-toucan-base
 ```
 
 ### Tailwind
@@ -46,12 +48,12 @@ Here as an example with JSDelivr
 ## Previewing the config locally
 
 ```bash
-yarn start
+pnpm start
 ```
 which is an alias for:
 
 ```bash
-yarn build:preview
+pnpm run build:preview
 npx http-server ./dist
 ```
 
@@ -64,7 +66,7 @@ To import the colors run:
 
 ```bash
 LIGHT_ID=fileId DARK_ID=fileId MEZZANINE_ID=fileId \
-  FIGMA_TOKEN=some-key yarn figma:export-styles
+  FIGMA_TOKEN=some-key pnpm run figma:export-styles
 ```
 
 - `FIGMA_TOKEN` here is figma [Personal Access Token](https://www.figma.com/developers/api#access-tokens).
