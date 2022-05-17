@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.0.0...v3.0.1) (2022-05-17)
+
+
+### Bug Fixes
+
+* **npm:** flip publishConfig.access to public ([ca78e9e](https://github.com/CrowdStrike/tailwind-toucan-base/commit/ca78e9e75c9ba3e46581b947703c94acbc01356e))
+
 # [3.0.0](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v2.0.0...v3.0.0) (2022-05-17)
 
 
