@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v1.0.0...v2.0.0) (2022-05-17)
+
+
+### chore
+
+* force version bump ([e0c1df4](https://github.com/CrowdStrike/tailwind-toucan-base/commit/e0c1df4bdc6e662cd8d472137acfa2df141738ef))
+
+
+### BREAKING CHANGES
+
+* forcing version bump
+
 # 1.0.0 (2022-05-17)
 
 
