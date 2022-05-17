@@ -1,6 +1,6 @@
 {
   "name": "@crowdstrike/tailwind-toucan-base",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "private": false,
   "description": "Tailwind preset for CrowdStrike's Toucan design system",
   "repository": "https://github.com/CrowdStrike/tailwind-toucan-base",

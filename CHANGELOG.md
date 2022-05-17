@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v2.0.0...v3.0.0) (2022-05-17)
+
+
+### chore
+
+* **npm:** flip "private" to false ([aacdb8b](https://github.com/CrowdStrike/tailwind-toucan-base/commit/aacdb8b6e5d7b03be3dde2b78d15d695195add1c))
+
+
+### BREAKING CHANGES
+
+* **npm:** publishing package to npm for the first time
+
 # [2.0.0](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v1.0.0...v2.0.0) (2022-05-17)
 
 
