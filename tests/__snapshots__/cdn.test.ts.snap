@@ -611,7 +611,7 @@ video {
   --code-bg: #232326;
   --code-outline: #1c1c21;
   --code-text: #9dc1fd;
-  --critical: #f64147;
+  --critical: #fa4147;
   --destructive-hover: #fa9497;
   --destructive-idle: #1e1d20;
   --destructive-pressed: #f9585d;
