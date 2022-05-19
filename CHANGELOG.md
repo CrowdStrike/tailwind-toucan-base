@@ -1,3 +1,10 @@
+## [3.0.2](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.0.1...v3.0.2) (2022-05-19)
+
+
+### Bug Fixes
+
+* themes.json must specify the extension when used as package ([65d7b0f](https://github.com/CrowdStrike/tailwind-toucan-base/commit/65d7b0f2c13a3a1d4477a27bccd11fbc2d803811))
+
 ## [3.0.1](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.0.0...v3.0.1) (2022-05-17)
 
 
