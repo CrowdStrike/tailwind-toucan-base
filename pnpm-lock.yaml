@@ -13,6 +13,7 @@ specifiers:
   execa: ^6.1.0
   fs-extra: ^10.1.0
   npm-run-all: ^4.1.5
+  pnpm: ^7.1.2
   postcss: ^8.4.14
   semantic-release: ^19.0.2
   tailwind-config-viewer: ^1.7.0
@@ -36,6 +37,7 @@ devDependencies:
   execa: 6.1.0
   fs-extra: 10.1.0
   npm-run-all: 4.1.5
+  pnpm: 7.1.2
   postcss: 8.4.14
   semantic-release: 19.0.2
   tailwind-config-viewer: 1.7.0_tailwindcss@2.2.19
@@ -4009,6 +4011,12 @@ packages:
     dependencies:
       find-up: 2.1.0
       load-json-file: 4.0.0
+    dev: true
+
+  /pnpm/7.1.2:
+    resolution: {integrity: sha512-nZieltHsIEvr5vGcDM4JchBixUk1Esq+XewDP9RCiPAPxRv5LzDhGujgsrtoETyXBsQ9mclXSPppNr80ya4Rnw==}
+    engines: {node: '>=14.19'}
+    hasBin: true
     dev: true
 
   /portfinder/1.0.28:
