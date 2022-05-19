@@ -4,7 +4,7 @@ import { execa } from 'execa';
 // setup + teardown is a vitest convention for global setup files
 
 export async function setup() {
-  await execa('pnpm', ['run', 'build'], { preferLocal: true });
+  await execa('node_modules/.bin/pnpm', ['run', 'build'], { preferLocal: true, stdio: 'inherit' });
 }
 
 // export async function teardown() {
