@@ -67,7 +67,7 @@
       "@semantic-release/git"
     ]
   },
-  "packageManager": "pnpm@7.1.1",
+  "packageManager": "pnpm@7.1.2",
   "volta": {
     "node": "16.15.0",
     "yarn": "1.22.18",
