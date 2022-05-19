@@ -1,6 +1,6 @@
 'use strict';
 
-const themesData = require('./themes');
+const themesData = require('./themes.json');
 
 let colors = themesData.themes['dark'].colors.reduce((acc, { name }) => {
   acc[name.replace('\\.', '.')] = `var(--${name})`;
