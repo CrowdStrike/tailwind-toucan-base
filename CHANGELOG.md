@@ -1,3 +1,10 @@
+## [3.0.3](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.0.2...v3.0.3) (2022-05-20)
+
+
+### Bug Fixes
+
+* **graphs:** re-assign graph colors to 'data-visualization' ([824549c](https://github.com/CrowdStrike/tailwind-toucan-base/commit/824549c3fc50f0a82ca313d7556a33fbb2b8aa82))
+
 ## [3.0.2](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.0.1...v3.0.2) (2022-05-19)
 
 
