@@ -1,3 +1,10 @@
+## [3.0.4](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.0.3...v3.0.4) (2022-05-20)
+
+
+### Bug Fixes
+
+* **npm:** publish themes.json in npm package ([85fb038](https://github.com/CrowdStrike/tailwind-toucan-base/commit/85fb038edb93f9771692648bc3d5a44b5c5e8a19))
+
 ## [3.0.3](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.0.2...v3.0.3) (2022-05-20)
 
 
