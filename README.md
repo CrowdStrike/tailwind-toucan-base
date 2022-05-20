@@ -65,8 +65,11 @@ This addon provides the ability to pull our palette information directly from Fi
 To import the colors run:
 
 ```bash
-LIGHT_ID=fileId DARK_ID=fileId MEZZANINE_ID=fileId \
-  FIGMA_TOKEN=some-key pnpm run figma:export-styles
+FIGMA_TOKEN=some-key \
+LIGHT_ID=fileId \
+DARK_ID=fileId \
+MEZZANINE_ID=fileId \
+  pnpm run figma:export-styles
 ```
 
 - `FIGMA_TOKEN` here is figma [Personal Access Token](https://www.figma.com/developers/api#access-tokens).
@@ -76,3 +79,6 @@ LIGHT_ID=fileId DARK_ID=fileId MEZZANINE_ID=fileId \
 
 If you see any errors reported then you _may_ need to ensure that the Figma file is set up correctly (and e.g.
 there are corresponding colors across each of the palettes).
+
+If there are resulting changes to the output, you'll need to update the test snapshots.
+That can be done via `pnpm exec vitest --update`
