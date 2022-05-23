@@ -31,7 +31,7 @@
     "tailwindcss": "^2.2.15"
   },
   "devDependencies": {
-    "@nullvoxpopuli/eslint-configs": "2.2.19",
+    "@nullvoxpopuli/eslint-configs": "2.2.20",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
     "@types/fs-extra": "^9.0.13",
