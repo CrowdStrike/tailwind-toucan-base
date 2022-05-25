@@ -1,3 +1,10 @@
+## [3.0.5](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.0.4...v3.0.5) (2022-05-25)
+
+
+### Bug Fixes
+
+* **package:** remove devDep from dependencies ([b9109cd](https://github.com/CrowdStrike/tailwind-toucan-base/commit/b9109cda4985fef70ce50acb2c3bb4b3a81dcce8))
+
 ## [3.0.4](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.0.3...v3.0.4) (2022-05-20)
 
 
