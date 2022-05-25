@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@figma-export/cli': 3.3.1
+  '@figma-export/cli': 3.5.0
   '@nullvoxpopuli/eslint-configs': 2.2.20
   '@semantic-release/changelog': ^6.0.1
   '@semantic-release/git': ^10.0.1
@@ -25,7 +25,7 @@ dependencies:
   tailwindcss: 2.2.19_ugi4xkrfysqkt4c4y6hkyfj344
 
 devDependencies:
-  '@figma-export/cli': 3.3.1
+  '@figma-export/cli': 3.5.0
   '@nullvoxpopuli/eslint-configs': 2.2.20_typescript@4.7.2
   '@semantic-release/changelog': 6.0.1_semantic-release@19.0.2
   '@semantic-release/git': 10.0.1_semantic-release@19.0.2
@@ -200,8 +200,8 @@ packages:
       - supports-color
     dev: true
 
-  /@figma-export/cli/3.3.1:
-    resolution: {integrity: sha512-V4+8l3Ck9uYdl05BIh7D6iPaiPQQM3ysKDMTvNa/i+P8CJB5lT1oXlYjqpKmPU6/CGloczqw1iAer08BF10B5g==}
+  /@figma-export/cli/3.5.0:
+    resolution: {integrity: sha512-JgQwLlD2fbNvLTrVGTUDmJkBb1iiqxrE4h1/2LoGLuQZmjN9T74Hw2hsKvJMWgkIkdBPRiYWOOT9vENSeXC3rw==}
     engines: {node: '>= 10.13'}
     hasBin: true
     dependencies:
