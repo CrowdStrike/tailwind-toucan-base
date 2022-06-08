@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.0.5...v3.1.0) (2022-06-08)
+
+
+### Features
+
+* build theme-data and type-declarations ([42d4cab](https://github.com/CrowdStrike/tailwind-toucan-base/commit/42d4cabec40a3603004759b69f39ce673d930b12))
+
 ## [3.0.5](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.0.4...v3.0.5) (2022-05-25)
 
 
