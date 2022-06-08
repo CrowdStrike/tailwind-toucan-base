@@ -1,3 +1,10 @@
+## [3.1.1](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.1.0...v3.1.1) (2022-06-08)
+
+
+### Bug Fixes
+
+* **package:** run build on prepublishOnly ([7a3b5b5](https://github.com/CrowdStrike/tailwind-toucan-base/commit/7a3b5b56982a56f86fff99582235513312388658))
+
 # [3.1.0](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.0.5...v3.1.0) (2022-06-08)
 
 
