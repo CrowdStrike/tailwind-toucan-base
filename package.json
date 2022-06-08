@@ -40,7 +40,8 @@
     "figma:export-styles": "figma-export use-config",
     "test": "pnpm exec vitest --coverage --run",
     "lint:fix": "pnpm run lint:js --fix",
-    "lint:js": "eslint ."
+    "lint:js": "eslint .",
+    "prepublishOnly": "pnpm build"
   },
   "dependencies": {
     "tailwindcss": "^2.2.15"
