@@ -2,5 +2,7 @@
 /dist/
 /toucan.css
 /index.css
+/theme-data.js
+/theme-data.d.ts
 /coverage/
 yarn-error.log
