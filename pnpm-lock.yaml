@@ -19,7 +19,7 @@ specifiers:
   tailwind-config-viewer: ^1.7.1
   tailwindcss: ^2.2.15
   typescript: ^4.7.3
-  vitest: 0.14.1
+  vitest: 0.14.2
 
 dependencies:
   tailwindcss: 2.2.19_ugi4xkrfysqkt4c4y6hkyfj344
@@ -42,7 +42,7 @@ devDependencies:
   semantic-release: 19.0.3
   tailwind-config-viewer: 1.7.1_tailwindcss@2.2.19
   typescript: 4.7.3
-  vitest: 0.14.1_c8@7.11.3
+  vitest: 0.14.2_c8@7.11.3
 
 packages:
 
@@ -5040,8 +5040,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.14.1_c8@7.11.3:
-    resolution: {integrity: sha512-2UUm6jYgkwh7Y3VKSRR8OuaNCm+iA5LPDnal7jyITN39maZK9L+JVxqjtQ39PSFo5Fl3/BgaJvER6GGHX9JLxg==}
+  /vitest/0.14.2_c8@7.11.3:
+    resolution: {integrity: sha512-vXQUl8OUCqHmxKWscMGL+6Xl1pBJmYHZ8N85iNpLGrirAC2vhspu7b73ShRcLonmZT44BYZW+LBAVvn0L4jyVA==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
