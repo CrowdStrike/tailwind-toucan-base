@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@figma-export/cli': 4.4.0
-  '@nullvoxpopuli/eslint-configs': 2.2.22
+  '@nullvoxpopuli/eslint-configs': 2.2.23
   '@semantic-release/changelog': ^6.0.1
   '@semantic-release/git': ^10.0.1
   '@types/fs-extra': ^9.0.13
@@ -26,7 +26,7 @@ dependencies:
 
 devDependencies:
   '@figma-export/cli': 4.4.0
-  '@nullvoxpopuli/eslint-configs': 2.2.22_typescript@4.7.3
+  '@nullvoxpopuli/eslint-configs': 2.2.23_typescript@4.7.3
   '@semantic-release/changelog': 6.0.1_semantic-release@19.0.3
   '@semantic-release/git': 10.0.1_semantic-release@19.0.3
   '@types/fs-extra': 9.0.13
@@ -327,8 +327,8 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
 
-  /@nullvoxpopuli/eslint-configs/2.2.22_typescript@4.7.3:
-    resolution: {integrity: sha512-Sxm81hGvf0q6SlgF2WLTD8b2wMLP1iJyHMa9tYV22xS/5AJI3GiVOSoapqV+wEY1lS4vIuLzQSlwUiY1Dd2DlA==}
+  /@nullvoxpopuli/eslint-configs/2.2.23_typescript@4.7.3:
+    resolution: {integrity: sha512-kYTSiW/TPfm0cUNRfeep7DsrG3Rqc7sqs1b1e5GvCLgpJyEMgWNpzTYHW6INSBrQrknWfT+xPLDkR+zIs5DiwA==}
     engines: {node: '>= v12.0.0'}
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.27.1_zminazcma2lldm42ewln7rknmi
@@ -342,7 +342,7 @@ packages:
       eslint-plugin-json: 3.1.0
       eslint-plugin-node: 11.1.0_eslint@7.32.0
       eslint-plugin-prettier: 4.0.0_evcial7aw3q6fcauxv2c7fxuoe
-      eslint-plugin-qunit: 7.2.0_eslint@7.32.0
+      eslint-plugin-qunit: 7.3.0_eslint@7.32.0
       eslint-plugin-simple-import-sort: 7.0.0_eslint@7.32.0
       prettier: 2.6.2
     transitivePeerDependencies:
@@ -2086,8 +2086,8 @@ packages:
       prettier-linter-helpers: 1.0.0
     dev: true
 
-  /eslint-plugin-qunit/7.2.0_eslint@7.32.0:
-    resolution: {integrity: sha512-ebT6aOpmMj4vchG0hVw9Ukbutk/lgywrc8gc9w9hH2/4WjKqwMlyM7iVwqB7OAXv6gtQMJZuziT0wNjjymAuWA==}
+  /eslint-plugin-qunit/7.3.0_eslint@7.32.0:
+    resolution: {integrity: sha512-o80qEsBpnh2hGCLKmNVimPSPY6TP2eyM+wQl9vdOKWJKrQXEgNTMX9mf4X4h3GguaBlmSNnLaPVsycKaZEaGZg==}
     engines: {node: 12.x || 14.x || >=16.0.0}
     dependencies:
       eslint-utils: 3.0.0_eslint@7.32.0
@@ -4562,7 +4562,7 @@ packages:
     dev: true
 
   /sprintf-js/1.0.3:
-    resolution: {integrity: sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=}
+    resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
     dev: true
 
   /statuses/1.5.0:
@@ -4830,7 +4830,7 @@ packages:
       rimraf: 3.0.2
 
   /to-fast-properties/2.0.0:
-    resolution: {integrity: sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=}
+    resolution: {integrity: sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==}
     engines: {node: '>=4'}
     dev: true
 
