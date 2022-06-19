@@ -9,7 +9,7 @@ specifiers:
   autoprefixer: ^10.4.7
   c8: ^7.11.3
   common-tags: ^1.8.2
-  eslint: ^8.17.0
+  eslint: ^8.18.0
   execa: ^6.1.0
   fs-extra: ^10.1.0
   npm-run-all: ^4.1.5
@@ -33,7 +33,7 @@ devDependencies:
   autoprefixer: 10.4.7_postcss@8.4.14
   c8: 7.11.3
   common-tags: 1.8.2
-  eslint: 8.17.0
+  eslint: 8.18.0
   execa: 6.1.0
   fs-extra: 10.1.0
   npm-run-all: 4.1.5
@@ -2137,13 +2137,13 @@ packages:
       eslint-visitor-keys: 2.1.0
     dev: true
 
-  /eslint-utils/3.0.0_eslint@8.17.0:
+  /eslint-utils/3.0.0_eslint@8.18.0:
     resolution: {integrity: sha512-uuQC43IGctw68pJA1RgbQS8/NP7rch6Cwd4j3ZBtgo4/8Flj4eGE7ZYSZRN3iq5pVUv6GPdW5Z1RFleo84uLDA==}
     engines: {node: ^10.0.0 || ^12.0.0 || >= 14.0.0}
     peerDependencies:
       eslint: '>=5'
     dependencies:
-      eslint: 8.17.0
+      eslint: 8.18.0
       eslint-visitor-keys: 2.1.0
     dev: true
 
@@ -2211,8 +2211,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint/8.17.0:
-    resolution: {integrity: sha512-gq0m0BTJfci60Fz4nczYxNAlED+sMcihltndR8t9t1evnU/azx53x3t2UHXC/uRjcbvRw/XctpaNygSTcQD+Iw==}
+  /eslint/8.18.0:
+    resolution: {integrity: sha512-As1EfFMVk7Xc6/CvhssHUjsAQSkpfXvUGMFC3ce8JDe6WvqCgRrLOBQbVpsBFr1X1V+RACOadnzVvcUS5ni2bA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -2225,7 +2225,7 @@ packages:
       doctrine: 3.0.0
       escape-string-regexp: 4.0.0
       eslint-scope: 7.1.1
-      eslint-utils: 3.0.0_eslint@8.17.0
+      eslint-utils: 3.0.0_eslint@8.18.0
       eslint-visitor-keys: 3.3.0
       espree: 9.3.2
       esquery: 1.4.0
@@ -3044,7 +3044,7 @@ packages:
     dev: true
 
   /isexe/2.0.0:
-    resolution: {integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=}
+    resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
     dev: true
 
   /issue-parser/6.0.0:
@@ -4793,7 +4793,7 @@ packages:
     dev: true
 
   /text-table/0.2.0:
-    resolution: {integrity: sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=}
+    resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
     dev: true
 
   /through/2.3.8:
