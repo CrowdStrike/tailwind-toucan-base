@@ -57,6 +57,26 @@ pnpm run build:preview
 npx http-server ./dist
 ```
 
+Note that changes to config or build scripts will require re-running `pnpm start`.
+
+## Previewing manual tests locally
+
+```bash
+pnpm build
+```
+
+then, open the `manual-test.html`
+```bash
+firefox ./manual-test.html
+```
+
+Or, along with the tailwind-preview
+```bash
+pnpm start
+```
+
+and visit `http://localhost:8080/manual`
+
 ## Importing colors and shadows from Figma
 
 This addon provides the ability to pull our palette information directly from Figma files and store them in
