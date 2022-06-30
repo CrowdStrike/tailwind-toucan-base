@@ -1,9 +1,9 @@
 'use strict';
 
 const fs = require('fs');
-const { grabColors, prepareColorsForJson } = require('./styles-outputter/colors');
-const { grabShadows } = require('./styles-outputter/shadows');
-const { validateTheme } = require('./styles-outputter/validation');
+const { grabColors, prepareColorsForJson } = require('./figma-utils/colors');
+const { grabShadows } = require('./figma-utils/shadows');
+const { validateTheme } = require('./figma-utils/validation');
 
 module.exports = ({ folderPrefix, output, theme }) => {
   return async (styles) => {

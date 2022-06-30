@@ -57,7 +57,7 @@ pnpm run build:preview
 npx http-server ./dist
 ```
 
-Note that changes to config or build scripts will require re-running `pnpm start`.
+Note that changes to `src` or `build` scripts will require re-running `pnpm start`.
 
 ## Previewing manual tests locally
 
