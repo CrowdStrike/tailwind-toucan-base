@@ -6,15 +6,12 @@
   "repository": "https://github.com/CrowdStrike/tailwind-toucan-base",
   "license": "MIT",
   "author": "CrowdStrike UX Team",
-  "main": "index.js",
+  "main": "src/tailwind.config.js",
   "files": [
-    "index.js",
+    "src",
     "index.css",
     "themes.json",
-    "theme-data.js",
-    "theme-data.d.ts",
-    "toucan.css",
-    "plugins/**/*.js"
+    "toucan.css"
   ],
   "exports": {
     ".": "./src/tailwind.config.js",
