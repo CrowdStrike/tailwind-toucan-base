@@ -2,7 +2,7 @@ import fse from 'fs-extra';
 import path from 'path';
 import { describe, expect, test } from 'vitest';
 
-const root = process.cwd();
+const root = path.join(__dirname, '..');
 const cssImport = path.join(root, 'index.css');
 
 describe('CSS @import', () => {

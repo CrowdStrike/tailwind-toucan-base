@@ -2,7 +2,7 @@ import fse from 'fs-extra';
 import path from 'path';
 import { describe, expect, test } from 'vitest';
 
-const root = process.cwd();
+const root = path.join(__dirname, '..');
 const cdn = path.join(root, 'toucan.css');
 
 describe('CDN', () => {
