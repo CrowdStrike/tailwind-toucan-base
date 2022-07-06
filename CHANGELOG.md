@@ -1,3 +1,10 @@
+# [3.2.0](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.1.1...v3.2.0) (2022-07-06)
+
+
+### Features
+
+* **types:** add looser type utilities for working with theme-data ([3f67ae8](https://github.com/CrowdStrike/tailwind-toucan-base/commit/3f67ae81dd0c646b510877f8b02c315249fe41ab))
+
 ## [3.1.1](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.1.0...v3.1.1) (2022-06-08)
 
 
