@@ -1,0 +1,10 @@
+{
+  "name": "tests",
+  "private": true,
+  "dependencies": {
+    "@crowdstrike/tailwind-toucan-base": "*"
+  },
+  "devDependencies": {
+    "vitest": "0.16.0"
+  }
+}

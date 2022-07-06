@@ -6,39 +6,36 @@
   "repository": "https://github.com/CrowdStrike/tailwind-toucan-base",
   "license": "MIT",
   "author": "CrowdStrike UX Team",
-  "main": "index.js",
+  "main": "src/tailwind.config.js",
   "files": [
-    "index.js",
+    "src",
     "index.css",
     "themes.json",
-    "theme-data.js",
-    "theme-data.d.ts",
-    "toucan.css",
-    "plugins/**/*.js"
+    "toucan.css"
   ],
   "exports": {
-    ".": "./index.js",
-    "./themes": "./themes.json",
-    "./themes.json": "./themes.json",
-    "./theme-data": "./theme-data.js"
+    ".": "./src/tailwind.config.js",
+    "./themes": "./src/themes.json",
+    "./themes.json": "./src/themes.json",
+    "./theme-data": "./src/theme-data.js"
   },
   "typesVersions": {
     "*": {
       "theme-data": [
-        "./theme-data.d.ts"
+        "./src/theme-data.d.ts"
       ]
     }
   },
   "scripts": {
     "start": "pnpm run build && npx http-server ./dist",
     "build": "npm-run-all clean build:cdn build:alias build:preview build:theme-data",
-    "build:theme-data": "node ./lib/build-theme-data.mjs",
-    "build:preview": "node ./lib/build-preview.mjs",
-    "build:cdn": "NODE_ENV=production tailwind build -i ./lib/index.css -o ./index.css -c ./lib/tailwind.config.cdn.js",
+    "build:theme-data": "node ./build/theme-data.mjs",
+    "build:preview": "node ./build/preview/index.mjs",
+    "build:cdn": "NODE_ENV=production tailwind build -i ./build/input.css -o ./index.css -c ./build/tailwind.config.cdn.js",
     "clean": "rm -f ./toucan.css ./index.css",
     "build:alias": "cp index.css toucan.css",
     "figma:export-styles": "figma-export use-config",
-    "test": "pnpm exec vitest --coverage --run",
+    "test": "pnpm --filter='tests' exec vitest --coverage --run",
     "lint:fix": "pnpm run lint:js --fix",
     "lint:js": "eslint .",
     "prepublishOnly": "pnpm build"

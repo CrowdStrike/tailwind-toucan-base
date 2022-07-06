@@ -1,48 +1,58 @@
 lockfileVersion: 5.4
 
-specifiers:
-  '@figma-export/cli': 4.4.0
-  '@nullvoxpopuli/eslint-configs': 2.2.33
-  '@semantic-release/changelog': ^6.0.1
-  '@semantic-release/git': ^10.0.1
-  '@types/fs-extra': ^9.0.13
-  autoprefixer: ^10.4.7
-  c8: ^7.11.3
-  common-tags: ^1.8.2
-  eslint: ^8.19.0
-  execa: ^6.1.0
-  fs-extra: ^10.1.0
-  npm-run-all: ^4.1.5
-  pnpm: ^7.5.0
-  postcss: ^8.4.14
-  semantic-release: ^19.0.3
-  tailwind-config-viewer: ^1.7.1
-  tailwindcss: ^2.2.15
-  typescript: ^4.7.4
-  vitest: 0.17.0
+importers:
 
-dependencies:
-  tailwindcss: 2.2.19_ugi4xkrfysqkt4c4y6hkyfj344
+  .:
+    specifiers:
+      '@figma-export/cli': 4.4.0
+      '@nullvoxpopuli/eslint-configs': 2.2.33
+      '@semantic-release/changelog': ^6.0.1
+      '@semantic-release/git': ^10.0.1
+      '@types/fs-extra': ^9.0.13
+      autoprefixer: ^10.4.7
+      c8: ^7.11.3
+      common-tags: ^1.8.2
+      eslint: ^8.19.0
+      execa: ^6.1.0
+      fs-extra: ^10.1.0
+      npm-run-all: ^4.1.5
+      pnpm: ^7.5.0
+      postcss: ^8.4.14
+      semantic-release: ^19.0.3
+      tailwind-config-viewer: ^1.7.1
+      tailwindcss: ^2.2.15
+      typescript: ^4.7.4
+      vitest: 0.17.0
+    dependencies:
+      tailwindcss: 2.2.19_ugi4xkrfysqkt4c4y6hkyfj344
+    devDependencies:
+      '@figma-export/cli': 4.4.0
+      '@nullvoxpopuli/eslint-configs': 2.2.33_typescript@4.7.4
+      '@semantic-release/changelog': 6.0.1_semantic-release@19.0.3
+      '@semantic-release/git': 10.0.1_semantic-release@19.0.3
+      '@types/fs-extra': 9.0.13
+      autoprefixer: 10.4.7_postcss@8.4.14
+      c8: 7.11.3
+      common-tags: 1.8.2
+      eslint: 8.19.0
+      execa: 6.1.0
+      fs-extra: 10.1.0
+      npm-run-all: 4.1.5
+      pnpm: 7.5.0
+      postcss: 8.4.14
+      semantic-release: 19.0.3
+      tailwind-config-viewer: 1.7.1_tailwindcss@2.2.19
+      typescript: 4.7.4
+      vitest: 0.17.0_c8@7.11.3
 
-devDependencies:
-  '@figma-export/cli': 4.4.0
-  '@nullvoxpopuli/eslint-configs': 2.2.33_typescript@4.7.4
-  '@semantic-release/changelog': 6.0.1_semantic-release@19.0.3
-  '@semantic-release/git': 10.0.1_semantic-release@19.0.3
-  '@types/fs-extra': 9.0.13
-  autoprefixer: 10.4.7_postcss@8.4.14
-  c8: 7.11.3
-  common-tags: 1.8.2
-  eslint: 8.19.0
-  execa: 6.1.0
-  fs-extra: 10.1.0
-  npm-run-all: 4.1.5
-  pnpm: 7.5.0
-  postcss: 8.4.14
-  semantic-release: 19.0.3
-  tailwind-config-viewer: 1.7.1_tailwindcss@2.2.19
-  typescript: 4.7.4
-  vitest: 0.17.0_c8@7.11.3
+  tests:
+    specifiers:
+      '@crowdstrike/tailwind-toucan-base': '*'
+      vitest: 0.16.0
+    dependencies:
+      '@crowdstrike/tailwind-toucan-base': link:..
+    devDependencies:
+      vitest: 0.16.0
 
 packages:
 
@@ -3044,7 +3054,7 @@ packages:
     dev: true
 
   /isexe/2.0.0:
-    resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
+    resolution: {integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=}
     dev: true
 
   /issue-parser/6.0.0:
@@ -3756,7 +3766,7 @@ packages:
     dev: true
 
   /once/1.4.0:
-    resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
+    resolution: {integrity: sha1-WDsap3WWHUsROsF9nFC6753Xa9E=}
     dependencies:
       wrappy: 1.0.2
 
@@ -4797,7 +4807,7 @@ packages:
     dev: true
 
   /through/2.3.8:
-    resolution: {integrity: sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=}
+    resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
     dev: true
 
   /through2/2.0.5:
@@ -4846,11 +4856,11 @@ packages:
     dev: true
 
   /tr46/0.0.3:
-    resolution: {integrity: sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=}
+    resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
     dev: true
 
   /traverse/0.6.6:
-    resolution: {integrity: sha1-y99WD9e5r2MlAv7UD5GMFX6pcTc=}
+    resolution: {integrity: sha512-kdf4JKs8lbARxWdp7RKdNzoJBhGUcIalSYibuGyHJbmk40pOysQ0+QPvlkCOICOivDWU2IJo2rkrxyTK2AH4fw==}
     dev: true
 
   /trim-newlines/3.0.1:
@@ -5016,8 +5026,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vite/2.9.12:
-    resolution: {integrity: sha512-suxC36dQo9Rq1qMB2qiRorNJtJAdxguu5TMvBHOc/F370KvqAe9t48vYp+/TbPKRNrMh/J55tOUmkuIqstZaew==}
+  /vite/2.9.13:
+    resolution: {integrity: sha512-AsOBAaT0AD7Mhe8DuK+/kE4aWYFMx/i0ZNi98hJclxb4e0OhQcZYUrvLjIaQ8e59Ui7txcvKMiJC1yftqpQoDw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
@@ -5038,6 +5048,41 @@ packages:
       rollup: 2.73.0
     optionalDependencies:
       fsevents: 2.3.2
+    dev: true
+
+  /vitest/0.16.0:
+    resolution: {integrity: sha512-Ntp6jrM8wf2NMtamMBLkRBBdeqHkgAH/WMh5Xryts1j2ft2D8QZQbiSVFkSl4WmEQzcPP0YM069g/Ga1vtnEtg==}
+    engines: {node: '>=v14.16.0'}
+    hasBin: true
+    peerDependencies:
+      '@vitest/ui': '*'
+      c8: '*'
+      happy-dom: '*'
+      jsdom: '*'
+    peerDependenciesMeta:
+      '@vitest/ui':
+        optional: true
+      c8:
+        optional: true
+      happy-dom:
+        optional: true
+      jsdom:
+        optional: true
+    dependencies:
+      '@types/chai': 4.3.1
+      '@types/chai-subset': 1.3.3
+      '@types/node': 17.0.34
+      chai: 4.3.6
+      debug: 4.3.4
+      local-pkg: 0.4.1
+      tinypool: 0.2.1
+      tinyspy: 0.3.3
+      vite: 2.9.13
+    transitivePeerDependencies:
+      - less
+      - sass
+      - stylus
+      - supports-color
     dev: true
 
   /vitest/0.17.0_c8@7.11.3:
@@ -5071,7 +5116,7 @@ packages:
       local-pkg: 0.4.1
       tinypool: 0.2.1
       tinyspy: 0.3.3
-      vite: 2.9.12
+      vite: 2.9.13
     transitivePeerDependencies:
       - less
       - sass
@@ -5112,11 +5157,11 @@ packages:
     dev: true
 
   /webidl-conversions/3.0.1:
-    resolution: {integrity: sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=}
+    resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
     dev: true
 
   /whatwg-url/5.0.0:
-    resolution: {integrity: sha1-lmRU6HZUYuN2RNNib2dCzotwll0=}
+    resolution: {integrity: sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==}
     dependencies:
       tr46: 0.0.3
       webidl-conversions: 3.0.1
@@ -5153,7 +5198,7 @@ packages:
     dev: true
 
   /wordwrap/1.0.0:
-    resolution: {integrity: sha1-J1hIEIkUVqQXHI0CJkQa3pDLyus=}
+    resolution: {integrity: sha512-gvVzJFlPycKc5dZN4yPkP8w7Dc37BtP1yczEneOb4uq34pXZcvrtRTmWV8W+Ume+XCxKgbjM+nevkyFPMybd4Q==}
     dev: true
 
   /wrap-ansi/7.0.0:

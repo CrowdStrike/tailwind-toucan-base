@@ -9,7 +9,7 @@ import { stripIndent } from 'common-tags';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const root = path.join(__dirname, '..');
+const root = path.join(__dirname, '..', '..');
 const targetDir = path.join(root, 'dist');
 const cssDir = path.join(targetDir, 'css');
 const jsDir = path.join(targetDir, 'js');
@@ -23,7 +23,7 @@ async function main() {
       'export',
       './dist/',
       '-c',
-      './lib/tailwind.config.preview.js',
+      './build/preview/tailwind.config.js',
     ],
     {
       cwd: root,

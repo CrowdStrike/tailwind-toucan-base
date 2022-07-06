@@ -9,9 +9,9 @@ module.exports = {
       {
         fileId: DARK_ID, // Colors - Dark
         outputters: [
-          require('./lib/styles-outputter')({
+          require('./build/theme-json/figma-export')({
             theme: 'dark',
-            output: './themes.json',
+            output: './src/themes.json',
           }),
         ],
       },
@@ -21,9 +21,9 @@ module.exports = {
       {
         fileId: LIGHT_ID, // Colors - Light
         outputters: [
-          require('./lib/styles-outputter')({
+          require('./build/theme-json/figma-export')({
             theme: 'light',
-            output: './themes.json',
+            output: './src/themes.json',
           }),
         ],
       },
@@ -33,10 +33,10 @@ module.exports = {
       {
         fileId: MEZZANINE_ID, // Colors - Mezzanine
         outputters: [
-          require('./lib/styles-outputter')({
+          require('./build/theme-json/figma-export')({
             folderPrefix: 'mezzanine/',
             theme: 'mezzanine',
-            output: './themes.json',
+            output: './src/themes.json',
           }),
         ],
       },

@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  presets: [require('../index')],
+  presets: [require('../src/tailwind.config')],
   purge: {
     content: [],
     enabled: false,

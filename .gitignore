@@ -1,8 +1,10 @@
-/node_modules/
+node_modules/
+
 /dist/
 /toucan.css
 /index.css
-/theme-data.js
-/theme-data.d.ts
+src/theme-data.js
+src/theme-data.d.ts
 /coverage/
+/tests/coverage/
 yarn-error.log
