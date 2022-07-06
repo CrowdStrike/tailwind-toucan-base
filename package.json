@@ -21,6 +21,9 @@
   },
   "typesVersions": {
     "*": {
+      "types": [
+        "./src/types.d.ts"
+      ],
       "theme-data": [
         "./src/theme-data.d.ts"
       ]

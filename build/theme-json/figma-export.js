@@ -15,6 +15,8 @@ module.exports = ({ folderPrefix, output, theme }) => {
 
     let colors = grabColors({ folderPrefix, styles });
 
+    themesJson.themes ||= {};
+    themesJson.themes[theme] ||= {};
     themesJson.themes[theme].colors = prepareColorsForJson(colors);
     themesJson.themes[theme].shadows = grabShadows({ folderPrefix, styles });
 
