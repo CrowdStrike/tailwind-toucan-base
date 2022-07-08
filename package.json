@@ -9,6 +9,7 @@
   "main": "src/tailwind.config.js",
   "files": [
     "src",
+    "index.d.ts",
     "index.css",
     "themes.json",
     "toucan.css"
@@ -21,12 +22,10 @@
   },
   "typesVersions": {
     "*": {
-      "types": [
-        "./src/types.d.ts"
-      ],
-      "theme-data": [
-        "./src/theme-data.d.ts"
-      ]
+      "*": ["./index.d.ts"],
+      "themes": ["./index.d.ts"],
+      "themes.json": ["./index.d.ts"],
+      "theme-data": ["./index.d.ts"]
     }
   },
   "scripts": {
