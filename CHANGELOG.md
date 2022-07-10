@@ -1,3 +1,10 @@
+## [3.2.1](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.2.0...v3.2.1) (2022-07-10)
+
+
+### Bug Fixes
+
+* **types:** add types tests and assure that this library works with TS ([885fabf](https://github.com/CrowdStrike/tailwind-toucan-base/commit/885fabf41f966a8bacf22ffb7026d4321973d7a9))
+
 # [3.2.0](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.1.1...v3.2.0) (2022-07-06)
 
 
