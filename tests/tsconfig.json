@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+
+    // Compilation
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["DOM"],
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+
+    // Many npm modules are not distributed as actual modules
+    "allowSyntheticDefaultImports": true,
+
+    // Linting / consistency
+    "forceConsistentCasingInFileNames": true
+
+
+  }
+}

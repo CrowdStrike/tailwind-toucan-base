@@ -32,6 +32,17 @@ jobs:
       - uses: volta-cli/action@v1
       - uses: wagoid/commitlint-github-action@v4.1.12
 
+  typecheck:
+    name: Type Checking
+    timeout-minutes: 5
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./.github/actions/pnpm
+      - run: pnpm build:theme-data
+      - run: pnpm tsc --noEmit
+        working-directory: tests
+
   tests:
     name: Tests
     timeout-minutes: 5

@@ -1,10 +1,11 @@
 node_modules/
 
+# Generated files
 /dist/
 /toucan.css
 /index.css
 src/theme-data.js
-src/theme-data.d.ts
+index.d.ts
 /coverage/
 /tests/coverage/
 yarn-error.log

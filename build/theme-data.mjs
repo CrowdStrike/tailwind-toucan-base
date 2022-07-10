@@ -7,7 +7,7 @@ import { stripIndent } from 'common-tags';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const outputFile = 'theme-data.js';
-const outputDeclarationsFile = 'theme-data.d.ts';
+const outputDeclarationsFile = 'index.d.ts';
 const themeJsonPath = path.join(__dirname, '..', 'src', 'themes.json');
 
 async function build() {
@@ -21,11 +21,53 @@ async function build() {
   );
 
   await fs.writeFile(
-    path.join(__dirname, '..', 'src', outputDeclarationsFile),
+    path.join(__dirname, '..', outputDeclarationsFile),
     stripIndent`
-      declare let ThemeData = ${JSON.stringify(json, null, 2)};
+      // Strict type for the themes.json structure
+      interface ThemeData ${JSON.stringify(json, null, 2)}
 
-      export default ThemeData;
+      // Full Built CSS
+      declare module '@crowdstrike/tailwind-toucan-base/index.css';
+      declare module '@crowdstrike/tailwind-toucan-base/toucan.css';
+
+
+      // Raw Theme JSON -- also available as theme-data.js
+      declare module '@crowdstrike/tailwind-toucan-base/themes' {
+        export = ThemeData;
+      }
+      declare module '@crowdstrike/tailwind-toucan-base/themes.json' {
+        export = ThemeData;
+      }
+
+      // Tailwind Config
+      declare module '@crowdstrike/tailwind-toucan-base';
+
+      declare module '@crowdstrike/tailwind-toucan-base/theme-data' {
+        /**
+          * Utility type which describes the shape and properties of a particular color.
+          */
+        export interface ColorInfo {
+          category: string[];
+          hasAlpha: boolean;
+          rgbFill: string;
+          fill: {
+            r: number;
+            g: number;
+            b: number;
+            a: number;
+          };
+          name: string;
+          value: string;
+        }
+
+        const _ThemeData: ThemeData;
+
+        /**
+          * The data from the generated theme.json document containing all of the
+          * Toucan colors, shadows, etc
+          */
+        export default _ThemeData;
+      }
     `
   );
 }
