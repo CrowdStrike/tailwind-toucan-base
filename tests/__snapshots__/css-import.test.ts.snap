@@ -7039,6 +7039,10 @@ video {
   z-index: var(--z-index-overlay);
 }
 
+.z-overlay-loader {
+  z-index: var(--z-index-overlay-loader);
+}
+
 .z-tooltip {
   z-index: var(--z-index-tooltip);
 }
@@ -7137,6 +7141,10 @@ video {
 
 .hover\\\\:z-overlay:hover {
   z-index: var(--z-index-overlay);
+}
+
+.hover\\\\:z-overlay-loader:hover {
+  z-index: var(--z-index-overlay-loader);
 }
 
 .hover\\\\:z-tooltip:hover {
@@ -7239,6 +7247,10 @@ video {
   z-index: var(--z-index-overlay);
 }
 
+.active\\\\:z-overlay-loader:active {
+  z-index: var(--z-index-overlay-loader);
+}
+
 .active\\\\:z-tooltip:active {
   z-index: var(--z-index-tooltip);
 }
@@ -7337,6 +7349,10 @@ video {
 
 .group:hover .group-hover\\\\:z-overlay {
   z-index: var(--z-index-overlay);
+}
+
+.group:hover .group-hover\\\\:z-overlay-loader {
+  z-index: var(--z-index-overlay-loader);
 }
 
 .group:hover .group-hover\\\\:z-tooltip {
