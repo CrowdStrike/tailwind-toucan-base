@@ -80,6 +80,7 @@ module.exports = {
       10: '10',
       'flash-messages': 'var(--z-index-flash-messages)',
       overlay: 'var(--z-index-overlay)',
+      'overlay-loader': 'var(--z-index-overlay-loader)',
       tooltip: 'var(--z-index-tooltip)',
       'popover-sticky': 'var(--z-index-popover-sticky)',
       popover: 'var(--z-index-popover)',
