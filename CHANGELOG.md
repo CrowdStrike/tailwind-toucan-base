@@ -1,3 +1,10 @@
+# [3.3.0](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.2.1...v3.3.0) (2022-07-13)
+
+
+### Features
+
+* Add new zIndex for overlay-loader ([4d46b94](https://github.com/CrowdStrike/tailwind-toucan-base/commit/4d46b9408a0f3461ec998476f4e718dc55a8f2c6))
+
 ## [3.2.1](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.2.0...v3.2.1) (2022-07-10)
 
 
