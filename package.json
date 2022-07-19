@@ -60,7 +60,7 @@
     "@semantic-release/git": "^10.0.1",
     "@types/fs-extra": "^9.0.13",
     "autoprefixer": "^10.4.7",
-    "c8": "^7.11.3",
+    "c8": "^7.12.0",
     "common-tags": "^1.8.2",
     "eslint": "^8.20.0",
     "execa": "^6.1.0",
