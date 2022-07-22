@@ -5,7 +5,7 @@ importers:
   .:
     specifiers:
       '@figma-export/cli': 4.4.0
-      '@nullvoxpopuli/eslint-configs': 2.2.39
+      '@nullvoxpopuli/eslint-configs': 2.2.40
       '@semantic-release/changelog': ^6.0.1
       '@semantic-release/git': ^10.0.1
       '@types/fs-extra': ^9.0.13
@@ -27,7 +27,7 @@ importers:
       tailwindcss: 2.2.19_ugi4xkrfysqkt4c4y6hkyfj344
     devDependencies:
       '@figma-export/cli': 4.4.0
-      '@nullvoxpopuli/eslint-configs': 2.2.39_typescript@4.7.4
+      '@nullvoxpopuli/eslint-configs': 2.2.40_typescript@4.7.4
       '@semantic-release/changelog': 6.0.1_semantic-release@19.0.3
       '@semantic-release/git': 10.0.1_semantic-release@19.0.3
       '@types/fs-extra': 9.0.13
@@ -525,8 +525,8 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
 
-  /@nullvoxpopuli/eslint-configs/2.2.39_typescript@4.7.4:
-    resolution: {integrity: sha512-G2NWqmoeWKFRIbdEvHyk1N2PNfpW5kQHQ3wk7YZlMwVAEZWKsWPCKXggiMkohCPMBbxi4Mci+pCTxaag+rpjAA==}
+  /@nullvoxpopuli/eslint-configs/2.2.40_typescript@4.7.4:
+    resolution: {integrity: sha512-sj2yDAbc3r8475P6PGfPw6PPF4ShxGCFN+SPF8JideO0/J/GWjCvy8V5b9ZITgmsGV35yffVc/WklieOzPhAOQ==}
     engines: {node: '>= v12.0.0'}
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.30.7_b7znustjs6hut3dnhxinxprjzm
@@ -535,7 +535,7 @@ packages:
       eslint: 7.32.0
       eslint-config-prettier: 8.5.0_eslint@7.32.0
       eslint-plugin-decorator-position: 5.0.1_eslint@7.32.0
-      eslint-plugin-ember: 11.0.0_eslint@7.32.0
+      eslint-plugin-ember: 11.0.1_eslint@7.32.0
       eslint-plugin-import: 2.26.0_vno27pkubrggxsw2ewpx2kr3zm
       eslint-plugin-json: 3.1.0
       eslint-plugin-node: 11.1.0_eslint@7.32.0
@@ -2194,8 +2194,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-ember/11.0.0_eslint@7.32.0:
-    resolution: {integrity: sha512-tAqMeD1yZvLlJejidvxbsIyrofWEKwrVrVkGziYCgAA4GNAjXa+lJB6Geh+n6z5bY3nv5qWXTpb4Y6frgZHJPQ==}
+  /eslint-plugin-ember/11.0.1_eslint@7.32.0:
+    resolution: {integrity: sha512-V1ZpU8y6y+VzSxDpnK21wADYbNCmBUZwMpA0zDIyBPTGeiFqKa0zt05vhHWSE5jJLddXm6wdmW/UrMF3lUykrQ==}
     engines: {node: 14.* || 16.* || >= 18}
     peerDependencies:
       eslint: '>= 7'
