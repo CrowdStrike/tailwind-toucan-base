@@ -22,7 +22,7 @@ importers:
       tailwind-config-viewer: ^1.7.1
       tailwindcss: ^2.2.15
       typescript: ^4.7.4
-      vitest: 0.20.2
+      vitest: 0.20.3
     dependencies:
       tailwindcss: 2.2.19_ugi4xkrfysqkt4c4y6hkyfj344
     devDependencies:
@@ -43,7 +43,7 @@ importers:
       semantic-release: 19.0.3
       tailwind-config-viewer: 1.7.1_tailwindcss@2.2.19
       typescript: 4.7.4
-      vitest: 0.20.2_c8@7.12.0
+      vitest: 0.20.3_c8@7.12.0
 
   tests:
     specifiers:
@@ -5312,8 +5312,8 @@ packages:
       - supports-color
     dev: true
 
-  /vitest/0.20.2_c8@7.12.0:
-    resolution: {integrity: sha512-AFXTHrwG4d2OO6SAL8WP5ZkOwLtgeF4tlrHfXFqrHc+5chNegeR53pge0lv/C4316SqJ2DbYaUBH8vh3CdF+BQ==}
+  /vitest/0.20.3_c8@7.12.0:
+    resolution: {integrity: sha512-cXMjTbZxBBUUuIF3PUzEGPLJWtIMeURBDXVxckSHpk7xss4JxkiiWh5cnIlfGyfJne2Ii3QpbiRuFL5dMJtljw==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
