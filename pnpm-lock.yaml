@@ -12,7 +12,7 @@ importers:
       autoprefixer: ^10.4.7
       c8: ^7.12.0
       common-tags: ^1.8.2
-      eslint: ^8.21.0
+      eslint: ^8.22.0
       execa: ^6.1.0
       fs-extra: ^10.1.0
       npm-run-all: ^4.1.5
@@ -34,7 +34,7 @@ importers:
       autoprefixer: 10.4.7_postcss@8.4.16
       c8: 7.12.0
       common-tags: 1.8.2
-      eslint: 8.21.0
+      eslint: 8.22.0
       execa: 6.1.0
       fs-extra: 10.1.0
       npm-run-all: 4.1.5
@@ -2352,13 +2352,13 @@ packages:
       eslint-visitor-keys: 2.1.0
     dev: true
 
-  /eslint-utils/3.0.0_eslint@8.21.0:
+  /eslint-utils/3.0.0_eslint@8.22.0:
     resolution: {integrity: sha512-uuQC43IGctw68pJA1RgbQS8/NP7rch6Cwd4j3ZBtgo4/8Flj4eGE7ZYSZRN3iq5pVUv6GPdW5Z1RFleo84uLDA==}
     engines: {node: ^10.0.0 || ^12.0.0 || >= 14.0.0}
     peerDependencies:
       eslint: '>=5'
     dependencies:
-      eslint: 8.21.0
+      eslint: 8.22.0
       eslint-visitor-keys: 2.1.0
     dev: true
 
@@ -2426,8 +2426,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint/8.21.0:
-    resolution: {integrity: sha512-/XJ1+Qurf1T9G2M5IHrsjp+xrGT73RZf23xA1z5wB1ZzzEAWSZKvRwhWxTFp1rvkvCfwcvAUNAP31bhKTTGfDA==}
+  /eslint/8.22.0:
+    resolution: {integrity: sha512-ci4t0sz6vSRKdmkOGmprBo6fmI4PrphDFMy5JEq/fNS0gQkJM3rLmrqcp8ipMcdobH3KtUP40KniAE9W19S4wA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -2441,7 +2441,7 @@ packages:
       doctrine: 3.0.0
       escape-string-regexp: 4.0.0
       eslint-scope: 7.1.1
-      eslint-utils: 3.0.0_eslint@8.21.0
+      eslint-utils: 3.0.0_eslint@8.22.0
       eslint-visitor-keys: 3.3.0
       espree: 9.3.3
       esquery: 1.4.0
