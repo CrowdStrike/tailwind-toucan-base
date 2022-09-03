@@ -5,7 +5,7 @@ importers:
   .:
     specifiers:
       '@figma-export/cli': 4.4.0
-      '@nullvoxpopuli/eslint-configs': 2.2.53
+      '@nullvoxpopuli/eslint-configs': 2.2.54
       '@semantic-release/changelog': ^6.0.1
       '@semantic-release/git': ^10.0.1
       '@types/fs-extra': ^9.0.13
@@ -27,7 +27,7 @@ importers:
       tailwindcss: 2.2.19_3vnygek3yzhyjlvmmgk3sqgzme
     devDependencies:
       '@figma-export/cli': 4.4.0
-      '@nullvoxpopuli/eslint-configs': 2.2.53_typescript@4.8.2
+      '@nullvoxpopuli/eslint-configs': 2.2.54_typescript@4.8.2
       '@semantic-release/changelog': 6.0.1_semantic-release@19.0.5
       '@semantic-release/git': 10.0.1_semantic-release@19.0.5
       '@types/fs-extra': 9.0.13
@@ -534,8 +534,8 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
 
-  /@nullvoxpopuli/eslint-configs/2.2.53_typescript@4.8.2:
-    resolution: {integrity: sha512-mALRjtkCtAr5iFD8s/b2sAcC4C56VhO+clog7YgQduT4Dmjh4kf64B51cp21YVpEst7m1MGI6XzhiG8GzN//Ag==}
+  /@nullvoxpopuli/eslint-configs/2.2.54_typescript@4.8.2:
+    resolution: {integrity: sha512-qyy/MhvgcvSlWegwugzlfSmIi4J7PNgcnVHSasWEKledXw3EEbofcOq6+ijQSPKjuiZZwTedNpWGh9W79R4rog==}
     engines: {node: '>= v12.0.0'}
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.36.1_vkyathpxz3lud4b2p7cl5ubdwu
@@ -550,7 +550,7 @@ packages:
       eslint-plugin-node: 11.1.0_eslint@7.32.0
       eslint-plugin-prettier: 4.2.1_7gsvg5lgwpfdww3i7smtqxamuy
       eslint-plugin-qunit: 7.3.1_eslint@7.32.0
-      eslint-plugin-simple-import-sort: 7.0.0_eslint@7.32.0
+      eslint-plugin-simple-import-sort: 8.0.0_eslint@7.32.0
       prettier: 2.7.1
     transitivePeerDependencies:
       - '@babel/eslint-parser'
@@ -2317,8 +2317,8 @@ packages:
       - eslint
     dev: true
 
-  /eslint-plugin-simple-import-sort/7.0.0_eslint@7.32.0:
-    resolution: {integrity: sha512-U3vEDB5zhYPNfxT5TYR7u01dboFZp+HNpnGhkDB2g/2E4wZ/g1Q9Ton8UwCLfRV9yAKyYqDh62oHOamvkFxsvw==}
+  /eslint-plugin-simple-import-sort/8.0.0_eslint@7.32.0:
+    resolution: {integrity: sha512-bXgJQ+lqhtQBCuWY/FUWdB27j4+lqcvXv5rUARkzbeWLwea+S5eBZEQrhnO+WgX3ZoJHVj0cn943iyXwByHHQw==}
     peerDependencies:
       eslint: '>=5.0.0'
     dependencies:
