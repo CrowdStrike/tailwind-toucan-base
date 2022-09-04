@@ -16,7 +16,7 @@ importers:
       execa: ^6.1.0
       fs-extra: ^10.1.0
       npm-run-all: ^4.1.5
-      pnpm: ^7.9.5
+      pnpm: ^7.10.0
       postcss: ^8.4.16
       semantic-release: ^19.0.5
       tailwind-config-viewer: ^1.7.1
@@ -38,7 +38,7 @@ importers:
       execa: 6.1.0
       fs-extra: 10.1.0
       npm-run-all: 4.1.5
-      pnpm: 7.9.5
+      pnpm: 7.10.0
       postcss: 8.4.16
       semantic-release: 19.0.5
       tailwind-config-viewer: 1.7.1_tailwindcss@2.2.19
@@ -4257,8 +4257,8 @@ packages:
       load-json-file: 4.0.0
     dev: true
 
-  /pnpm/7.9.5:
-    resolution: {integrity: sha512-+r7+PlBIsblqia8eUOUsBp/R+lHmGAm55jyQRt3DWMUI0srVR1aNJhQECfx24L53Ckz9g48mVxQXEniQMWQPmw==}
+  /pnpm/7.10.0:
+    resolution: {integrity: sha512-DGjcJ3OAHRtyqZJek6OzqLir7hqNaayX4FxMKSXlnpgQRVZsU2jtym/FlR1PS4VmSy+p1Ps/aPz62iHNG0eReQ==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
