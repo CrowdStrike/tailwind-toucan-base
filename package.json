@@ -54,7 +54,7 @@
     "tailwindcss": "^2.2.15"
   },
   "devDependencies": {
-    "@figma-export/cli": "4.4.0",
+    "@figma-export/cli": "4.5.0",
     "@nullvoxpopuli/eslint-configs": "2.2.56",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",

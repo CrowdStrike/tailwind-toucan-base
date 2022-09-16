@@ -4,7 +4,7 @@ importers:
 
   .:
     specifiers:
-      '@figma-export/cli': 4.4.0
+      '@figma-export/cli': 4.5.0
       '@nullvoxpopuli/eslint-configs': 2.2.56
       '@semantic-release/changelog': ^6.0.1
       '@semantic-release/git': ^10.0.1
@@ -26,7 +26,7 @@ importers:
     dependencies:
       tailwindcss: 2.2.19_3vnygek3yzhyjlvmmgk3sqgzme
     devDependencies:
-      '@figma-export/cli': 4.4.0
+      '@figma-export/cli': 4.5.0
       '@nullvoxpopuli/eslint-configs': 2.2.56_typescript@4.8.3
       '@semantic-release/changelog': 6.0.1_semantic-release@19.0.5
       '@semantic-release/git': 10.0.1_semantic-release@19.0.5
@@ -390,37 +390,37 @@ packages:
       - supports-color
     dev: true
 
-  /@figma-export/cli/4.4.0:
-    resolution: {integrity: sha512-1VmtEbv6AVQlF9FrPAuvCI9nw++RezzP5Ouh0V0HRcvt0HnHctaqvpDvLUAva9fWgPJDl9BiTWBxLthv2SzihA==}
+  /@figma-export/cli/4.5.0:
+    resolution: {integrity: sha512-Qssbi22CQxRY4rAD6K73KTlKT4KVrJI1V3VdvSDm+W/ANnUeUqM4TzylixNvz3PC9jaF3F2L/A38jbhwFt76BA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     hasBin: true
     dependencies:
-      '@figma-export/core': 4.4.0
-      '@figma-export/types': 4.4.0
+      '@figma-export/core': 4.5.0
+      '@figma-export/types': 4.5.0
       ora: 5.4.1
       sade: 1.8.1
     transitivePeerDependencies:
       - debug
     dev: true
 
-  /@figma-export/core/4.4.0:
-    resolution: {integrity: sha512-EII7v4mAWIrXQtrVwDoN2i38vPuHTggZbXrodmy0DPUhE4CmydKlqAe9Ha8fTd1prdLG3Qn9uX3uiFsdMvCZqg==}
+  /@figma-export/core/4.5.0:
+    resolution: {integrity: sha512-LYoN1KhO1ot6eohUbFtY2OWPoApCR0Bn2QqkvlQyMIYhLmBECJZrloi+Pp0H4qwLCXFZVd98pH1NvCP17WBg7w==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
-      '@figma-export/types': 4.4.0
+      '@figma-export/types': 4.5.0
       axios: 0.27.2
-      figma-js: 1.15.0
+      figma-js: 1.16.0
       p-limit: 3.1.0
       p-retry: 4.6.2
     transitivePeerDependencies:
       - debug
     dev: true
 
-  /@figma-export/types/4.4.0:
-    resolution: {integrity: sha512-WMwQp5KjvBewoHIV9iMe9fw0kNQL0gguq1nwTr2XX+eqpt00GPpGuAEAKVgv1su4jCy4WWipdH7Kk9Os7TiW3Q==}
+  /@figma-export/types/4.5.0:
+    resolution: {integrity: sha512-fAmmR2I16In98wpPM5acVAMWoPXpbDEbtr5ctFQVpUtYFkxNd9UtVuHanxwy34ytgpOmBI/XkOZrslpufo5cLg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
-      figma-js: 1.15.0
+      figma-js: 1.16.0
     transitivePeerDependencies:
       - debug
     dev: true
@@ -1449,7 +1449,7 @@ packages:
     dev: true
 
   /clone/1.0.4:
-    resolution: {integrity: sha1-2jCcwmPfFZlMaIypAheco8fNfH4=}
+    resolution: {integrity: sha512-JQHZ2QMW6l3aH/j6xCqQThY/9OH4D/9ls34cgkUBiEeocRTU04tHfKPBsUK1PqZCUQM7GiA0IIXJSuXHI64Kbg==}
     engines: {node: '>=0.8'}
     dev: true
 
@@ -1720,7 +1720,7 @@ packages:
     dev: true
 
   /defaults/1.0.3:
-    resolution: {integrity: sha1-xlYFHpgX2f8I7YgUd/P+QBnz730=}
+    resolution: {integrity: sha512-s82itHOnYrN0Ib8r+z7laQz3sdE+4FP3d9Q7VLO7U+KRT+CR0GsWuyHxzdAY82I7cXv0G/twrqomTJLOssO5HA==}
     dependencies:
       clone: 1.0.4
     dev: true
@@ -1751,7 +1751,7 @@ packages:
     dev: true
 
   /delayed-stream/1.0.0:
-    resolution: {integrity: sha1-3zrhmayt+31ECqrgsp4icrJOxhk=}
+    resolution: {integrity: sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==}
     engines: {node: '>=0.4.0'}
     dev: true
 
@@ -2594,8 +2594,8 @@ packages:
     dependencies:
       reusify: 1.0.4
 
-  /figma-js/1.15.0:
-    resolution: {integrity: sha512-j9Yu+Kt2W8Age6pSkT3MFLi/RkByb398PhhhSglbSfce7jOP7XK9X/xjCconxXqvC3vT7I/dAa+E+M5PVwyvXg==}
+  /figma-js/1.16.0:
+    resolution: {integrity: sha512-cImQT9DAJp1J0xr6FMUAswXKEnjwrDz4QKAgIBpUyydKAgDS/lm862stjweHp99uco5qLoNv+GbwQWBHyDvDQw==}
     engines: {node: '>=8.9'}
     dependencies:
       axios: 0.21.4
@@ -5417,7 +5417,7 @@ packages:
     dev: true
 
   /wcwidth/1.0.1:
-    resolution: {integrity: sha1-8LDc+RW8X/FSivrbLA4XtTLaL+g=}
+    resolution: {integrity: sha512-XHPEwS0q6TaxcvG85+8EYkbiCux2XtWG2mkc47Ng2A77BQu9+DqIOJldST4HgPkuea7dvKSj5VgX3P1d4rW8Tg==}
     dependencies:
       defaults: 1.0.3
     dev: true
