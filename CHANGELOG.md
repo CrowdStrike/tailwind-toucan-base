@@ -1,3 +1,10 @@
+## [3.3.1](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.3.0...v3.3.1) (2022-09-27)
+
+
+### Bug Fixes
+
+* **#182:** remove darkMode from config ([cdecd50](https://github.com/CrowdStrike/tailwind-toucan-base/commit/cdecd5091b18676d5ab84824882a8a48450a2602)), closes [#182](https://github.com/CrowdStrike/tailwind-toucan-base/issues/182)
+
 # [3.3.0](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.2.1...v3.3.0) (2022-07-13)
 
 
