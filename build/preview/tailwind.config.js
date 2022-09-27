@@ -2,7 +2,6 @@
 
 module.exports = {
   presets: [require('../../src/tailwind.config')],
-  darkMode: false,
 
   theme: {
     configViewer: {
