@@ -1,3 +1,10 @@
+# [3.4.0](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.3.1...v3.4.0) (2023-03-20)
+
+
+### Features
+
+* Add error-focus-outline shadow ([e0a748a](https://github.com/CrowdStrike/tailwind-toucan-base/commit/e0a748a4e98d54df8be1f02708bdfb1b50c2842e))
+
 ## [3.3.1](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.3.0...v3.3.1) (2022-09-27)
 
 
