@@ -6,8 +6,6 @@ on:
     branches:
       - main
       - master
-  schedule:
-    - cron: "0 3 * * 0" # every Sunday at 3am
 
 env:
   CI: true
@@ -63,8 +61,14 @@ jobs:
         with:
           persist-credentials: false
       - uses: ./.github/actions/pnpm
-      - name: Release
-        run: ./node_modules/.bin/semantic-release
+      - run: pnpm build
+      - name: Create Release Pull Request or Publish to npm
+        id: changesets
+        uses: changesets/action@v1
+        with:
+          # This expects you to have a script called release which does a build for your packages and calls changeset publish
+          publish: pnpm release
+          title: "Release Preview"
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
