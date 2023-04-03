@@ -67,7 +67,7 @@
     "fs-extra": "^10.1.0",
     "npm-run-all": "^4.1.5",
     "pnpm": "^7.30.5",
-    "postcss": "^8.4.18",
+    "postcss": "^8.4.21",
     "tailwind-config-viewer": "^1.7.2",
     "typescript": "^4.8.4",
     "vitest": "0.29.8"
