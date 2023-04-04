@@ -66,7 +66,7 @@
     "execa": "^7.1.1",
     "fs-extra": "^10.1.0",
     "npm-run-all": "^4.1.5",
-    "pnpm": "^7.30.5",
+    "pnpm": "^7.31.0",
     "postcss": "^8.4.21",
     "tailwind-config-viewer": "^1.7.2",
     "typescript": "^5.0.3",
@@ -78,7 +78,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "pnpm@7.30.5",
+  "packageManager": "pnpm@7.31.0",
   "volta": {
     "node": "18.15.0",
     "yarn": "1.22.19",
