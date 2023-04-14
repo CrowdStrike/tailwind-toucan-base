@@ -39,6 +39,7 @@ module.exports = {
       'search-input': 'inset 0 0 0 1px var(--nav-text-secondary)',
       'error-focus-outline':
         'inset 0 0 0 2px var(--critical), 0 0 0 2px var(--surface-base), 0 0 0 4px var(--focus)',
+      'read-only-outline': 'inset 0 0 0 1px var(--disabled)',
       ...boxShadow,
     },
 
