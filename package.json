@@ -58,7 +58,7 @@
   "devDependencies": {
     "@figma-export/cli": "4.5.0",
     "@nullvoxpopuli/eslint-configs": "2.2.62",
-    "@types/fs-extra": "^9.0.13",
+    "@types/fs-extra": "^11.0.1",
     "autoprefixer": "^10.4.14",
     "c8": "^7.13.0",
     "common-tags": "^1.8.2",
