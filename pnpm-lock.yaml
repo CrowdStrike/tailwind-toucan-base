@@ -15,8 +15,8 @@ importers:
         version: 2.2.19(autoprefixer@10.4.14)(postcss@8.4.23)
     devDependencies:
       '@figma-export/cli':
-        specifier: 4.5.0
-        version: 4.5.0
+        specifier: 4.6.0
+        version: 4.6.0
       '@nullvoxpopuli/eslint-configs':
         specifier: 2.2.62
         version: 2.2.62(typescript@5.0.4)
@@ -649,24 +649,24 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@figma-export/cli@4.5.0:
-    resolution: {integrity: sha512-Qssbi22CQxRY4rAD6K73KTlKT4KVrJI1V3VdvSDm+W/ANnUeUqM4TzylixNvz3PC9jaF3F2L/A38jbhwFt76BA==}
+  /@figma-export/cli@4.6.0:
+    resolution: {integrity: sha512-AfzVY2MDSQPvGQF4O8Nkho5XUBpgdSKRPJgqfWm16zXF+B6hd8QQ7twK6JJtAb97RENeqKQOv8gpJYg7haJXZA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     hasBin: true
     dependencies:
-      '@figma-export/core': 4.5.0
-      '@figma-export/types': 4.5.0
+      '@figma-export/core': 4.6.0
+      '@figma-export/types': 4.6.0
       ora: 5.4.1
       sade: 1.8.1
     transitivePeerDependencies:
       - debug
     dev: true
 
-  /@figma-export/core@4.5.0:
-    resolution: {integrity: sha512-LYoN1KhO1ot6eohUbFtY2OWPoApCR0Bn2QqkvlQyMIYhLmBECJZrloi+Pp0H4qwLCXFZVd98pH1NvCP17WBg7w==}
+  /@figma-export/core@4.6.0:
+    resolution: {integrity: sha512-daPjb1slqSzX21Q1qw98lE7Nh3k4nQu2F9LuaKbIYay4OkGgiRF/VrxPgG1sEvv28xEX+1WxuDS+06WlUHyy7g==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
-      '@figma-export/types': 4.5.0
+      '@figma-export/types': 4.6.0
       axios: 0.27.2
       figma-js: 1.16.0
       p-limit: 3.1.0
@@ -675,8 +675,8 @@ packages:
       - debug
     dev: true
 
-  /@figma-export/types@4.5.0:
-    resolution: {integrity: sha512-fAmmR2I16In98wpPM5acVAMWoPXpbDEbtr5ctFQVpUtYFkxNd9UtVuHanxwy34ytgpOmBI/XkOZrslpufo5cLg==}
+  /@figma-export/types@4.6.0:
+    resolution: {integrity: sha512-3hZgyRIoHUH6bf8firy2Af5ERLm2/zsE/M/D1la9a6GfTDSkpXkP/39wgbhgFx/BPyR9ovDDjLUcFHu9Ridcug==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
       figma-js: 1.16.0
