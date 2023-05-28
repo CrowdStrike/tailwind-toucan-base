@@ -6,7 +6,7 @@ importers:
     dependencies:
       tailwindcss:
         specifier: ^2.2.15
-        version: 2.2.19(autoprefixer@10.4.14)(postcss@8.4.23)
+        version: 2.2.19(autoprefixer@10.4.14)(postcss@8.4.24)
     devDependencies:
       '@changesets/changelog-github':
         specifier: ^0.4.8
@@ -25,7 +25,7 @@ importers:
         version: 11.0.1
       autoprefixer:
         specifier: ^10.4.14
-        version: 10.4.14(postcss@8.4.23)
+        version: 10.4.14(postcss@8.4.24)
       c8:
         specifier: ^7.13.0
         version: 7.13.0
@@ -48,8 +48,8 @@ importers:
         specifier: ^8.5.1
         version: 8.5.1
       postcss:
-        specifier: ^8.4.23
-        version: 8.4.23
+        specifier: ^8.4.24
+        version: 8.4.24
       tailwind-config-viewer:
         specifier: ^1.7.2
         version: 1.7.2(tailwindcss@2.2.19)
@@ -74,7 +74,7 @@ importers:
         version: 4.7.4
       vitest:
         specifier: 0.16.0
-        version: 0.16.0
+        version: 0.16.0(c8@7.13.0)
 
 packages:
 
@@ -814,7 +814,7 @@ packages:
     engines: {node: '>= v12.0.0'}
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.40.1(@typescript-eslint/parser@5.40.1)(eslint@7.32.0)(typescript@5.0.4)
-      '@typescript-eslint/parser': 5.40.1(eslint@7.32.0)(typescript@5.0.4)
+      '@typescript-eslint/parser': 5.40.1(eslint@8.41.0)(typescript@5.0.4)
       babel-eslint: 10.1.0(eslint@7.32.0)
       eslint: 7.32.0
       eslint-config-prettier: 8.5.0(eslint@7.32.0)
@@ -922,7 +922,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 5.40.1(eslint@7.32.0)(typescript@5.0.4)
+      '@typescript-eslint/parser': 5.40.1(eslint@8.41.0)(typescript@5.0.4)
       '@typescript-eslint/scope-manager': 5.40.1
       '@typescript-eslint/type-utils': 5.40.1(eslint@7.32.0)(typescript@5.0.4)
       '@typescript-eslint/utils': 5.40.1(eslint@7.32.0)(typescript@5.0.4)
@@ -937,7 +937,7 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/parser@5.40.1(eslint@7.32.0)(typescript@5.0.4):
+  /@typescript-eslint/parser@5.40.1(eslint@8.41.0)(typescript@5.0.4):
     resolution: {integrity: sha512-IK6x55va5w4YvXd4b3VrXQPldV9vQTxi5ov+g4pMANsXPTXOcfjx08CRR1Dfrcc51syPtXHF5bgLlMHYFrvQtg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -951,7 +951,7 @@ packages:
       '@typescript-eslint/types': 5.40.1
       '@typescript-eslint/typescript-estree': 5.40.1(typescript@5.0.4)
       debug: 4.3.4
-      eslint: 7.32.0
+      eslint: 8.41.0
       typescript: 5.0.4
     transitivePeerDependencies:
       - supports-color
@@ -1249,7 +1249,7 @@ packages:
     engines: {node: '>= 4.0.0'}
     dev: true
 
-  /autoprefixer@10.4.14(postcss@8.4.23):
+  /autoprefixer@10.4.14(postcss@8.4.24):
     resolution: {integrity: sha512-FQzyfOsTlwVzjHxKEqRIAdJx9niO6VCBCoEwax/VLSoQF29ggECcPuBqUMZ+u8jCZOPSy8b8/8KnuFbp0SaFZQ==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
@@ -1261,7 +1261,7 @@ packages:
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
-      postcss: 8.4.23
+      postcss: 8.4.24
       postcss-value-parser: 4.2.0
 
   /axios@0.21.4:
@@ -2441,7 +2441,7 @@ packages:
       eslint-import-resolver-webpack:
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 5.40.1(eslint@7.32.0)(typescript@5.0.4)
+      '@typescript-eslint/parser': 5.40.1(eslint@8.41.0)(typescript@5.0.4)
       debug: 3.2.7
       eslint-import-resolver-node: 0.3.6
       find-up: 2.1.0
@@ -2507,7 +2507,7 @@ packages:
       '@typescript-eslint/parser':
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 5.40.1(eslint@7.32.0)(typescript@5.0.4)
+      '@typescript-eslint/parser': 5.40.1(eslint@8.41.0)(typescript@5.0.4)
       array-includes: 3.1.5
       array.prototype.flat: 1.3.0
       debug: 2.6.9
@@ -4341,9 +4341,9 @@ packages:
     engines: {node: '>=10.0'}
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 8.4.23
+      postcss: 8.4.24
 
-  /postcss-load-config@3.1.4(postcss@8.4.23):
+  /postcss-load-config@3.1.4(postcss@8.4.24):
     resolution: {integrity: sha512-6DiM4E7v4coTE4uzA8U//WhtPwyhiim3eyjEMFCnUpzbrkK9wJHgKDT2mR+HbtSrd/NubVaYTOpSpjUl8NQeRg==}
     engines: {node: '>= 10'}
     peerDependencies:
@@ -4356,16 +4356,16 @@ packages:
         optional: true
     dependencies:
       lilconfig: 2.0.5
-      postcss: 8.4.23
+      postcss: 8.4.24
       yaml: 1.10.2
 
-  /postcss-nested@5.0.6(postcss@8.4.23):
+  /postcss-nested@5.0.6(postcss@8.4.24):
     resolution: {integrity: sha512-rKqm2Fk0KbA8Vt3AdGN0FB9OBOMDVajMG6ZCf/GoHgdxUJ4sBFp0A/uMIRm+MJUdo33YXEtjqIz8u7DAp8B7DA==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
     dependencies:
-      postcss: 8.4.23
+      postcss: 8.4.24
       postcss-selector-parser: 6.0.10
 
   /postcss-selector-parser@6.0.10:
@@ -4381,8 +4381,8 @@ packages:
   /postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
 
-  /postcss@8.4.23:
-    resolution: {integrity: sha512-bQ3qMcpF6A/YjR55xtoTr0jGOlnPOKAIMdOWiv0EIT6HVPEaJiJB4NLljSbiHoC2RX7DN5Uvjtpbg1NPdwv1oA==}
+  /postcss@8.4.24:
+    resolution: {integrity: sha512-M0RzbcI0sO/XJNucsGjvWU9ERWxb/ytp1w6dKtxTKgixdtQDq4rmx/g8W1hnaheq9jgwL/oyEdH5Bc4WwJKMqg==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.6
@@ -4450,7 +4450,7 @@ packages:
     dependencies:
       commander: 8.3.0
       glob: 7.2.3
-      postcss: 8.4.23
+      postcss: 8.4.24
       postcss-selector-parser: 6.0.10
 
   /queue-microtask@1.2.3:
@@ -4964,12 +4964,12 @@ packages:
       open: 7.4.2
       portfinder: 1.0.28
       replace-in-file: 6.3.2
-      tailwindcss: 2.2.19(autoprefixer@10.4.14)(postcss@8.4.23)
+      tailwindcss: 2.2.19(autoprefixer@10.4.14)(postcss@8.4.24)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /tailwindcss@2.2.19(autoprefixer@10.4.14)(postcss@8.4.23):
+  /tailwindcss@2.2.19(autoprefixer@10.4.14)(postcss@8.4.24):
     resolution: {integrity: sha512-6Ui7JSVtXadtTUo2NtkBBacobzWiQYVjYW0ZnKaP9S1ZCKQ0w7KVNz+YSDI/j7O7KCMHbOkz94ZMQhbT9pOqjw==}
     engines: {node: '>=12.13.0'}
     hasBin: true
@@ -4978,7 +4978,7 @@ packages:
       postcss: ^8.0.9
     dependencies:
       arg: 5.0.1
-      autoprefixer: 10.4.14(postcss@8.4.23)
+      autoprefixer: 10.4.14(postcss@8.4.24)
       bytes: 3.1.2
       chalk: 4.1.2
       chokidar: 3.5.3
@@ -4999,10 +4999,10 @@ packages:
       node-emoji: 1.11.0
       normalize-path: 3.0.0
       object-hash: 2.2.0
-      postcss: 8.4.23
+      postcss: 8.4.24
       postcss-js: 3.0.3
-      postcss-load-config: 3.1.4(postcss@8.4.23)
-      postcss-nested: 5.0.6(postcss@8.4.23)
+      postcss-load-config: 3.1.4(postcss@8.4.24)
+      postcss-nested: 5.0.6(postcss@8.4.24)
       postcss-selector-parser: 6.0.10
       postcss-value-parser: 4.2.0
       pretty-hrtime: 1.0.3
@@ -5303,7 +5303,7 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.14.39
-      postcss: 8.4.23
+      postcss: 8.4.24
       resolve: 1.22.1
       rollup: 2.78.1
     optionalDependencies:
@@ -5330,14 +5330,14 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.15.10
-      postcss: 8.4.23
+      postcss: 8.4.24
       resolve: 1.22.1
       rollup: 2.78.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
 
-  /vitest@0.16.0:
+  /vitest@0.16.0(c8@7.13.0):
     resolution: {integrity: sha512-Ntp6jrM8wf2NMtamMBLkRBBdeqHkgAH/WMh5Xryts1j2ft2D8QZQbiSVFkSl4WmEQzcPP0YM069g/Ga1vtnEtg==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -5359,6 +5359,7 @@ packages:
       '@types/chai': 4.3.1
       '@types/chai-subset': 1.3.3
       '@types/node': 17.0.34
+      c8: 7.13.0
       chai: 4.3.6
       debug: 4.3.4
       local-pkg: 0.4.1
