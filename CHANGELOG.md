@@ -1,5 +1,11 @@
 # [3.4.0](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.3.1...v3.4.0) (2023-03-20)
 
+## 3.5.1
+
+### Patch Changes
+
+- [#254](https://github.com/CrowdStrike/tailwind-toucan-base/pull/254) [`e8c01b1`](https://github.com/CrowdStrike/tailwind-toucan-base/commit/e8c01b1716c660c17c45e879564ea50d0ee9fddc) Thanks [@ynotdraw](https://github.com/ynotdraw)! - Moved changeset dependencies from `dependencies` to `devDependencies` as they were added there by accident.
+
 ## 3.5.0
 
 ### Minor Changes
