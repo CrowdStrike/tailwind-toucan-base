@@ -1,5 +1,3 @@
-# [3.4.0](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.3.1...v3.4.0) (2023-03-20)
-
 ## 3.5.1
 
 ### Patch Changes
@@ -15,6 +13,8 @@
 ### Patch Changes
 
 - [#218](https://github.com/CrowdStrike/tailwind-toucan-base/pull/218) [`c98f38a`](https://github.com/CrowdStrike/tailwind-toucan-base/commit/c98f38ab171f96baaf1bfa4b1560db7d4f2c9644) Thanks [@ynotdraw](https://github.com/ynotdraw)! - (internal): swap semantic-release for Changesets so that we can have more granular control over releases, and batch breaking changes together without massive PRs
+
+# [3.4.0](https://github.com/CrowdStrike/tailwind-toucan-base/compare/v3.3.1...v3.4.0) (2023-03-20)
 
 ### Features
 
