@@ -56,7 +56,7 @@
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.8",
     "@changesets/cli": "^2.26.1",
-    "@figma-export/cli": "4.6.0",
+    "@figma-export/cli": "4.7.0",
     "@nullvoxpopuli/eslint-configs": "2.2.62",
     "@types/fs-extra": "^11.0.1",
     "autoprefixer": "^10.4.14",
