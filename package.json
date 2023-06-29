@@ -69,7 +69,7 @@
     "pnpm": "^8.6.5",
     "postcss": "^8.4.24",
     "tailwind-config-viewer": "^1.7.2",
-    "typescript": "^5.1.5",
+    "typescript": "^5.1.6",
     "vitest": "0.32.2"
   },
   "engines": {
