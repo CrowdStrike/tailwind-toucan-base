@@ -10,7 +10,7 @@ importers:
     dependencies:
       tailwindcss:
         specifier: ^2.2.15
-        version: 2.2.19(autoprefixer@10.4.14)(postcss@8.4.25)
+        version: 2.2.19(autoprefixer@10.4.14)(postcss@8.4.26)
     devDependencies:
       '@changesets/changelog-github':
         specifier: ^0.4.8
@@ -29,7 +29,7 @@ importers:
         version: 11.0.1
       autoprefixer:
         specifier: ^10.4.14
-        version: 10.4.14(postcss@8.4.25)
+        version: 10.4.14(postcss@8.4.26)
       c8:
         specifier: ^8.0.0
         version: 8.0.0
@@ -52,8 +52,8 @@ importers:
         specifier: ^8.6.7
         version: 8.6.7
       postcss:
-        specifier: ^8.4.25
-        version: 8.4.25
+        specifier: ^8.4.26
+        version: 8.4.26
       tailwind-config-viewer:
         specifier: ^1.7.2
         version: 1.7.2(tailwindcss@2.2.19)
@@ -1268,7 +1268,7 @@ packages:
     engines: {node: '>= 4.0.0'}
     dev: true
 
-  /autoprefixer@10.4.14(postcss@8.4.25):
+  /autoprefixer@10.4.14(postcss@8.4.26):
     resolution: {integrity: sha512-FQzyfOsTlwVzjHxKEqRIAdJx9niO6VCBCoEwax/VLSoQF29ggECcPuBqUMZ+u8jCZOPSy8b8/8KnuFbp0SaFZQ==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
@@ -1280,7 +1280,7 @@ packages:
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
-      postcss: 8.4.25
+      postcss: 8.4.26
       postcss-value-parser: 4.2.0
 
   /axios@0.21.4:
@@ -4328,9 +4328,9 @@ packages:
     engines: {node: '>=10.0'}
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 8.4.25
+      postcss: 8.4.26
 
-  /postcss-load-config@3.1.4(postcss@8.4.25):
+  /postcss-load-config@3.1.4(postcss@8.4.26):
     resolution: {integrity: sha512-6DiM4E7v4coTE4uzA8U//WhtPwyhiim3eyjEMFCnUpzbrkK9wJHgKDT2mR+HbtSrd/NubVaYTOpSpjUl8NQeRg==}
     engines: {node: '>= 10'}
     peerDependencies:
@@ -4343,16 +4343,16 @@ packages:
         optional: true
     dependencies:
       lilconfig: 2.0.5
-      postcss: 8.4.25
+      postcss: 8.4.26
       yaml: 1.10.2
 
-  /postcss-nested@5.0.6(postcss@8.4.25):
+  /postcss-nested@5.0.6(postcss@8.4.26):
     resolution: {integrity: sha512-rKqm2Fk0KbA8Vt3AdGN0FB9OBOMDVajMG6ZCf/GoHgdxUJ4sBFp0A/uMIRm+MJUdo33YXEtjqIz8u7DAp8B7DA==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
     dependencies:
-      postcss: 8.4.25
+      postcss: 8.4.26
       postcss-selector-parser: 6.0.10
 
   /postcss-selector-parser@6.0.10:
@@ -4368,8 +4368,8 @@ packages:
   /postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
 
-  /postcss@8.4.25:
-    resolution: {integrity: sha512-7taJ/8t2av0Z+sQEvNzCkpDynl0tX3uJMCODi6nT3PfASC7dYCWV9aQ+uiCf+KBD4SEFcu+GvJdGdwzQ6OSjCw==}
+  /postcss@8.4.26:
+    resolution: {integrity: sha512-jrXHFF8iTloAenySjM/ob3gSj7pCu0Ji49hnjqzsgSRa50hkWCKD0HQ+gMNJkW38jBI68MpAAg7ZWwHwX8NMMw==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.6
@@ -4437,7 +4437,7 @@ packages:
     dependencies:
       commander: 8.3.0
       glob: 7.2.3
-      postcss: 8.4.25
+      postcss: 8.4.26
       postcss-selector-parser: 6.0.10
 
   /queue-microtask@1.2.3:
@@ -4951,12 +4951,12 @@ packages:
       open: 7.4.2
       portfinder: 1.0.28
       replace-in-file: 6.3.2
-      tailwindcss: 2.2.19(autoprefixer@10.4.14)(postcss@8.4.25)
+      tailwindcss: 2.2.19(autoprefixer@10.4.14)(postcss@8.4.26)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /tailwindcss@2.2.19(autoprefixer@10.4.14)(postcss@8.4.25):
+  /tailwindcss@2.2.19(autoprefixer@10.4.14)(postcss@8.4.26):
     resolution: {integrity: sha512-6Ui7JSVtXadtTUo2NtkBBacobzWiQYVjYW0ZnKaP9S1ZCKQ0w7KVNz+YSDI/j7O7KCMHbOkz94ZMQhbT9pOqjw==}
     engines: {node: '>=12.13.0'}
     hasBin: true
@@ -4965,7 +4965,7 @@ packages:
       postcss: ^8.0.9
     dependencies:
       arg: 5.0.1
-      autoprefixer: 10.4.14(postcss@8.4.25)
+      autoprefixer: 10.4.14(postcss@8.4.26)
       bytes: 3.1.2
       chalk: 4.1.2
       chokidar: 3.5.3
@@ -4986,10 +4986,10 @@ packages:
       node-emoji: 1.11.0
       normalize-path: 3.0.0
       object-hash: 2.2.0
-      postcss: 8.4.25
+      postcss: 8.4.26
       postcss-js: 3.0.3
-      postcss-load-config: 3.1.4(postcss@8.4.25)
-      postcss-nested: 5.0.6(postcss@8.4.25)
+      postcss-load-config: 3.1.4(postcss@8.4.26)
+      postcss-nested: 5.0.6(postcss@8.4.26)
       postcss-selector-parser: 6.0.10
       postcss-value-parser: 4.2.0
       pretty-hrtime: 1.0.3
@@ -5285,7 +5285,7 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.14.39
-      postcss: 8.4.25
+      postcss: 8.4.26
       resolve: 1.22.1
       rollup: 2.78.1
     optionalDependencies:
@@ -5312,7 +5312,7 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.15.10
-      postcss: 8.4.25
+      postcss: 8.4.26
       resolve: 1.22.1
       rollup: 2.78.1
     optionalDependencies:
