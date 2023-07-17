@@ -81,7 +81,6 @@
   "packageManager": "pnpm@8.6.10",
   "volta": {
     "node": "18.17.0",
-    "yarn": "1.22.19",
-    "npm": "9.8.1"
+    "pnpm": "7.32.5"
   }
 }
