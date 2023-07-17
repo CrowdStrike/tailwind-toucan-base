@@ -1032,130 +1032,213 @@ video {
 }
 
 .type-4xl {
+  font-family: Calibre, sans-serif;
   font-size: 3rem;
-  line-height: 3.25rem;
   font-weight: 500;
   letter-spacing: -0.025em;
+  line-height: 3.25rem;
+  text-decoration: initial;
+  text-rendering: initial;
 }
 
 .type-3xl {
+  font-family: Calibre, sans-serif;
   font-size: 2.5rem;
-  line-height: 3rem;
   font-weight: 500;
   letter-spacing: -0.025em;
+  line-height: 3rem;
+  text-decoration: initial;
+  text-rendering: initial;
 }
 
 .type-2xl {
+  font-family: Calibre, sans-serif;
   font-size: 2rem;
-  line-height: 2.5rem;
   font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 2.5rem;
+  text-decoration: initial;
+  text-rendering: initial;
 }
 
 .type-xl {
+  font-family: Calibre, sans-serif;
   font-size: 1.5rem;
-  line-height: 2rem;
   font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 2rem;
+  text-decoration: initial;
   text-rendering: geometricPrecision;
 }
 
 .type-lg {
+  font-family: Calibre, sans-serif;
   font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 0em;
   line-height: 2rem;
+  text-decoration: initial;
+  text-rendering: initial;
 }
 
 .type-lg-medium {
+  font-family: Calibre, sans-serif;
   font-size: 1.25rem;
-  line-height: 2rem;
   font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 2rem;
+  text-decoration: initial;
+  text-rendering: initial;
 }
 
 .type-lg-tight-medium {
+  font-family: Calibre, sans-serif;
   font-size: 1.25rem;
-  line-height: 1.5rem;
   font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 1.5rem;
+  text-decoration: initial;
   text-rendering: geometricPrecision;
 }
 
 .type-md {
+  font-family: Calibre, sans-serif;
   font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0em;
   line-height: 1.5rem;
+  text-decoration: initial;
+  text-rendering: initial;
 }
 
 .type-md-medium {
+  font-family: Calibre, sans-serif;
   font-size: 1rem;
-  line-height: 1.5rem;
   font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 1.5rem;
+  text-decoration: initial;
+  text-rendering: initial;
 }
 
 .type-md-underline {
+  font-family: Calibre, sans-serif;
   font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0em;
   line-height: 1.5rem;
   text-decoration: underline;
+  text-rendering: initial;
 }
 
 .type-md-tight {
+  font-family: Calibre, sans-serif;
   font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0em;
   line-height: 1.25rem;
+  text-decoration: initial;
+  text-rendering: initial;
 }
 
 .type-md-tight-medium {
+  font-family: Calibre, sans-serif;
   font-size: 1rem;
-  line-height: 1.25rem;
   font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 1.25rem;
+  text-decoration: initial;
   text-rendering: geometricPrecision;
 }
 
 .type-md-tight-underline {
+  font-family: Calibre, sans-serif;
   font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0em;
   line-height: 1.25rem;
   text-decoration: underline;
+  text-rendering: initial;
 }
 
 .type-sm-mono {
-  font-size: .875rem;
-  line-height: 1.5rem;
   font-family: Monaco, monospace;
+  font-size: .875rem;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1.5rem;
+  text-decoration: initial;
+  text-rendering: initial;
 }
 
 .type-sm-mono-tight {
-  font-size: .875rem;
   font-family: Monaco, monospace;
+  font-size: .875rem;
+  font-weight: 400;
+  letter-spacing: 0em;
   line-height: 1.25rem;
+  text-decoration: initial;
+  text-rendering: initial;
 }
 
 .type-sm-mono-underline {
-  font-size: .875rem;
-  line-height: 1.5rem;
   font-family: Monaco, monospace;
+  font-size: .875rem;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1.5rem;
   text-decoration: underline;
+  text-rendering: initial;
 }
 
 .type-xs {
+  font-family: Calibre, sans-serif;
   font-size: .75rem;
+  font-weight: 400;
+  letter-spacing: 0em;
   line-height: 1.25rem;
+  text-decoration: initial;
+  text-rendering: initial;
 }
 
 .type-xs-tight {
+  font-family: Calibre, sans-serif;
   font-size: .75rem;
+  font-weight: 400;
+  letter-spacing: 0em;
   line-height: 1rem;
+  text-decoration: initial;
+  text-rendering: initial;
 }
 
 .type-xs-tight-underline {
+  font-family: Calibre, sans-serif;
   font-size: .75rem;
+  font-weight: 400;
+  letter-spacing: 0em;
   line-height: 1rem;
   text-decoration: underline;
+  text-rendering: initial;
 }
 
 .type-xs-mono {
-  font-size: .75rem;
-  line-height: 1.5rem;
   font-family: Monaco, monospace;
+  font-size: .75rem;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1.5rem;
+  text-decoration: initial;
+  text-rendering: initial;
 }
 
 .type-xxs-mono {
-  font-size: .5625rem;
-  line-height: 1rem;
   font-family: Monaco, monospace;
+  font-size: .5625rem;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1rem;
+  text-decoration: initial;
+  text-rendering: initial;
 }
 
 .geometric-precision-text {
