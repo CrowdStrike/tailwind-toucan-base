@@ -80,7 +80,7 @@
   },
   "packageManager": "pnpm@8.6.9",
   "volta": {
-    "node": "18.16.1",
+    "node": "18.17.0",
     "yarn": "1.22.19",
     "npm": "9.8.0"
   }
