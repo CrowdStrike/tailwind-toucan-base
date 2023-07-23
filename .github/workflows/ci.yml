@@ -28,7 +28,7 @@ jobs:
         with:
           fetch-depth: 0
       - uses: volta-cli/action@v4
-      - uses: wagoid/commitlint-github-action@v5.4.2
+      - uses: wagoid/commitlint-github-action@v5.4.3
 
   typecheck:
     name: Type Checking
