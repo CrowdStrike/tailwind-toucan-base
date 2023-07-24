@@ -1,5 +1,5 @@
 ---
-"@tailwind-toucan-base": major
+"@crowdstrike/tailwind-toucan-base": major
 ---
 
 possibly breaking change that sets all type style properties explicitly, 
