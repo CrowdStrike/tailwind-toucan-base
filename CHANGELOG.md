@@ -1,5 +1,13 @@
 ## 3.5.1
 
+## 4.0.0
+
+### Major Changes
+
+- [#294](https://github.com/CrowdStrike/tailwind-toucan-base/pull/294) [`60e5d86`](https://github.com/CrowdStrike/tailwind-toucan-base/commit/60e5d86611635a6b093e1d1f859fe7c1f6a37a36) Thanks [@joelamb](https://github.com/joelamb)! - possibly breaking change that sets all type style properties explicitly,
+  which could cause subtle, but unexpected, changes in the weight of rendered
+  text if inherited parent styles are no longer applied.
+
 ### Patch Changes
 
 - [#254](https://github.com/CrowdStrike/tailwind-toucan-base/pull/254) [`e8c01b1`](https://github.com/CrowdStrike/tailwind-toucan-base/commit/e8c01b1716c660c17c45e879564ea50d0ee9fddc) Thanks [@ynotdraw](https://github.com/ynotdraw)! - Moved changeset dependencies from `dependencies` to `devDependencies` as they were added there by accident.
