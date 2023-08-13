@@ -59,7 +59,7 @@
     "@figma-export/cli": "4.7.0",
     "@nullvoxpopuli/eslint-configs": "2.2.62",
     "@types/fs-extra": "^11.0.1",
-    "autoprefixer": "^10.4.14",
+    "autoprefixer": "^10.4.15",
     "c8": "^8.0.1",
     "common-tags": "^1.8.2",
     "eslint": "^8.46.0",
