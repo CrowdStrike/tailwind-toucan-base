@@ -57,7 +57,7 @@
     "@changesets/changelog-github": "^0.4.8",
     "@changesets/cli": "^2.26.2",
     "@figma-export/cli": "4.7.0",
-    "@nullvoxpopuli/eslint-configs": "2.2.62",
+    "@nullvoxpopuli/eslint-configs": "3.2.2",
     "@types/fs-extra": "^11.0.1",
     "autoprefixer": "^10.4.15",
     "c8": "^8.0.1",
