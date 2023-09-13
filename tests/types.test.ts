@@ -1,7 +1,11 @@
+// This file is auto-generated, and may not exist when linting
+//eslint-disable-next-line n/no-missing-import
 import { type ColorInfo } from '@crowdstrike/tailwind-toucan-base/theme-data';
 import { expectType } from 'ts-expect';
 import { test } from 'vitest';
 
+// This file is auto-generated, and may not exist when linting
+//eslint-disable-next-line n/no-missing-import
 import type themeData from '@crowdstrike/tailwind-toucan-base/theme-data';
 import type theme from '@crowdstrike/tailwind-toucan-base/themes';
 import type themeJson from '@crowdstrike/tailwind-toucan-base/themes.json';

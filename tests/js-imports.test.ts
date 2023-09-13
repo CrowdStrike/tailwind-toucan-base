@@ -21,6 +21,8 @@ describe('JS Imports', () => {
     });
 
     test('./theme-data', async () => {
+      // This file is auto-generated, and may not exist when linting
+      //eslint-disable-next-line n/no-missing-import
       let result = await import('@crowdstrike/tailwind-toucan-base/theme-data');
 
       expect(result?.default.themes?.dark).toBeTruthy();
