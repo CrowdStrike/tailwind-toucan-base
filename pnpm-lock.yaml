@@ -82,6 +82,9 @@ importers:
       '@types/fs-extra':
         specifier: ^11.0.1
         version: 11.0.1
+      '@types/node':
+        specifier: ^20.6.0
+        version: 20.6.0
       execa:
         specifier: ^8.0.1
         version: 8.0.1
@@ -959,7 +962,7 @@ packages:
   /@types/jsonfile@6.1.1:
     resolution: {integrity: sha512-GSgiRCVeapDN+3pqA35IkQwasaCh/0YFH5dEF6S88iDvEn901DjOeH3/QPY+XYP1DFzDZPvIvfeEgk+7br5png==}
     dependencies:
-      '@types/node': 17.0.34
+      '@types/node': 20.6.0
     dev: true
 
   /@types/minimatch@3.0.5:
@@ -976,6 +979,10 @@ packages:
 
   /@types/node@17.0.34:
     resolution: {integrity: sha512-XImEz7XwTvDBtzlTnm8YvMqGW/ErMWBsKZ+hMTvnDIjGCKxwK5Xpc+c/oQjOauwq8M4OS11hEkpjX8rrI/eEgA==}
+    dev: true
+
+  /@types/node@20.6.0:
+    resolution: {integrity: sha512-najjVq5KN2vsH2U/xyh2opaSEz6cZMR2SetLIlxlj08nOcmPOemJmUK2o4kUzfLqfrWE0PIrNeE16XhYDd3nqg==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
