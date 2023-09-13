@@ -515,6 +515,51 @@
         },
         {
           "category": [
+            "divider-lines"
+          ],
+          "fill": {
+            "r": 75,
+            "g": 75,
+            "b": 88,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(75, 75, 88)",
+          "name": "border-reg",
+          "value": "#4b4b58"
+        },
+        {
+          "category": [
+            "divider-lines"
+          ],
+          "fill": {
+            "r": 56,
+            "g": 56,
+            "b": 66,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(56, 56, 66)",
+          "name": "border-faint",
+          "value": "#383842"
+        },
+        {
+          "category": [
+            "divider-lines"
+          ],
+          "fill": {
+            "r": 103,
+            "g": 108,
+            "b": 121,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(103, 108, 121)",
+          "name": "border-bold",
+          "value": "#676c79"
+        },
+        {
+          "category": [
             "hues",
             "main-hues"
           ],
@@ -698,6 +743,21 @@
           "rgbFill": "rgba(0, 0, 0, 0.6)",
           "name": "overlay-2",
           "value": "#00000099"
+        },
+        {
+          "category": [
+            "transparency"
+          ],
+          "fill": {
+            "r": 102,
+            "g": 102,
+            "b": 102,
+            "a": 0.13
+          },
+          "hasAlpha": true,
+          "rgbFill": "rgba(102, 102, 102, 0.13)",
+          "name": "overlay-reverse-0\\.5",
+          "value": "#666666"
         },
         {
           "category": [
@@ -915,6 +975,21 @@
           "rgbFill": "rgb(56, 55, 60)",
           "name": "surface-xl",
           "value": "#38373c"
+        },
+        {
+          "category": [
+            "surfaces"
+          ],
+          "fill": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(0, 0, 0)",
+          "name": "surface-dash-widget",
+          "value": "#000000"
         },
         {
           "category": [
@@ -1512,6 +1587,51 @@
         },
         {
           "category": [
+            "divider-lines"
+          ],
+          "fill": {
+            "r": 200,
+            "g": 200,
+            "b": 208,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(200, 200, 208)",
+          "name": "border-reg",
+          "value": "#c8c8d0"
+        },
+        {
+          "category": [
+            "divider-lines"
+          ],
+          "fill": {
+            "r": 222,
+            "g": 222,
+            "b": 227,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(222, 222, 227)",
+          "name": "border-faint",
+          "value": "#dedee3"
+        },
+        {
+          "category": [
+            "divider-lines"
+          ],
+          "fill": {
+            "r": 156,
+            "g": 156,
+            "b": 170,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(156, 156, 170)",
+          "name": "border-bold",
+          "value": "#9c9caa"
+        },
+        {
+          "category": [
             "hues",
             "main-hues"
           ],
@@ -1695,6 +1815,21 @@
           "rgbFill": "rgba(0, 0, 0, 0.15)",
           "name": "overlay-2",
           "value": "#00000026"
+        },
+        {
+          "category": [
+            "transparency"
+          ],
+          "fill": {
+            "r": 153,
+            "g": 153,
+            "b": 153,
+            "a": 0.13
+          },
+          "hasAlpha": true,
+          "rgbFill": "rgba(153, 153, 153, 0.13)",
+          "name": "overlay-reverse-0\\.5",
+          "value": "#999999"
         },
         {
           "category": [
@@ -1911,6 +2046,21 @@
           "hasAlpha": false,
           "rgbFill": "rgb(255, 255, 255)",
           "name": "surface-xl",
+          "value": "#ffffff"
+        },
+        {
+          "category": [
+            "surfaces"
+          ],
+          "fill": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(255, 255, 255)",
+          "name": "surface-dash-widget",
           "value": "#ffffff"
         },
         {
