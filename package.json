@@ -73,7 +73,7 @@
     "postcss": "^8.4.28",
     "tailwind-config-viewer": "^1.7.2",
     "typescript": "^5.2.2",
-    "vitest": "0.34.2"
+    "vitest": "0.34.4"
   },
   "engines": {
     "node": ">=14.15.0"
