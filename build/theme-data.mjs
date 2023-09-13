@@ -1,8 +1,8 @@
-import path from 'path';
-import fs from 'fs/promises';
-import { fileURLToPath } from 'url';
-import fse from 'fs-extra';
 import { stripIndent } from 'common-tags';
+import fs from 'fs/promises';
+import fse from 'fs-extra';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
