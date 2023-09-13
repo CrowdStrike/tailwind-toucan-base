@@ -15,7 +15,7 @@ jobs:
     name: Lint JS
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: ./.github/actions/pnpm
       - name: ESLint
         run: pnpm run lint:js
@@ -24,7 +24,7 @@ jobs:
     name: Lint Commit Messages
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - uses: volta-cli/action@v4
@@ -35,7 +35,7 @@ jobs:
     timeout-minutes: 5
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: ./.github/actions/pnpm
       - run: pnpm build:theme-data
       - run: pnpm tsc --noEmit
@@ -46,7 +46,7 @@ jobs:
     timeout-minutes: 5
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: ./.github/actions/pnpm
       - run: pnpm test
 
@@ -57,7 +57,7 @@ jobs:
     needs: [tests]
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           persist-credentials: false
       - uses: ./.github/actions/pnpm
