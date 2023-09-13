@@ -57,8 +57,11 @@
     "@changesets/changelog-github": "^0.4.8",
     "@changesets/cli": "^2.26.2",
     "@figma-export/cli": "4.7.0",
-    "@nullvoxpopuli/eslint-configs": "2.2.62",
+    "@nullvoxpopuli/eslint-configs": "^3.2.2",
     "@types/fs-extra": "^11.0.1",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "@vitest/coverage-v8": "^0.34.4",
     "autoprefixer": "^10.4.15",
     "c8": "^8.0.1",
     "common-tags": "^1.8.2",
@@ -69,7 +72,7 @@
     "pnpm": "^8.6.10",
     "postcss": "^8.4.28",
     "tailwind-config-viewer": "^1.7.2",
-    "typescript": "^5.1.6",
+    "typescript": "^5.2.2",
     "vitest": "0.34.2"
   },
   "engines": {
@@ -81,6 +84,6 @@
   "packageManager": "pnpm@8.6.10",
   "volta": {
     "node": "18.17.1",
-    "pnpm": "7.32.5"
+    "pnpm": "8.6.10"
   }
 }

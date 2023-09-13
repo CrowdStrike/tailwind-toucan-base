@@ -1,18 +1,17 @@
 'use strict';
 
-import path from 'path';
-import fs from 'fs/promises';
-import { fileURLToPath } from 'url';
-import fse from 'fs-extra';
-import { execa } from 'execa';
 import { stripIndent } from 'common-tags';
+import { execa } from 'execa';
+import fs from 'fs/promises';
+import fse from 'fs-extra';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const root = path.join(__dirname, '..', '..');
 const targetDir = path.join(root, 'dist');
 const cssDir = path.join(targetDir, 'css');
-const jsDir = path.join(targetDir, 'js');
 
 async function main() {
   await execa(
