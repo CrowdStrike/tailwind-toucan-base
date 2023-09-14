@@ -1,5 +1,11 @@
 ## 3.5.1
 
+## 4.1.0
+
+### Minor Changes
+
+- [#326](https://github.com/CrowdStrike/tailwind-toucan-base/pull/326) [`bcc8b10`](https://github.com/CrowdStrike/tailwind-toucan-base/commit/bcc8b10e11e8756b517f6c975ffce7009d217d31) Thanks [@JackRobards](https://github.com/JackRobards)! - Add new background and surface related colors
+
 ## 4.0.0
 
 ### Major Changes
