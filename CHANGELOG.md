@@ -1,5 +1,3 @@
-## 3.5.1
-
 ## 4.1.0
 
 ### Minor Changes
@@ -13,6 +11,8 @@
 - [#294](https://github.com/CrowdStrike/tailwind-toucan-base/pull/294) [`60e5d86`](https://github.com/CrowdStrike/tailwind-toucan-base/commit/60e5d86611635a6b093e1d1f859fe7c1f6a37a36) Thanks [@joelamb](https://github.com/joelamb)! - possibly breaking change that sets all type style properties explicitly,
   which could cause subtle, but unexpected, changes in the weight of rendered
   text if inherited parent styles are no longer applied.
+
+## 3.5.1
 
 ### Patch Changes
 

@@ -20,16 +20,6 @@ jobs:
       - name: ESLint
         run: pnpm run lint:js
 
-  lint_commits:
-    name: Lint Commit Messages
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - uses: volta-cli/action@v4
-      - uses: wagoid/commitlint-github-action@v5.4.3
-
   typecheck:
     name: Type Checking
     timeout-minutes: 5
