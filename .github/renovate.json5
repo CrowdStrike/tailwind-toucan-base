@@ -47,7 +47,6 @@
         "eslint-plugin-.*",
         "eslint-config-.*",
         ".*typescript-eslint.*",
-        "^@commitlint\/*",
         "^remark-*"
       ]
     },
