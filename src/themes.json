@@ -135,6 +135,22 @@
             "main-hues"
           ],
           "fill": {
+            "r": 132,
+            "g": 134,
+            "b": 154,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(132, 134, 154)",
+          "name": "neutral",
+          "value": "#84869A"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
             "r": 250,
             "g": 65,
             "b": 71,
@@ -1200,6 +1216,22 @@
           "rgbFill": "rgb(11, 84, 193)",
           "name": "code-text",
           "value": "#0b54c1"
+        },
+        {
+          "category": [
+            "hues",
+            "main-hues"
+          ],
+          "fill": {
+            "r": 134,
+            "g": 135,
+            "b": 152,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(134, 135, 152)",
+          "name": "neutral",
+          "value": "#868798"
         },
         {
           "category": [
