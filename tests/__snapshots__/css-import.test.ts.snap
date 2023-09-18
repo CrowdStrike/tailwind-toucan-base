@@ -606,6 +606,7 @@ video {
   --code-bg: #232326;
   --code-outline: #1c1c21;
   --code-text: #9dc1fd;
+  --neutral: #84869A;
   --critical: #fa4147;
   --destructive-hover: #fa9497;
   --destructive-idle: #1e1d20;
@@ -675,6 +676,7 @@ video {
   --code-bg: #ffffff;
   --code-outline: #e5e5e5;
   --code-text: #0b54c1;
+  --neutral: #868798;
   --critical: #e9181f;
   --destructive-hover: #f47479;
   --destructive-idle: #ffffff;
@@ -20214,6 +20216,10 @@ video {
   border-color: var(--code-text);
 }
 
+.divide-neutral > :not([hidden]) ~ :not([hidden]) {
+  border-color: var(--neutral);
+}
+
 .divide-critical > :not([hidden]) ~ :not([hidden]) {
   border-color: var(--critical);
 }
@@ -22605,6 +22611,10 @@ video {
   border-color: var(--code-text);
 }
 
+.border-neutral {
+  border-color: var(--neutral);
+}
+
 .border-critical {
   border-color: var(--critical);
 }
@@ -22881,6 +22891,10 @@ video {
   border-color: var(--code-text);
 }
 
+.hover\\\\:border-neutral:hover {
+  border-color: var(--neutral);
+}
+
 .hover\\\\:border-critical:hover {
   border-color: var(--critical);
 }
@@ -23155,6 +23169,10 @@ video {
 
 .active\\\\:border-code-text:active {
   border-color: var(--code-text);
+}
+
+.active\\\\:border-neutral:active {
+  border-color: var(--neutral);
 }
 
 .active\\\\:border-critical:active {
@@ -23613,6 +23631,10 @@ video {
   background-color: var(--code-text);
 }
 
+.bg-neutral {
+  background-color: var(--neutral);
+}
+
 .bg-critical {
   background-color: var(--critical);
 }
@@ -23887,6 +23909,10 @@ video {
 
 .even\\\\:bg-code-text:nth-child(even) {
   background-color: var(--code-text);
+}
+
+.even\\\\:bg-neutral:nth-child(even) {
+  background-color: var(--neutral);
 }
 
 .even\\\\:bg-critical:nth-child(even) {
@@ -24165,6 +24191,10 @@ video {
   background-color: var(--code-text);
 }
 
+.group:hover .group-hover\\\\:bg-neutral {
+  background-color: var(--neutral);
+}
+
 .group:hover .group-hover\\\\:bg-critical {
   background-color: var(--critical);
 }
@@ -24439,6 +24469,10 @@ video {
 
 .hover\\\\:bg-code-text:hover {
   background-color: var(--code-text);
+}
+
+.hover\\\\:bg-neutral:hover {
+  background-color: var(--neutral);
 }
 
 .hover\\\\:bg-critical:hover {
@@ -24717,6 +24751,10 @@ video {
   background-color: var(--code-text);
 }
 
+.focus\\\\:bg-neutral:focus {
+  background-color: var(--neutral);
+}
+
 .focus\\\\:bg-critical:focus {
   background-color: var(--critical);
 }
@@ -24991,6 +25029,10 @@ video {
 
 .focus-within\\\\:bg-code-text:focus-within {
   background-color: var(--code-text);
+}
+
+.focus-within\\\\:bg-neutral:focus-within {
+  background-color: var(--neutral);
 }
 
 .focus-within\\\\:bg-critical:focus-within {
@@ -25269,6 +25311,10 @@ video {
   background-color: var(--code-text);
 }
 
+.focus-visible\\\\:bg-neutral:focus-visible {
+  background-color: var(--neutral);
+}
+
 .focus-visible\\\\:bg-critical:focus-visible {
   background-color: var(--critical);
 }
@@ -25545,6 +25591,10 @@ video {
   background-color: var(--code-text);
 }
 
+.active\\\\:bg-neutral:active {
+  background-color: var(--neutral);
+}
+
 .active\\\\:bg-critical:active {
   background-color: var(--critical);
 }
@@ -25819,6 +25869,10 @@ video {
 
 .disabled\\\\:bg-code-text:disabled {
   background-color: var(--code-text);
+}
+
+.disabled\\\\:bg-neutral:disabled {
+  background-color: var(--neutral);
 }
 
 .disabled\\\\:bg-critical:disabled {
@@ -26324,6 +26378,11 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
+.from-neutral {
+  --tw-gradient-from: var(--neutral);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
 .from-critical {
   --tw-gradient-from: var(--critical);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
@@ -26666,6 +26725,11 @@ video {
 
 .hover\\\\:from-code-text:hover {
   --tw-gradient-from: var(--code-text);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:from-neutral:hover {
+  --tw-gradient-from: var(--neutral);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
@@ -27014,6 +27078,11 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
+.focus\\\\:from-neutral:focus {
+  --tw-gradient-from: var(--neutral);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
 .focus\\\\:from-critical:focus {
   --tw-gradient-from: var(--critical);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
@@ -27348,6 +27417,10 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--code-text), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
+.via-neutral {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--neutral), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
 .via-critical {
   --tw-gradient-stops: var(--tw-gradient-from), var(--critical), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
@@ -27622,6 +27695,10 @@ video {
 
 .hover\\\\:via-code-text:hover {
   --tw-gradient-stops: var(--tw-gradient-from), var(--code-text), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:via-neutral:hover {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--neutral), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
 .hover\\\\:via-critical:hover {
@@ -27900,6 +27977,10 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--code-text), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
+.focus\\\\:via-neutral:focus {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--neutral), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
 .focus\\\\:via-critical:focus {
   --tw-gradient-stops: var(--tw-gradient-from), var(--critical), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
@@ -28174,6 +28255,10 @@ video {
 
 .to-code-text {
   --tw-gradient-to: var(--code-text);
+}
+
+.to-neutral {
+  --tw-gradient-to: var(--neutral);
 }
 
 .to-critical {
@@ -28452,6 +28537,10 @@ video {
   --tw-gradient-to: var(--code-text);
 }
 
+.hover\\\\:to-neutral:hover {
+  --tw-gradient-to: var(--neutral);
+}
+
 .hover\\\\:to-critical:hover {
   --tw-gradient-to: var(--critical);
 }
@@ -28726,6 +28815,10 @@ video {
 
 .focus\\\\:to-code-text:focus {
   --tw-gradient-to: var(--code-text);
+}
+
+.focus\\\\:to-neutral:focus {
+  --tw-gradient-to: var(--neutral);
 }
 
 .focus\\\\:to-critical:focus {
@@ -30715,6 +30808,10 @@ video {
   color: var(--code-text);
 }
 
+.text-neutral {
+  color: var(--neutral);
+}
+
 .text-critical {
   color: var(--critical);
 }
@@ -30989,6 +31086,10 @@ video {
 
 .hover\\\\:text-code-text:hover {
   color: var(--code-text);
+}
+
+.hover\\\\:text-neutral:hover {
+  color: var(--neutral);
 }
 
 .hover\\\\:text-critical:hover {
@@ -31267,6 +31368,10 @@ video {
   color: var(--code-text);
 }
 
+.focus\\\\:text-neutral:focus {
+  color: var(--neutral);
+}
+
 .focus\\\\:text-critical:focus {
   color: var(--critical);
 }
@@ -31541,6 +31646,10 @@ video {
 
 .focus-visible\\\\:text-code-text:focus-visible {
   color: var(--code-text);
+}
+
+.focus-visible\\\\:text-neutral:focus-visible {
+  color: var(--neutral);
 }
 
 .focus-visible\\\\:text-critical:focus-visible {
@@ -31819,6 +31928,10 @@ video {
   color: var(--code-text);
 }
 
+.group:hover .group-hover\\\\:text-neutral {
+  color: var(--neutral);
+}
+
 .group:hover .group-hover\\\\:text-critical {
   color: var(--critical);
 }
@@ -32095,6 +32208,10 @@ video {
   color: var(--code-text);
 }
 
+.active\\\\:text-neutral:active {
+  color: var(--neutral);
+}
+
 .active\\\\:text-critical:active {
   color: var(--critical);
 }
@@ -32369,6 +32486,10 @@ video {
 
 .disabled\\\\:text-code-text:disabled {
   color: var(--code-text);
+}
+
+.disabled\\\\:text-neutral:disabled {
+  color: var(--neutral);
 }
 
 .disabled\\\\:text-critical:disabled {
@@ -32915,6 +33036,14 @@ video {
 
 .placeholder-code-text::placeholder {
   color: var(--code-text);
+}
+
+.placeholder-neutral::-moz-placeholder {
+  color: var(--neutral);
+}
+
+.placeholder-neutral::placeholder {
+  color: var(--neutral);
 }
 
 .placeholder-critical::-moz-placeholder {
@@ -33467,6 +33596,14 @@ video {
 
 .focus\\\\:placeholder-code-text:focus::placeholder {
   color: var(--code-text);
+}
+
+.focus\\\\:placeholder-neutral:focus::-moz-placeholder {
+  color: var(--neutral);
+}
+
+.focus\\\\:placeholder-neutral:focus::placeholder {
+  color: var(--neutral);
 }
 
 .focus\\\\:placeholder-critical:focus::-moz-placeholder {
@@ -34215,6 +34352,10 @@ video {
 
 .caret-code-text {
   caret-color: var(--code-text);
+}
+
+.caret-neutral {
+  caret-color: var(--neutral);
 }
 
 .caret-critical {
@@ -35684,6 +35825,10 @@ video {
   --tw-ring-color: var(--code-text);
 }
 
+.ring-neutral {
+  --tw-ring-color: var(--neutral);
+}
+
 .ring-critical {
   --tw-ring-color: var(--critical);
 }
@@ -35960,6 +36105,10 @@ video {
   --tw-ring-color: var(--code-text);
 }
 
+.focus-within\\\\:ring-neutral:focus-within {
+  --tw-ring-color: var(--neutral);
+}
+
 .focus-within\\\\:ring-critical:focus-within {
   --tw-ring-color: var(--critical);
 }
@@ -36234,6 +36383,10 @@ video {
 
 .focus\\\\:ring-code-text:focus {
   --tw-ring-color: var(--code-text);
+}
+
+.focus\\\\:ring-neutral:focus {
+  --tw-ring-color: var(--neutral);
 }
 
 .focus\\\\:ring-critical:focus {
@@ -36752,6 +36905,10 @@ video {
   --tw-ring-offset-color: var(--code-text);
 }
 
+.ring-offset-neutral {
+  --tw-ring-offset-color: var(--neutral);
+}
+
 .ring-offset-critical {
   --tw-ring-offset-color: var(--critical);
 }
@@ -37028,6 +37185,10 @@ video {
   --tw-ring-offset-color: var(--code-text);
 }
 
+.focus-within\\\\:ring-offset-neutral:focus-within {
+  --tw-ring-offset-color: var(--neutral);
+}
+
 .focus-within\\\\:ring-offset-critical:focus-within {
   --tw-ring-offset-color: var(--critical);
 }
@@ -37302,6 +37463,10 @@ video {
 
 .focus\\\\:ring-offset-code-text:focus {
   --tw-ring-offset-color: var(--code-text);
+}
+
+.focus\\\\:ring-offset-neutral:focus {
+  --tw-ring-offset-color: var(--neutral);
 }
 
 .focus\\\\:ring-offset-critical:focus {
