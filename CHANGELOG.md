@@ -1,5 +1,11 @@
 ## 4.1.0
 
+## 4.2.0
+
+### Minor Changes
+
+- [#331](https://github.com/CrowdStrike/tailwind-toucan-base/pull/331) [`d257b39`](https://github.com/CrowdStrike/tailwind-toucan-base/commit/d257b393c6eafa5866abceafca873b1ebcec64e7) Thanks [@haileymeister00](https://github.com/haileymeister00)! - Add new neutral hue color to light and dark themes
+
 ### Minor Changes
 
 - [#326](https://github.com/CrowdStrike/tailwind-toucan-base/pull/326) [`bcc8b10`](https://github.com/CrowdStrike/tailwind-toucan-base/commit/bcc8b10e11e8756b517f6c975ffce7009d217d31) Thanks [@JackRobards](https://github.com/JackRobards)! - Add new background and surface related colors
