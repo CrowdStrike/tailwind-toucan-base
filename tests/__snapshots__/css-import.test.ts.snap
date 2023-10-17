@@ -693,8 +693,8 @@ video {
   --graph-4: #961574;
   --graph-5: #ce4789;
   --graph-6: #bf4815;
-  --graph-7: #946613;
-  --graph-8: #2e5c0e;
+  --graph-7: #2e5c0e;
+  --graph-8: #946613;
   --graph-9: #684444;
   --graph-disabled: #d3d3d3;
   --ground-floor: #ffffff;
