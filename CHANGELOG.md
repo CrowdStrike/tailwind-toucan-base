@@ -1,5 +1,11 @@
 ## 4.1.0
 
+## 4.3.0
+
+### Minor Changes
+
+- [#340](https://github.com/CrowdStrike/tailwind-toucan-base/pull/340) [`50bbbe3`](https://github.com/CrowdStrike/tailwind-toucan-base/commit/50bbbe3f26cfe6aec85170597940e875c42a33d7) Thanks [@patriciacarbajal](https://github.com/patriciacarbajal)! - Updated graph-7 and graph-8 colors
+
 ## 4.2.0
 
 ### Minor Changes
