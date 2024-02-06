@@ -273,6 +273,175 @@
           "value": "#6688ff"
         },
         {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 73,
+            "g": 198,
+            "b": 192,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(73, 198, 192)",
+          "name": "chart-1",
+          "value": "#49c6c0"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 224,
+            "g": 255,
+            "b": 128,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(224, 255, 128)",
+          "name": "chart-2",
+          "value": "#e0ff80"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 119,
+            "g": 109,
+            "b": 233,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(119, 109, 233)",
+          "name": "chart-3",
+          "value": "#776de9"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 237,
+            "g": 110,
+            "b": 153,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(237, 110, 153)",
+          "name": "chart-4",
+          "value": "#ed6e99"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 255,
+            "g": 255,
+            "b": 224,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(255, 255, 224)",
+          "name": "chart-5",
+          "value": "#ffffe0"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 175,
+            "g": 29,
+            "b": 166,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(175, 29, 166)",
+          "name": "chart-6",
+          "value": "#af1da6"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 251,
+            "g": 160,
+            "b": 145,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(251, 160, 145)",
+          "name": "chart-7",
+          "value": "#fba091"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 125,
+            "g": 230,
+            "b": 177,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(125, 230, 177)",
+          "name": "chart-8",
+          "value": "#7de6b1"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 0,
+            "g": 163,
+            "b": 240,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(0, 163, 240)",
+          "name": "chart-9",
+          "value": "#00a3f0"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 219,
+            "g": 63,
+            "b": 163,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(219, 63, 163)",
+          "name": "chart-10",
+          "value": "#db3fa3"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 94,
+            "g": 106,
+            "b": 130,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(94, 106, 130)",
+          "name": "chart-disabled",
+          "value": "#5e6a82"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 228,
+            "g": 232,
+            "b": 241,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(228, 232, 241)",
+          "name": "chart-neutral-1",
+          "value": "#e4e8f1"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 154,
+            "g": 167,
+            "b": 193,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(154, 167, 193)",
+          "name": "chart-neutral-2",
+          "value": "#9aa7c1"
+        },
+        {
           "category": [
             "data-visualization"
           ],
@@ -1359,6 +1528,175 @@
           "rgbFill": "rgb(3, 158, 186)",
           "name": "focus",
           "value": "#039eba"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 2,
+            "g": 167,
+            "b": 182,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(2, 167, 182)",
+          "name": "chart-1",
+          "value": "#02a7b6"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 133,
+            "g": 159,
+            "b": 4,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(133, 159, 4)",
+          "name": "chart-2",
+          "value": "#859f04"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 120,
+            "g": 8,
+            "b": 247,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(120, 8, 247)",
+          "name": "chart-3",
+          "value": "#7808f7"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 245,
+            "g": 88,
+            "b": 167,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(245, 88, 167)",
+          "name": "chart-4",
+          "value": "#f558a7"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 211,
+            "g": 130,
+            "b": 23,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(211, 130, 23)",
+          "name": "chart-5",
+          "value": "#d38217"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 167,
+            "g": 99,
+            "b": 227,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(167, 99, 227)",
+          "name": "chart-6",
+          "value": "#a763e3"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 184,
+            "g": 61,
+            "b": 20,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(184, 61, 20)",
+          "name": "chart-7",
+          "value": "#b83d14"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 40,
+            "g": 143,
+            "b": 95,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(40, 143, 95)",
+          "name": "chart-8",
+          "value": "#288f5f"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 66,
+            "g": 123,
+            "b": 227,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(66, 123, 227)",
+          "name": "chart-9",
+          "value": "#427be3"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 154,
+            "g": 29,
+            "b": 125,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(154, 29, 125)",
+          "name": "chart-10",
+          "value": "#9a1d7d"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 179,
+            "g": 189,
+            "b": 208,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(179, 189, 208)",
+          "name": "chart-disabled",
+          "value": "#b3bdd0"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 62,
+            "g": 75,
+            "b": 101,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(62, 75, 101)",
+          "name": "chart-neutral-1",
+          "value": "#3e4b65"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 103,
+            "g": 116,
+            "b": 142,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(103, 116, 142)",
+          "name": "chart-neutral-2",
+          "value": "#67748e"
         },
         {
           "category": [
