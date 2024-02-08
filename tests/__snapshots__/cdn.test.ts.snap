@@ -615,6 +615,19 @@ video {
   --disc-operations: #db62f9;
   --dns-requests: #8556fe;
   --focus: #6688ff;
+  --chart-1: #49c6c0;
+  --chart-2: #e0ff80;
+  --chart-3: #776de9;
+  --chart-4: #ed6e99;
+  --chart-5: #ffffe0;
+  --chart-6: #af1da6;
+  --chart-7: #fba091;
+  --chart-8: #7de6b1;
+  --chart-9: #00a3f0;
+  --chart-10: #db3fa3;
+  --chart-disabled: #5e6a82;
+  --chart-neutral-1: #e4e8f1;
+  --chart-neutral-2: #9aa7c1;
   --graph-1: #4cd7f5;
   --graph-10: #b7b7b7;
   --graph-11: #efefef;
@@ -685,6 +698,19 @@ video {
   --disc-operations: #b308dd;
   --dns-requests: #4902fd;
   --focus: #039eba;
+  --chart-1: #02a7b6;
+  --chart-2: #859f04;
+  --chart-3: #7808f7;
+  --chart-4: #f558a7;
+  --chart-5: #d38217;
+  --chart-6: #a763e3;
+  --chart-7: #b83d14;
+  --chart-8: #288f5f;
+  --chart-9: #427be3;
+  --chart-10: #9a1d7d;
+  --chart-disabled: #b3bdd0;
+  --chart-neutral-1: #3e4b65;
+  --chart-neutral-2: #67748e;
   --graph-1: #0f99a1;
   --graph-10: #7478a1;
   --graph-11: #3b364a;
@@ -20252,6 +20278,58 @@ video {
   border-color: var(--focus);
 }
 
+.divide-chart-1 > :not([hidden]) ~ :not([hidden]) {
+  border-color: var(--chart-1);
+}
+
+.divide-chart-2 > :not([hidden]) ~ :not([hidden]) {
+  border-color: var(--chart-2);
+}
+
+.divide-chart-3 > :not([hidden]) ~ :not([hidden]) {
+  border-color: var(--chart-3);
+}
+
+.divide-chart-4 > :not([hidden]) ~ :not([hidden]) {
+  border-color: var(--chart-4);
+}
+
+.divide-chart-5 > :not([hidden]) ~ :not([hidden]) {
+  border-color: var(--chart-5);
+}
+
+.divide-chart-6 > :not([hidden]) ~ :not([hidden]) {
+  border-color: var(--chart-6);
+}
+
+.divide-chart-7 > :not([hidden]) ~ :not([hidden]) {
+  border-color: var(--chart-7);
+}
+
+.divide-chart-8 > :not([hidden]) ~ :not([hidden]) {
+  border-color: var(--chart-8);
+}
+
+.divide-chart-9 > :not([hidden]) ~ :not([hidden]) {
+  border-color: var(--chart-9);
+}
+
+.divide-chart-10 > :not([hidden]) ~ :not([hidden]) {
+  border-color: var(--chart-10);
+}
+
+.divide-chart-disabled > :not([hidden]) ~ :not([hidden]) {
+  border-color: var(--chart-disabled);
+}
+
+.divide-chart-neutral-1 > :not([hidden]) ~ :not([hidden]) {
+  border-color: var(--chart-neutral-1);
+}
+
+.divide-chart-neutral-2 > :not([hidden]) ~ :not([hidden]) {
+  border-color: var(--chart-neutral-2);
+}
+
 .divide-graph-1 > :not([hidden]) ~ :not([hidden]) {
   border-color: var(--graph-1);
 }
@@ -22647,6 +22725,58 @@ video {
   border-color: var(--focus);
 }
 
+.border-chart-1 {
+  border-color: var(--chart-1);
+}
+
+.border-chart-2 {
+  border-color: var(--chart-2);
+}
+
+.border-chart-3 {
+  border-color: var(--chart-3);
+}
+
+.border-chart-4 {
+  border-color: var(--chart-4);
+}
+
+.border-chart-5 {
+  border-color: var(--chart-5);
+}
+
+.border-chart-6 {
+  border-color: var(--chart-6);
+}
+
+.border-chart-7 {
+  border-color: var(--chart-7);
+}
+
+.border-chart-8 {
+  border-color: var(--chart-8);
+}
+
+.border-chart-9 {
+  border-color: var(--chart-9);
+}
+
+.border-chart-10 {
+  border-color: var(--chart-10);
+}
+
+.border-chart-disabled {
+  border-color: var(--chart-disabled);
+}
+
+.border-chart-neutral-1 {
+  border-color: var(--chart-neutral-1);
+}
+
+.border-chart-neutral-2 {
+  border-color: var(--chart-neutral-2);
+}
+
 .border-graph-1 {
   border-color: var(--graph-1);
 }
@@ -22927,6 +23057,58 @@ video {
   border-color: var(--focus);
 }
 
+.hover\\\\:border-chart-1:hover {
+  border-color: var(--chart-1);
+}
+
+.hover\\\\:border-chart-2:hover {
+  border-color: var(--chart-2);
+}
+
+.hover\\\\:border-chart-3:hover {
+  border-color: var(--chart-3);
+}
+
+.hover\\\\:border-chart-4:hover {
+  border-color: var(--chart-4);
+}
+
+.hover\\\\:border-chart-5:hover {
+  border-color: var(--chart-5);
+}
+
+.hover\\\\:border-chart-6:hover {
+  border-color: var(--chart-6);
+}
+
+.hover\\\\:border-chart-7:hover {
+  border-color: var(--chart-7);
+}
+
+.hover\\\\:border-chart-8:hover {
+  border-color: var(--chart-8);
+}
+
+.hover\\\\:border-chart-9:hover {
+  border-color: var(--chart-9);
+}
+
+.hover\\\\:border-chart-10:hover {
+  border-color: var(--chart-10);
+}
+
+.hover\\\\:border-chart-disabled:hover {
+  border-color: var(--chart-disabled);
+}
+
+.hover\\\\:border-chart-neutral-1:hover {
+  border-color: var(--chart-neutral-1);
+}
+
+.hover\\\\:border-chart-neutral-2:hover {
+  border-color: var(--chart-neutral-2);
+}
+
 .hover\\\\:border-graph-1:hover {
   border-color: var(--graph-1);
 }
@@ -23205,6 +23387,58 @@ video {
 
 .active\\\\:border-focus:active {
   border-color: var(--focus);
+}
+
+.active\\\\:border-chart-1:active {
+  border-color: var(--chart-1);
+}
+
+.active\\\\:border-chart-2:active {
+  border-color: var(--chart-2);
+}
+
+.active\\\\:border-chart-3:active {
+  border-color: var(--chart-3);
+}
+
+.active\\\\:border-chart-4:active {
+  border-color: var(--chart-4);
+}
+
+.active\\\\:border-chart-5:active {
+  border-color: var(--chart-5);
+}
+
+.active\\\\:border-chart-6:active {
+  border-color: var(--chart-6);
+}
+
+.active\\\\:border-chart-7:active {
+  border-color: var(--chart-7);
+}
+
+.active\\\\:border-chart-8:active {
+  border-color: var(--chart-8);
+}
+
+.active\\\\:border-chart-9:active {
+  border-color: var(--chart-9);
+}
+
+.active\\\\:border-chart-10:active {
+  border-color: var(--chart-10);
+}
+
+.active\\\\:border-chart-disabled:active {
+  border-color: var(--chart-disabled);
+}
+
+.active\\\\:border-chart-neutral-1:active {
+  border-color: var(--chart-neutral-1);
+}
+
+.active\\\\:border-chart-neutral-2:active {
+  border-color: var(--chart-neutral-2);
 }
 
 .active\\\\:border-graph-1:active {
@@ -23667,6 +23901,58 @@ video {
   background-color: var(--focus);
 }
 
+.bg-chart-1 {
+  background-color: var(--chart-1);
+}
+
+.bg-chart-2 {
+  background-color: var(--chart-2);
+}
+
+.bg-chart-3 {
+  background-color: var(--chart-3);
+}
+
+.bg-chart-4 {
+  background-color: var(--chart-4);
+}
+
+.bg-chart-5 {
+  background-color: var(--chart-5);
+}
+
+.bg-chart-6 {
+  background-color: var(--chart-6);
+}
+
+.bg-chart-7 {
+  background-color: var(--chart-7);
+}
+
+.bg-chart-8 {
+  background-color: var(--chart-8);
+}
+
+.bg-chart-9 {
+  background-color: var(--chart-9);
+}
+
+.bg-chart-10 {
+  background-color: var(--chart-10);
+}
+
+.bg-chart-disabled {
+  background-color: var(--chart-disabled);
+}
+
+.bg-chart-neutral-1 {
+  background-color: var(--chart-neutral-1);
+}
+
+.bg-chart-neutral-2 {
+  background-color: var(--chart-neutral-2);
+}
+
 .bg-graph-1 {
   background-color: var(--graph-1);
 }
@@ -23945,6 +24231,58 @@ video {
 
 .even\\\\:bg-focus:nth-child(even) {
   background-color: var(--focus);
+}
+
+.even\\\\:bg-chart-1:nth-child(even) {
+  background-color: var(--chart-1);
+}
+
+.even\\\\:bg-chart-2:nth-child(even) {
+  background-color: var(--chart-2);
+}
+
+.even\\\\:bg-chart-3:nth-child(even) {
+  background-color: var(--chart-3);
+}
+
+.even\\\\:bg-chart-4:nth-child(even) {
+  background-color: var(--chart-4);
+}
+
+.even\\\\:bg-chart-5:nth-child(even) {
+  background-color: var(--chart-5);
+}
+
+.even\\\\:bg-chart-6:nth-child(even) {
+  background-color: var(--chart-6);
+}
+
+.even\\\\:bg-chart-7:nth-child(even) {
+  background-color: var(--chart-7);
+}
+
+.even\\\\:bg-chart-8:nth-child(even) {
+  background-color: var(--chart-8);
+}
+
+.even\\\\:bg-chart-9:nth-child(even) {
+  background-color: var(--chart-9);
+}
+
+.even\\\\:bg-chart-10:nth-child(even) {
+  background-color: var(--chart-10);
+}
+
+.even\\\\:bg-chart-disabled:nth-child(even) {
+  background-color: var(--chart-disabled);
+}
+
+.even\\\\:bg-chart-neutral-1:nth-child(even) {
+  background-color: var(--chart-neutral-1);
+}
+
+.even\\\\:bg-chart-neutral-2:nth-child(even) {
+  background-color: var(--chart-neutral-2);
 }
 
 .even\\\\:bg-graph-1:nth-child(even) {
@@ -24227,6 +24565,58 @@ video {
   background-color: var(--focus);
 }
 
+.group:hover .group-hover\\\\:bg-chart-1 {
+  background-color: var(--chart-1);
+}
+
+.group:hover .group-hover\\\\:bg-chart-2 {
+  background-color: var(--chart-2);
+}
+
+.group:hover .group-hover\\\\:bg-chart-3 {
+  background-color: var(--chart-3);
+}
+
+.group:hover .group-hover\\\\:bg-chart-4 {
+  background-color: var(--chart-4);
+}
+
+.group:hover .group-hover\\\\:bg-chart-5 {
+  background-color: var(--chart-5);
+}
+
+.group:hover .group-hover\\\\:bg-chart-6 {
+  background-color: var(--chart-6);
+}
+
+.group:hover .group-hover\\\\:bg-chart-7 {
+  background-color: var(--chart-7);
+}
+
+.group:hover .group-hover\\\\:bg-chart-8 {
+  background-color: var(--chart-8);
+}
+
+.group:hover .group-hover\\\\:bg-chart-9 {
+  background-color: var(--chart-9);
+}
+
+.group:hover .group-hover\\\\:bg-chart-10 {
+  background-color: var(--chart-10);
+}
+
+.group:hover .group-hover\\\\:bg-chart-disabled {
+  background-color: var(--chart-disabled);
+}
+
+.group:hover .group-hover\\\\:bg-chart-neutral-1 {
+  background-color: var(--chart-neutral-1);
+}
+
+.group:hover .group-hover\\\\:bg-chart-neutral-2 {
+  background-color: var(--chart-neutral-2);
+}
+
 .group:hover .group-hover\\\\:bg-graph-1 {
   background-color: var(--graph-1);
 }
@@ -24505,6 +24895,58 @@ video {
 
 .hover\\\\:bg-focus:hover {
   background-color: var(--focus);
+}
+
+.hover\\\\:bg-chart-1:hover {
+  background-color: var(--chart-1);
+}
+
+.hover\\\\:bg-chart-2:hover {
+  background-color: var(--chart-2);
+}
+
+.hover\\\\:bg-chart-3:hover {
+  background-color: var(--chart-3);
+}
+
+.hover\\\\:bg-chart-4:hover {
+  background-color: var(--chart-4);
+}
+
+.hover\\\\:bg-chart-5:hover {
+  background-color: var(--chart-5);
+}
+
+.hover\\\\:bg-chart-6:hover {
+  background-color: var(--chart-6);
+}
+
+.hover\\\\:bg-chart-7:hover {
+  background-color: var(--chart-7);
+}
+
+.hover\\\\:bg-chart-8:hover {
+  background-color: var(--chart-8);
+}
+
+.hover\\\\:bg-chart-9:hover {
+  background-color: var(--chart-9);
+}
+
+.hover\\\\:bg-chart-10:hover {
+  background-color: var(--chart-10);
+}
+
+.hover\\\\:bg-chart-disabled:hover {
+  background-color: var(--chart-disabled);
+}
+
+.hover\\\\:bg-chart-neutral-1:hover {
+  background-color: var(--chart-neutral-1);
+}
+
+.hover\\\\:bg-chart-neutral-2:hover {
+  background-color: var(--chart-neutral-2);
 }
 
 .hover\\\\:bg-graph-1:hover {
@@ -24787,6 +25229,58 @@ video {
   background-color: var(--focus);
 }
 
+.focus\\\\:bg-chart-1:focus {
+  background-color: var(--chart-1);
+}
+
+.focus\\\\:bg-chart-2:focus {
+  background-color: var(--chart-2);
+}
+
+.focus\\\\:bg-chart-3:focus {
+  background-color: var(--chart-3);
+}
+
+.focus\\\\:bg-chart-4:focus {
+  background-color: var(--chart-4);
+}
+
+.focus\\\\:bg-chart-5:focus {
+  background-color: var(--chart-5);
+}
+
+.focus\\\\:bg-chart-6:focus {
+  background-color: var(--chart-6);
+}
+
+.focus\\\\:bg-chart-7:focus {
+  background-color: var(--chart-7);
+}
+
+.focus\\\\:bg-chart-8:focus {
+  background-color: var(--chart-8);
+}
+
+.focus\\\\:bg-chart-9:focus {
+  background-color: var(--chart-9);
+}
+
+.focus\\\\:bg-chart-10:focus {
+  background-color: var(--chart-10);
+}
+
+.focus\\\\:bg-chart-disabled:focus {
+  background-color: var(--chart-disabled);
+}
+
+.focus\\\\:bg-chart-neutral-1:focus {
+  background-color: var(--chart-neutral-1);
+}
+
+.focus\\\\:bg-chart-neutral-2:focus {
+  background-color: var(--chart-neutral-2);
+}
+
 .focus\\\\:bg-graph-1:focus {
   background-color: var(--graph-1);
 }
@@ -25065,6 +25559,58 @@ video {
 
 .focus-within\\\\:bg-focus:focus-within {
   background-color: var(--focus);
+}
+
+.focus-within\\\\:bg-chart-1:focus-within {
+  background-color: var(--chart-1);
+}
+
+.focus-within\\\\:bg-chart-2:focus-within {
+  background-color: var(--chart-2);
+}
+
+.focus-within\\\\:bg-chart-3:focus-within {
+  background-color: var(--chart-3);
+}
+
+.focus-within\\\\:bg-chart-4:focus-within {
+  background-color: var(--chart-4);
+}
+
+.focus-within\\\\:bg-chart-5:focus-within {
+  background-color: var(--chart-5);
+}
+
+.focus-within\\\\:bg-chart-6:focus-within {
+  background-color: var(--chart-6);
+}
+
+.focus-within\\\\:bg-chart-7:focus-within {
+  background-color: var(--chart-7);
+}
+
+.focus-within\\\\:bg-chart-8:focus-within {
+  background-color: var(--chart-8);
+}
+
+.focus-within\\\\:bg-chart-9:focus-within {
+  background-color: var(--chart-9);
+}
+
+.focus-within\\\\:bg-chart-10:focus-within {
+  background-color: var(--chart-10);
+}
+
+.focus-within\\\\:bg-chart-disabled:focus-within {
+  background-color: var(--chart-disabled);
+}
+
+.focus-within\\\\:bg-chart-neutral-1:focus-within {
+  background-color: var(--chart-neutral-1);
+}
+
+.focus-within\\\\:bg-chart-neutral-2:focus-within {
+  background-color: var(--chart-neutral-2);
 }
 
 .focus-within\\\\:bg-graph-1:focus-within {
@@ -25347,6 +25893,58 @@ video {
   background-color: var(--focus);
 }
 
+.focus-visible\\\\:bg-chart-1:focus-visible {
+  background-color: var(--chart-1);
+}
+
+.focus-visible\\\\:bg-chart-2:focus-visible {
+  background-color: var(--chart-2);
+}
+
+.focus-visible\\\\:bg-chart-3:focus-visible {
+  background-color: var(--chart-3);
+}
+
+.focus-visible\\\\:bg-chart-4:focus-visible {
+  background-color: var(--chart-4);
+}
+
+.focus-visible\\\\:bg-chart-5:focus-visible {
+  background-color: var(--chart-5);
+}
+
+.focus-visible\\\\:bg-chart-6:focus-visible {
+  background-color: var(--chart-6);
+}
+
+.focus-visible\\\\:bg-chart-7:focus-visible {
+  background-color: var(--chart-7);
+}
+
+.focus-visible\\\\:bg-chart-8:focus-visible {
+  background-color: var(--chart-8);
+}
+
+.focus-visible\\\\:bg-chart-9:focus-visible {
+  background-color: var(--chart-9);
+}
+
+.focus-visible\\\\:bg-chart-10:focus-visible {
+  background-color: var(--chart-10);
+}
+
+.focus-visible\\\\:bg-chart-disabled:focus-visible {
+  background-color: var(--chart-disabled);
+}
+
+.focus-visible\\\\:bg-chart-neutral-1:focus-visible {
+  background-color: var(--chart-neutral-1);
+}
+
+.focus-visible\\\\:bg-chart-neutral-2:focus-visible {
+  background-color: var(--chart-neutral-2);
+}
+
 .focus-visible\\\\:bg-graph-1:focus-visible {
   background-color: var(--graph-1);
 }
@@ -25627,6 +26225,58 @@ video {
   background-color: var(--focus);
 }
 
+.active\\\\:bg-chart-1:active {
+  background-color: var(--chart-1);
+}
+
+.active\\\\:bg-chart-2:active {
+  background-color: var(--chart-2);
+}
+
+.active\\\\:bg-chart-3:active {
+  background-color: var(--chart-3);
+}
+
+.active\\\\:bg-chart-4:active {
+  background-color: var(--chart-4);
+}
+
+.active\\\\:bg-chart-5:active {
+  background-color: var(--chart-5);
+}
+
+.active\\\\:bg-chart-6:active {
+  background-color: var(--chart-6);
+}
+
+.active\\\\:bg-chart-7:active {
+  background-color: var(--chart-7);
+}
+
+.active\\\\:bg-chart-8:active {
+  background-color: var(--chart-8);
+}
+
+.active\\\\:bg-chart-9:active {
+  background-color: var(--chart-9);
+}
+
+.active\\\\:bg-chart-10:active {
+  background-color: var(--chart-10);
+}
+
+.active\\\\:bg-chart-disabled:active {
+  background-color: var(--chart-disabled);
+}
+
+.active\\\\:bg-chart-neutral-1:active {
+  background-color: var(--chart-neutral-1);
+}
+
+.active\\\\:bg-chart-neutral-2:active {
+  background-color: var(--chart-neutral-2);
+}
+
 .active\\\\:bg-graph-1:active {
   background-color: var(--graph-1);
 }
@@ -25905,6 +26555,58 @@ video {
 
 .disabled\\\\:bg-focus:disabled {
   background-color: var(--focus);
+}
+
+.disabled\\\\:bg-chart-1:disabled {
+  background-color: var(--chart-1);
+}
+
+.disabled\\\\:bg-chart-2:disabled {
+  background-color: var(--chart-2);
+}
+
+.disabled\\\\:bg-chart-3:disabled {
+  background-color: var(--chart-3);
+}
+
+.disabled\\\\:bg-chart-4:disabled {
+  background-color: var(--chart-4);
+}
+
+.disabled\\\\:bg-chart-5:disabled {
+  background-color: var(--chart-5);
+}
+
+.disabled\\\\:bg-chart-6:disabled {
+  background-color: var(--chart-6);
+}
+
+.disabled\\\\:bg-chart-7:disabled {
+  background-color: var(--chart-7);
+}
+
+.disabled\\\\:bg-chart-8:disabled {
+  background-color: var(--chart-8);
+}
+
+.disabled\\\\:bg-chart-9:disabled {
+  background-color: var(--chart-9);
+}
+
+.disabled\\\\:bg-chart-10:disabled {
+  background-color: var(--chart-10);
+}
+
+.disabled\\\\:bg-chart-disabled:disabled {
+  background-color: var(--chart-disabled);
+}
+
+.disabled\\\\:bg-chart-neutral-1:disabled {
+  background-color: var(--chart-neutral-1);
+}
+
+.disabled\\\\:bg-chart-neutral-2:disabled {
+  background-color: var(--chart-neutral-2);
 }
 
 .disabled\\\\:bg-graph-1:disabled {
@@ -26423,6 +27125,71 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
+.from-chart-1 {
+  --tw-gradient-from: var(--chart-1);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.from-chart-2 {
+  --tw-gradient-from: var(--chart-2);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.from-chart-3 {
+  --tw-gradient-from: var(--chart-3);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.from-chart-4 {
+  --tw-gradient-from: var(--chart-4);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.from-chart-5 {
+  --tw-gradient-from: var(--chart-5);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.from-chart-6 {
+  --tw-gradient-from: var(--chart-6);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.from-chart-7 {
+  --tw-gradient-from: var(--chart-7);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.from-chart-8 {
+  --tw-gradient-from: var(--chart-8);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.from-chart-9 {
+  --tw-gradient-from: var(--chart-9);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.from-chart-10 {
+  --tw-gradient-from: var(--chart-10);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.from-chart-disabled {
+  --tw-gradient-from: var(--chart-disabled);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.from-chart-neutral-1 {
+  --tw-gradient-from: var(--chart-neutral-1);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.from-chart-neutral-2 {
+  --tw-gradient-from: var(--chart-neutral-2);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
 .from-graph-1 {
   --tw-gradient-from: var(--graph-1);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
@@ -26770,6 +27537,71 @@ video {
 
 .hover\\\\:from-focus:hover {
   --tw-gradient-from: var(--focus);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:from-chart-1:hover {
+  --tw-gradient-from: var(--chart-1);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:from-chart-2:hover {
+  --tw-gradient-from: var(--chart-2);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:from-chart-3:hover {
+  --tw-gradient-from: var(--chart-3);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:from-chart-4:hover {
+  --tw-gradient-from: var(--chart-4);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:from-chart-5:hover {
+  --tw-gradient-from: var(--chart-5);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:from-chart-6:hover {
+  --tw-gradient-from: var(--chart-6);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:from-chart-7:hover {
+  --tw-gradient-from: var(--chart-7);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:from-chart-8:hover {
+  --tw-gradient-from: var(--chart-8);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:from-chart-9:hover {
+  --tw-gradient-from: var(--chart-9);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:from-chart-10:hover {
+  --tw-gradient-from: var(--chart-10);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:from-chart-disabled:hover {
+  --tw-gradient-from: var(--chart-disabled);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:from-chart-neutral-1:hover {
+  --tw-gradient-from: var(--chart-neutral-1);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:from-chart-neutral-2:hover {
+  --tw-gradient-from: var(--chart-neutral-2);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
@@ -27123,6 +27955,71 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
+.focus\\\\:from-chart-1:focus {
+  --tw-gradient-from: var(--chart-1);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:from-chart-2:focus {
+  --tw-gradient-from: var(--chart-2);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:from-chart-3:focus {
+  --tw-gradient-from: var(--chart-3);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:from-chart-4:focus {
+  --tw-gradient-from: var(--chart-4);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:from-chart-5:focus {
+  --tw-gradient-from: var(--chart-5);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:from-chart-6:focus {
+  --tw-gradient-from: var(--chart-6);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:from-chart-7:focus {
+  --tw-gradient-from: var(--chart-7);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:from-chart-8:focus {
+  --tw-gradient-from: var(--chart-8);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:from-chart-9:focus {
+  --tw-gradient-from: var(--chart-9);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:from-chart-10:focus {
+  --tw-gradient-from: var(--chart-10);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:from-chart-disabled:focus {
+  --tw-gradient-from: var(--chart-disabled);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:from-chart-neutral-1:focus {
+  --tw-gradient-from: var(--chart-neutral-1);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:from-chart-neutral-2:focus {
+  --tw-gradient-from: var(--chart-neutral-2);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
 .focus\\\\:from-graph-1:focus {
   --tw-gradient-from: var(--graph-1);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
@@ -27453,6 +28350,58 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--focus), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
+.via-chart-1 {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-1), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.via-chart-2 {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-2), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.via-chart-3 {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-3), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.via-chart-4 {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-4), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.via-chart-5 {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-5), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.via-chart-6 {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-6), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.via-chart-7 {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-7), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.via-chart-8 {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-8), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.via-chart-9 {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-9), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.via-chart-10 {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-10), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.via-chart-disabled {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-disabled), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.via-chart-neutral-1 {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-neutral-1), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.via-chart-neutral-2 {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-neutral-2), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
 .via-graph-1 {
   --tw-gradient-stops: var(--tw-gradient-from), var(--graph-1), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
@@ -27731,6 +28680,58 @@ video {
 
 .hover\\\\:via-focus:hover {
   --tw-gradient-stops: var(--tw-gradient-from), var(--focus), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:via-chart-1:hover {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-1), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:via-chart-2:hover {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-2), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:via-chart-3:hover {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-3), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:via-chart-4:hover {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-4), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:via-chart-5:hover {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-5), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:via-chart-6:hover {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-6), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:via-chart-7:hover {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-7), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:via-chart-8:hover {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-8), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:via-chart-9:hover {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-9), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:via-chart-10:hover {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-10), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:via-chart-disabled:hover {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-disabled), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:via-chart-neutral-1:hover {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-neutral-1), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.hover\\\\:via-chart-neutral-2:hover {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-neutral-2), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
 .hover\\\\:via-graph-1:hover {
@@ -28013,6 +29014,58 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--focus), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
+.focus\\\\:via-chart-1:focus {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-1), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:via-chart-2:focus {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-2), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:via-chart-3:focus {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-3), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:via-chart-4:focus {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-4), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:via-chart-5:focus {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-5), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:via-chart-6:focus {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-6), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:via-chart-7:focus {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-7), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:via-chart-8:focus {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-8), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:via-chart-9:focus {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-9), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:via-chart-10:focus {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-10), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:via-chart-disabled:focus {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-disabled), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:via-chart-neutral-1:focus {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-neutral-1), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.focus\\\\:via-chart-neutral-2:focus {
+  --tw-gradient-stops: var(--tw-gradient-from), var(--chart-neutral-2), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
 .focus\\\\:via-graph-1:focus {
   --tw-gradient-stops: var(--tw-gradient-from), var(--graph-1), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
@@ -28291,6 +29344,58 @@ video {
 
 .to-focus {
   --tw-gradient-to: var(--focus);
+}
+
+.to-chart-1 {
+  --tw-gradient-to: var(--chart-1);
+}
+
+.to-chart-2 {
+  --tw-gradient-to: var(--chart-2);
+}
+
+.to-chart-3 {
+  --tw-gradient-to: var(--chart-3);
+}
+
+.to-chart-4 {
+  --tw-gradient-to: var(--chart-4);
+}
+
+.to-chart-5 {
+  --tw-gradient-to: var(--chart-5);
+}
+
+.to-chart-6 {
+  --tw-gradient-to: var(--chart-6);
+}
+
+.to-chart-7 {
+  --tw-gradient-to: var(--chart-7);
+}
+
+.to-chart-8 {
+  --tw-gradient-to: var(--chart-8);
+}
+
+.to-chart-9 {
+  --tw-gradient-to: var(--chart-9);
+}
+
+.to-chart-10 {
+  --tw-gradient-to: var(--chart-10);
+}
+
+.to-chart-disabled {
+  --tw-gradient-to: var(--chart-disabled);
+}
+
+.to-chart-neutral-1 {
+  --tw-gradient-to: var(--chart-neutral-1);
+}
+
+.to-chart-neutral-2 {
+  --tw-gradient-to: var(--chart-neutral-2);
 }
 
 .to-graph-1 {
@@ -28573,6 +29678,58 @@ video {
   --tw-gradient-to: var(--focus);
 }
 
+.hover\\\\:to-chart-1:hover {
+  --tw-gradient-to: var(--chart-1);
+}
+
+.hover\\\\:to-chart-2:hover {
+  --tw-gradient-to: var(--chart-2);
+}
+
+.hover\\\\:to-chart-3:hover {
+  --tw-gradient-to: var(--chart-3);
+}
+
+.hover\\\\:to-chart-4:hover {
+  --tw-gradient-to: var(--chart-4);
+}
+
+.hover\\\\:to-chart-5:hover {
+  --tw-gradient-to: var(--chart-5);
+}
+
+.hover\\\\:to-chart-6:hover {
+  --tw-gradient-to: var(--chart-6);
+}
+
+.hover\\\\:to-chart-7:hover {
+  --tw-gradient-to: var(--chart-7);
+}
+
+.hover\\\\:to-chart-8:hover {
+  --tw-gradient-to: var(--chart-8);
+}
+
+.hover\\\\:to-chart-9:hover {
+  --tw-gradient-to: var(--chart-9);
+}
+
+.hover\\\\:to-chart-10:hover {
+  --tw-gradient-to: var(--chart-10);
+}
+
+.hover\\\\:to-chart-disabled:hover {
+  --tw-gradient-to: var(--chart-disabled);
+}
+
+.hover\\\\:to-chart-neutral-1:hover {
+  --tw-gradient-to: var(--chart-neutral-1);
+}
+
+.hover\\\\:to-chart-neutral-2:hover {
+  --tw-gradient-to: var(--chart-neutral-2);
+}
+
 .hover\\\\:to-graph-1:hover {
   --tw-gradient-to: var(--graph-1);
 }
@@ -28851,6 +30008,58 @@ video {
 
 .focus\\\\:to-focus:focus {
   --tw-gradient-to: var(--focus);
+}
+
+.focus\\\\:to-chart-1:focus {
+  --tw-gradient-to: var(--chart-1);
+}
+
+.focus\\\\:to-chart-2:focus {
+  --tw-gradient-to: var(--chart-2);
+}
+
+.focus\\\\:to-chart-3:focus {
+  --tw-gradient-to: var(--chart-3);
+}
+
+.focus\\\\:to-chart-4:focus {
+  --tw-gradient-to: var(--chart-4);
+}
+
+.focus\\\\:to-chart-5:focus {
+  --tw-gradient-to: var(--chart-5);
+}
+
+.focus\\\\:to-chart-6:focus {
+  --tw-gradient-to: var(--chart-6);
+}
+
+.focus\\\\:to-chart-7:focus {
+  --tw-gradient-to: var(--chart-7);
+}
+
+.focus\\\\:to-chart-8:focus {
+  --tw-gradient-to: var(--chart-8);
+}
+
+.focus\\\\:to-chart-9:focus {
+  --tw-gradient-to: var(--chart-9);
+}
+
+.focus\\\\:to-chart-10:focus {
+  --tw-gradient-to: var(--chart-10);
+}
+
+.focus\\\\:to-chart-disabled:focus {
+  --tw-gradient-to: var(--chart-disabled);
+}
+
+.focus\\\\:to-chart-neutral-1:focus {
+  --tw-gradient-to: var(--chart-neutral-1);
+}
+
+.focus\\\\:to-chart-neutral-2:focus {
+  --tw-gradient-to: var(--chart-neutral-2);
 }
 
 .focus\\\\:to-graph-1:focus {
@@ -30844,6 +32053,58 @@ video {
   color: var(--focus);
 }
 
+.text-chart-1 {
+  color: var(--chart-1);
+}
+
+.text-chart-2 {
+  color: var(--chart-2);
+}
+
+.text-chart-3 {
+  color: var(--chart-3);
+}
+
+.text-chart-4 {
+  color: var(--chart-4);
+}
+
+.text-chart-5 {
+  color: var(--chart-5);
+}
+
+.text-chart-6 {
+  color: var(--chart-6);
+}
+
+.text-chart-7 {
+  color: var(--chart-7);
+}
+
+.text-chart-8 {
+  color: var(--chart-8);
+}
+
+.text-chart-9 {
+  color: var(--chart-9);
+}
+
+.text-chart-10 {
+  color: var(--chart-10);
+}
+
+.text-chart-disabled {
+  color: var(--chart-disabled);
+}
+
+.text-chart-neutral-1 {
+  color: var(--chart-neutral-1);
+}
+
+.text-chart-neutral-2 {
+  color: var(--chart-neutral-2);
+}
+
 .text-graph-1 {
   color: var(--graph-1);
 }
@@ -31122,6 +32383,58 @@ video {
 
 .hover\\\\:text-focus:hover {
   color: var(--focus);
+}
+
+.hover\\\\:text-chart-1:hover {
+  color: var(--chart-1);
+}
+
+.hover\\\\:text-chart-2:hover {
+  color: var(--chart-2);
+}
+
+.hover\\\\:text-chart-3:hover {
+  color: var(--chart-3);
+}
+
+.hover\\\\:text-chart-4:hover {
+  color: var(--chart-4);
+}
+
+.hover\\\\:text-chart-5:hover {
+  color: var(--chart-5);
+}
+
+.hover\\\\:text-chart-6:hover {
+  color: var(--chart-6);
+}
+
+.hover\\\\:text-chart-7:hover {
+  color: var(--chart-7);
+}
+
+.hover\\\\:text-chart-8:hover {
+  color: var(--chart-8);
+}
+
+.hover\\\\:text-chart-9:hover {
+  color: var(--chart-9);
+}
+
+.hover\\\\:text-chart-10:hover {
+  color: var(--chart-10);
+}
+
+.hover\\\\:text-chart-disabled:hover {
+  color: var(--chart-disabled);
+}
+
+.hover\\\\:text-chart-neutral-1:hover {
+  color: var(--chart-neutral-1);
+}
+
+.hover\\\\:text-chart-neutral-2:hover {
+  color: var(--chart-neutral-2);
 }
 
 .hover\\\\:text-graph-1:hover {
@@ -31404,6 +32717,58 @@ video {
   color: var(--focus);
 }
 
+.focus\\\\:text-chart-1:focus {
+  color: var(--chart-1);
+}
+
+.focus\\\\:text-chart-2:focus {
+  color: var(--chart-2);
+}
+
+.focus\\\\:text-chart-3:focus {
+  color: var(--chart-3);
+}
+
+.focus\\\\:text-chart-4:focus {
+  color: var(--chart-4);
+}
+
+.focus\\\\:text-chart-5:focus {
+  color: var(--chart-5);
+}
+
+.focus\\\\:text-chart-6:focus {
+  color: var(--chart-6);
+}
+
+.focus\\\\:text-chart-7:focus {
+  color: var(--chart-7);
+}
+
+.focus\\\\:text-chart-8:focus {
+  color: var(--chart-8);
+}
+
+.focus\\\\:text-chart-9:focus {
+  color: var(--chart-9);
+}
+
+.focus\\\\:text-chart-10:focus {
+  color: var(--chart-10);
+}
+
+.focus\\\\:text-chart-disabled:focus {
+  color: var(--chart-disabled);
+}
+
+.focus\\\\:text-chart-neutral-1:focus {
+  color: var(--chart-neutral-1);
+}
+
+.focus\\\\:text-chart-neutral-2:focus {
+  color: var(--chart-neutral-2);
+}
+
 .focus\\\\:text-graph-1:focus {
   color: var(--graph-1);
 }
@@ -31682,6 +33047,58 @@ video {
 
 .focus-visible\\\\:text-focus:focus-visible {
   color: var(--focus);
+}
+
+.focus-visible\\\\:text-chart-1:focus-visible {
+  color: var(--chart-1);
+}
+
+.focus-visible\\\\:text-chart-2:focus-visible {
+  color: var(--chart-2);
+}
+
+.focus-visible\\\\:text-chart-3:focus-visible {
+  color: var(--chart-3);
+}
+
+.focus-visible\\\\:text-chart-4:focus-visible {
+  color: var(--chart-4);
+}
+
+.focus-visible\\\\:text-chart-5:focus-visible {
+  color: var(--chart-5);
+}
+
+.focus-visible\\\\:text-chart-6:focus-visible {
+  color: var(--chart-6);
+}
+
+.focus-visible\\\\:text-chart-7:focus-visible {
+  color: var(--chart-7);
+}
+
+.focus-visible\\\\:text-chart-8:focus-visible {
+  color: var(--chart-8);
+}
+
+.focus-visible\\\\:text-chart-9:focus-visible {
+  color: var(--chart-9);
+}
+
+.focus-visible\\\\:text-chart-10:focus-visible {
+  color: var(--chart-10);
+}
+
+.focus-visible\\\\:text-chart-disabled:focus-visible {
+  color: var(--chart-disabled);
+}
+
+.focus-visible\\\\:text-chart-neutral-1:focus-visible {
+  color: var(--chart-neutral-1);
+}
+
+.focus-visible\\\\:text-chart-neutral-2:focus-visible {
+  color: var(--chart-neutral-2);
 }
 
 .focus-visible\\\\:text-graph-1:focus-visible {
@@ -31964,6 +33381,58 @@ video {
   color: var(--focus);
 }
 
+.group:hover .group-hover\\\\:text-chart-1 {
+  color: var(--chart-1);
+}
+
+.group:hover .group-hover\\\\:text-chart-2 {
+  color: var(--chart-2);
+}
+
+.group:hover .group-hover\\\\:text-chart-3 {
+  color: var(--chart-3);
+}
+
+.group:hover .group-hover\\\\:text-chart-4 {
+  color: var(--chart-4);
+}
+
+.group:hover .group-hover\\\\:text-chart-5 {
+  color: var(--chart-5);
+}
+
+.group:hover .group-hover\\\\:text-chart-6 {
+  color: var(--chart-6);
+}
+
+.group:hover .group-hover\\\\:text-chart-7 {
+  color: var(--chart-7);
+}
+
+.group:hover .group-hover\\\\:text-chart-8 {
+  color: var(--chart-8);
+}
+
+.group:hover .group-hover\\\\:text-chart-9 {
+  color: var(--chart-9);
+}
+
+.group:hover .group-hover\\\\:text-chart-10 {
+  color: var(--chart-10);
+}
+
+.group:hover .group-hover\\\\:text-chart-disabled {
+  color: var(--chart-disabled);
+}
+
+.group:hover .group-hover\\\\:text-chart-neutral-1 {
+  color: var(--chart-neutral-1);
+}
+
+.group:hover .group-hover\\\\:text-chart-neutral-2 {
+  color: var(--chart-neutral-2);
+}
+
 .group:hover .group-hover\\\\:text-graph-1 {
   color: var(--graph-1);
 }
@@ -32244,6 +33713,58 @@ video {
   color: var(--focus);
 }
 
+.active\\\\:text-chart-1:active {
+  color: var(--chart-1);
+}
+
+.active\\\\:text-chart-2:active {
+  color: var(--chart-2);
+}
+
+.active\\\\:text-chart-3:active {
+  color: var(--chart-3);
+}
+
+.active\\\\:text-chart-4:active {
+  color: var(--chart-4);
+}
+
+.active\\\\:text-chart-5:active {
+  color: var(--chart-5);
+}
+
+.active\\\\:text-chart-6:active {
+  color: var(--chart-6);
+}
+
+.active\\\\:text-chart-7:active {
+  color: var(--chart-7);
+}
+
+.active\\\\:text-chart-8:active {
+  color: var(--chart-8);
+}
+
+.active\\\\:text-chart-9:active {
+  color: var(--chart-9);
+}
+
+.active\\\\:text-chart-10:active {
+  color: var(--chart-10);
+}
+
+.active\\\\:text-chart-disabled:active {
+  color: var(--chart-disabled);
+}
+
+.active\\\\:text-chart-neutral-1:active {
+  color: var(--chart-neutral-1);
+}
+
+.active\\\\:text-chart-neutral-2:active {
+  color: var(--chart-neutral-2);
+}
+
 .active\\\\:text-graph-1:active {
   color: var(--graph-1);
 }
@@ -32522,6 +34043,58 @@ video {
 
 .disabled\\\\:text-focus:disabled {
   color: var(--focus);
+}
+
+.disabled\\\\:text-chart-1:disabled {
+  color: var(--chart-1);
+}
+
+.disabled\\\\:text-chart-2:disabled {
+  color: var(--chart-2);
+}
+
+.disabled\\\\:text-chart-3:disabled {
+  color: var(--chart-3);
+}
+
+.disabled\\\\:text-chart-4:disabled {
+  color: var(--chart-4);
+}
+
+.disabled\\\\:text-chart-5:disabled {
+  color: var(--chart-5);
+}
+
+.disabled\\\\:text-chart-6:disabled {
+  color: var(--chart-6);
+}
+
+.disabled\\\\:text-chart-7:disabled {
+  color: var(--chart-7);
+}
+
+.disabled\\\\:text-chart-8:disabled {
+  color: var(--chart-8);
+}
+
+.disabled\\\\:text-chart-9:disabled {
+  color: var(--chart-9);
+}
+
+.disabled\\\\:text-chart-10:disabled {
+  color: var(--chart-10);
+}
+
+.disabled\\\\:text-chart-disabled:disabled {
+  color: var(--chart-disabled);
+}
+
+.disabled\\\\:text-chart-neutral-1:disabled {
+  color: var(--chart-neutral-1);
+}
+
+.disabled\\\\:text-chart-neutral-2:disabled {
+  color: var(--chart-neutral-2);
 }
 
 .disabled\\\\:text-graph-1:disabled {
@@ -33110,6 +34683,110 @@ video {
   color: var(--focus);
 }
 
+.placeholder-chart-1::-moz-placeholder {
+  color: var(--chart-1);
+}
+
+.placeholder-chart-1::placeholder {
+  color: var(--chart-1);
+}
+
+.placeholder-chart-2::-moz-placeholder {
+  color: var(--chart-2);
+}
+
+.placeholder-chart-2::placeholder {
+  color: var(--chart-2);
+}
+
+.placeholder-chart-3::-moz-placeholder {
+  color: var(--chart-3);
+}
+
+.placeholder-chart-3::placeholder {
+  color: var(--chart-3);
+}
+
+.placeholder-chart-4::-moz-placeholder {
+  color: var(--chart-4);
+}
+
+.placeholder-chart-4::placeholder {
+  color: var(--chart-4);
+}
+
+.placeholder-chart-5::-moz-placeholder {
+  color: var(--chart-5);
+}
+
+.placeholder-chart-5::placeholder {
+  color: var(--chart-5);
+}
+
+.placeholder-chart-6::-moz-placeholder {
+  color: var(--chart-6);
+}
+
+.placeholder-chart-6::placeholder {
+  color: var(--chart-6);
+}
+
+.placeholder-chart-7::-moz-placeholder {
+  color: var(--chart-7);
+}
+
+.placeholder-chart-7::placeholder {
+  color: var(--chart-7);
+}
+
+.placeholder-chart-8::-moz-placeholder {
+  color: var(--chart-8);
+}
+
+.placeholder-chart-8::placeholder {
+  color: var(--chart-8);
+}
+
+.placeholder-chart-9::-moz-placeholder {
+  color: var(--chart-9);
+}
+
+.placeholder-chart-9::placeholder {
+  color: var(--chart-9);
+}
+
+.placeholder-chart-10::-moz-placeholder {
+  color: var(--chart-10);
+}
+
+.placeholder-chart-10::placeholder {
+  color: var(--chart-10);
+}
+
+.placeholder-chart-disabled::-moz-placeholder {
+  color: var(--chart-disabled);
+}
+
+.placeholder-chart-disabled::placeholder {
+  color: var(--chart-disabled);
+}
+
+.placeholder-chart-neutral-1::-moz-placeholder {
+  color: var(--chart-neutral-1);
+}
+
+.placeholder-chart-neutral-1::placeholder {
+  color: var(--chart-neutral-1);
+}
+
+.placeholder-chart-neutral-2::-moz-placeholder {
+  color: var(--chart-neutral-2);
+}
+
+.placeholder-chart-neutral-2::placeholder {
+  color: var(--chart-neutral-2);
+}
+
 .placeholder-graph-1::-moz-placeholder {
   color: var(--graph-1);
 }
@@ -33668,6 +35345,110 @@ video {
 
 .focus\\\\:placeholder-focus:focus::placeholder {
   color: var(--focus);
+}
+
+.focus\\\\:placeholder-chart-1:focus::-moz-placeholder {
+  color: var(--chart-1);
+}
+
+.focus\\\\:placeholder-chart-1:focus::placeholder {
+  color: var(--chart-1);
+}
+
+.focus\\\\:placeholder-chart-2:focus::-moz-placeholder {
+  color: var(--chart-2);
+}
+
+.focus\\\\:placeholder-chart-2:focus::placeholder {
+  color: var(--chart-2);
+}
+
+.focus\\\\:placeholder-chart-3:focus::-moz-placeholder {
+  color: var(--chart-3);
+}
+
+.focus\\\\:placeholder-chart-3:focus::placeholder {
+  color: var(--chart-3);
+}
+
+.focus\\\\:placeholder-chart-4:focus::-moz-placeholder {
+  color: var(--chart-4);
+}
+
+.focus\\\\:placeholder-chart-4:focus::placeholder {
+  color: var(--chart-4);
+}
+
+.focus\\\\:placeholder-chart-5:focus::-moz-placeholder {
+  color: var(--chart-5);
+}
+
+.focus\\\\:placeholder-chart-5:focus::placeholder {
+  color: var(--chart-5);
+}
+
+.focus\\\\:placeholder-chart-6:focus::-moz-placeholder {
+  color: var(--chart-6);
+}
+
+.focus\\\\:placeholder-chart-6:focus::placeholder {
+  color: var(--chart-6);
+}
+
+.focus\\\\:placeholder-chart-7:focus::-moz-placeholder {
+  color: var(--chart-7);
+}
+
+.focus\\\\:placeholder-chart-7:focus::placeholder {
+  color: var(--chart-7);
+}
+
+.focus\\\\:placeholder-chart-8:focus::-moz-placeholder {
+  color: var(--chart-8);
+}
+
+.focus\\\\:placeholder-chart-8:focus::placeholder {
+  color: var(--chart-8);
+}
+
+.focus\\\\:placeholder-chart-9:focus::-moz-placeholder {
+  color: var(--chart-9);
+}
+
+.focus\\\\:placeholder-chart-9:focus::placeholder {
+  color: var(--chart-9);
+}
+
+.focus\\\\:placeholder-chart-10:focus::-moz-placeholder {
+  color: var(--chart-10);
+}
+
+.focus\\\\:placeholder-chart-10:focus::placeholder {
+  color: var(--chart-10);
+}
+
+.focus\\\\:placeholder-chart-disabled:focus::-moz-placeholder {
+  color: var(--chart-disabled);
+}
+
+.focus\\\\:placeholder-chart-disabled:focus::placeholder {
+  color: var(--chart-disabled);
+}
+
+.focus\\\\:placeholder-chart-neutral-1:focus::-moz-placeholder {
+  color: var(--chart-neutral-1);
+}
+
+.focus\\\\:placeholder-chart-neutral-1:focus::placeholder {
+  color: var(--chart-neutral-1);
+}
+
+.focus\\\\:placeholder-chart-neutral-2:focus::-moz-placeholder {
+  color: var(--chart-neutral-2);
+}
+
+.focus\\\\:placeholder-chart-neutral-2:focus::placeholder {
+  color: var(--chart-neutral-2);
 }
 
 .focus\\\\:placeholder-graph-1:focus::-moz-placeholder {
@@ -34388,6 +36169,58 @@ video {
 
 .caret-focus {
   caret-color: var(--focus);
+}
+
+.caret-chart-1 {
+  caret-color: var(--chart-1);
+}
+
+.caret-chart-2 {
+  caret-color: var(--chart-2);
+}
+
+.caret-chart-3 {
+  caret-color: var(--chart-3);
+}
+
+.caret-chart-4 {
+  caret-color: var(--chart-4);
+}
+
+.caret-chart-5 {
+  caret-color: var(--chart-5);
+}
+
+.caret-chart-6 {
+  caret-color: var(--chart-6);
+}
+
+.caret-chart-7 {
+  caret-color: var(--chart-7);
+}
+
+.caret-chart-8 {
+  caret-color: var(--chart-8);
+}
+
+.caret-chart-9 {
+  caret-color: var(--chart-9);
+}
+
+.caret-chart-10 {
+  caret-color: var(--chart-10);
+}
+
+.caret-chart-disabled {
+  caret-color: var(--chart-disabled);
+}
+
+.caret-chart-neutral-1 {
+  caret-color: var(--chart-neutral-1);
+}
+
+.caret-chart-neutral-2 {
+  caret-color: var(--chart-neutral-2);
 }
 
 .caret-graph-1 {
@@ -35861,6 +37694,58 @@ video {
   --tw-ring-color: var(--focus);
 }
 
+.ring-chart-1 {
+  --tw-ring-color: var(--chart-1);
+}
+
+.ring-chart-2 {
+  --tw-ring-color: var(--chart-2);
+}
+
+.ring-chart-3 {
+  --tw-ring-color: var(--chart-3);
+}
+
+.ring-chart-4 {
+  --tw-ring-color: var(--chart-4);
+}
+
+.ring-chart-5 {
+  --tw-ring-color: var(--chart-5);
+}
+
+.ring-chart-6 {
+  --tw-ring-color: var(--chart-6);
+}
+
+.ring-chart-7 {
+  --tw-ring-color: var(--chart-7);
+}
+
+.ring-chart-8 {
+  --tw-ring-color: var(--chart-8);
+}
+
+.ring-chart-9 {
+  --tw-ring-color: var(--chart-9);
+}
+
+.ring-chart-10 {
+  --tw-ring-color: var(--chart-10);
+}
+
+.ring-chart-disabled {
+  --tw-ring-color: var(--chart-disabled);
+}
+
+.ring-chart-neutral-1 {
+  --tw-ring-color: var(--chart-neutral-1);
+}
+
+.ring-chart-neutral-2 {
+  --tw-ring-color: var(--chart-neutral-2);
+}
+
 .ring-graph-1 {
   --tw-ring-color: var(--graph-1);
 }
@@ -36141,6 +38026,58 @@ video {
   --tw-ring-color: var(--focus);
 }
 
+.focus-within\\\\:ring-chart-1:focus-within {
+  --tw-ring-color: var(--chart-1);
+}
+
+.focus-within\\\\:ring-chart-2:focus-within {
+  --tw-ring-color: var(--chart-2);
+}
+
+.focus-within\\\\:ring-chart-3:focus-within {
+  --tw-ring-color: var(--chart-3);
+}
+
+.focus-within\\\\:ring-chart-4:focus-within {
+  --tw-ring-color: var(--chart-4);
+}
+
+.focus-within\\\\:ring-chart-5:focus-within {
+  --tw-ring-color: var(--chart-5);
+}
+
+.focus-within\\\\:ring-chart-6:focus-within {
+  --tw-ring-color: var(--chart-6);
+}
+
+.focus-within\\\\:ring-chart-7:focus-within {
+  --tw-ring-color: var(--chart-7);
+}
+
+.focus-within\\\\:ring-chart-8:focus-within {
+  --tw-ring-color: var(--chart-8);
+}
+
+.focus-within\\\\:ring-chart-9:focus-within {
+  --tw-ring-color: var(--chart-9);
+}
+
+.focus-within\\\\:ring-chart-10:focus-within {
+  --tw-ring-color: var(--chart-10);
+}
+
+.focus-within\\\\:ring-chart-disabled:focus-within {
+  --tw-ring-color: var(--chart-disabled);
+}
+
+.focus-within\\\\:ring-chart-neutral-1:focus-within {
+  --tw-ring-color: var(--chart-neutral-1);
+}
+
+.focus-within\\\\:ring-chart-neutral-2:focus-within {
+  --tw-ring-color: var(--chart-neutral-2);
+}
+
 .focus-within\\\\:ring-graph-1:focus-within {
   --tw-ring-color: var(--graph-1);
 }
@@ -36419,6 +38356,58 @@ video {
 
 .focus\\\\:ring-focus:focus {
   --tw-ring-color: var(--focus);
+}
+
+.focus\\\\:ring-chart-1:focus {
+  --tw-ring-color: var(--chart-1);
+}
+
+.focus\\\\:ring-chart-2:focus {
+  --tw-ring-color: var(--chart-2);
+}
+
+.focus\\\\:ring-chart-3:focus {
+  --tw-ring-color: var(--chart-3);
+}
+
+.focus\\\\:ring-chart-4:focus {
+  --tw-ring-color: var(--chart-4);
+}
+
+.focus\\\\:ring-chart-5:focus {
+  --tw-ring-color: var(--chart-5);
+}
+
+.focus\\\\:ring-chart-6:focus {
+  --tw-ring-color: var(--chart-6);
+}
+
+.focus\\\\:ring-chart-7:focus {
+  --tw-ring-color: var(--chart-7);
+}
+
+.focus\\\\:ring-chart-8:focus {
+  --tw-ring-color: var(--chart-8);
+}
+
+.focus\\\\:ring-chart-9:focus {
+  --tw-ring-color: var(--chart-9);
+}
+
+.focus\\\\:ring-chart-10:focus {
+  --tw-ring-color: var(--chart-10);
+}
+
+.focus\\\\:ring-chart-disabled:focus {
+  --tw-ring-color: var(--chart-disabled);
+}
+
+.focus\\\\:ring-chart-neutral-1:focus {
+  --tw-ring-color: var(--chart-neutral-1);
+}
+
+.focus\\\\:ring-chart-neutral-2:focus {
+  --tw-ring-color: var(--chart-neutral-2);
 }
 
 .focus\\\\:ring-graph-1:focus {
@@ -36941,6 +38930,58 @@ video {
   --tw-ring-offset-color: var(--focus);
 }
 
+.ring-offset-chart-1 {
+  --tw-ring-offset-color: var(--chart-1);
+}
+
+.ring-offset-chart-2 {
+  --tw-ring-offset-color: var(--chart-2);
+}
+
+.ring-offset-chart-3 {
+  --tw-ring-offset-color: var(--chart-3);
+}
+
+.ring-offset-chart-4 {
+  --tw-ring-offset-color: var(--chart-4);
+}
+
+.ring-offset-chart-5 {
+  --tw-ring-offset-color: var(--chart-5);
+}
+
+.ring-offset-chart-6 {
+  --tw-ring-offset-color: var(--chart-6);
+}
+
+.ring-offset-chart-7 {
+  --tw-ring-offset-color: var(--chart-7);
+}
+
+.ring-offset-chart-8 {
+  --tw-ring-offset-color: var(--chart-8);
+}
+
+.ring-offset-chart-9 {
+  --tw-ring-offset-color: var(--chart-9);
+}
+
+.ring-offset-chart-10 {
+  --tw-ring-offset-color: var(--chart-10);
+}
+
+.ring-offset-chart-disabled {
+  --tw-ring-offset-color: var(--chart-disabled);
+}
+
+.ring-offset-chart-neutral-1 {
+  --tw-ring-offset-color: var(--chart-neutral-1);
+}
+
+.ring-offset-chart-neutral-2 {
+  --tw-ring-offset-color: var(--chart-neutral-2);
+}
+
 .ring-offset-graph-1 {
   --tw-ring-offset-color: var(--graph-1);
 }
@@ -37221,6 +39262,58 @@ video {
   --tw-ring-offset-color: var(--focus);
 }
 
+.focus-within\\\\:ring-offset-chart-1:focus-within {
+  --tw-ring-offset-color: var(--chart-1);
+}
+
+.focus-within\\\\:ring-offset-chart-2:focus-within {
+  --tw-ring-offset-color: var(--chart-2);
+}
+
+.focus-within\\\\:ring-offset-chart-3:focus-within {
+  --tw-ring-offset-color: var(--chart-3);
+}
+
+.focus-within\\\\:ring-offset-chart-4:focus-within {
+  --tw-ring-offset-color: var(--chart-4);
+}
+
+.focus-within\\\\:ring-offset-chart-5:focus-within {
+  --tw-ring-offset-color: var(--chart-5);
+}
+
+.focus-within\\\\:ring-offset-chart-6:focus-within {
+  --tw-ring-offset-color: var(--chart-6);
+}
+
+.focus-within\\\\:ring-offset-chart-7:focus-within {
+  --tw-ring-offset-color: var(--chart-7);
+}
+
+.focus-within\\\\:ring-offset-chart-8:focus-within {
+  --tw-ring-offset-color: var(--chart-8);
+}
+
+.focus-within\\\\:ring-offset-chart-9:focus-within {
+  --tw-ring-offset-color: var(--chart-9);
+}
+
+.focus-within\\\\:ring-offset-chart-10:focus-within {
+  --tw-ring-offset-color: var(--chart-10);
+}
+
+.focus-within\\\\:ring-offset-chart-disabled:focus-within {
+  --tw-ring-offset-color: var(--chart-disabled);
+}
+
+.focus-within\\\\:ring-offset-chart-neutral-1:focus-within {
+  --tw-ring-offset-color: var(--chart-neutral-1);
+}
+
+.focus-within\\\\:ring-offset-chart-neutral-2:focus-within {
+  --tw-ring-offset-color: var(--chart-neutral-2);
+}
+
 .focus-within\\\\:ring-offset-graph-1:focus-within {
   --tw-ring-offset-color: var(--graph-1);
 }
@@ -37499,6 +39592,58 @@ video {
 
 .focus\\\\:ring-offset-focus:focus {
   --tw-ring-offset-color: var(--focus);
+}
+
+.focus\\\\:ring-offset-chart-1:focus {
+  --tw-ring-offset-color: var(--chart-1);
+}
+
+.focus\\\\:ring-offset-chart-2:focus {
+  --tw-ring-offset-color: var(--chart-2);
+}
+
+.focus\\\\:ring-offset-chart-3:focus {
+  --tw-ring-offset-color: var(--chart-3);
+}
+
+.focus\\\\:ring-offset-chart-4:focus {
+  --tw-ring-offset-color: var(--chart-4);
+}
+
+.focus\\\\:ring-offset-chart-5:focus {
+  --tw-ring-offset-color: var(--chart-5);
+}
+
+.focus\\\\:ring-offset-chart-6:focus {
+  --tw-ring-offset-color: var(--chart-6);
+}
+
+.focus\\\\:ring-offset-chart-7:focus {
+  --tw-ring-offset-color: var(--chart-7);
+}
+
+.focus\\\\:ring-offset-chart-8:focus {
+  --tw-ring-offset-color: var(--chart-8);
+}
+
+.focus\\\\:ring-offset-chart-9:focus {
+  --tw-ring-offset-color: var(--chart-9);
+}
+
+.focus\\\\:ring-offset-chart-10:focus {
+  --tw-ring-offset-color: var(--chart-10);
+}
+
+.focus\\\\:ring-offset-chart-disabled:focus {
+  --tw-ring-offset-color: var(--chart-disabled);
+}
+
+.focus\\\\:ring-offset-chart-neutral-1:focus {
+  --tw-ring-offset-color: var(--chart-neutral-1);
+}
+
+.focus\\\\:ring-offset-chart-neutral-2:focus {
+  --tw-ring-offset-color: var(--chart-neutral-2);
 }
 
 .focus\\\\:ring-offset-graph-1:focus {
