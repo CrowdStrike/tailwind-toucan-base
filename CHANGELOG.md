@@ -1,5 +1,11 @@
 ## 4.1.0
 
+## 4.4.0
+
+### Minor Changes
+
+- [#369](https://github.com/CrowdStrike/tailwind-toucan-base/pull/369) [`0f857b9`](https://github.com/CrowdStrike/tailwind-toucan-base/commit/0f857b9df842636ed035e431732b4c388bb66679) Thanks [@JackRobards](https://github.com/JackRobards)! - Add new Chart specific color palette
+
 ## 4.3.0
 
 ### Minor Changes
