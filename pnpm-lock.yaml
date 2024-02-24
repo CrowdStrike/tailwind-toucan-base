@@ -19,8 +19,8 @@ importers:
         specifier: ^2.26.2
         version: 2.26.2
       '@figma-export/cli':
-        specifier: 4.8.0
-        version: 4.8.0
+        specifier: 5.0.0
+        version: 5.0.0
       '@nullvoxpopuli/eslint-configs':
         specifier: ^3.2.2
         version: 3.2.2(@babel/core@7.22.17)(@typescript-eslint/eslint-plugin@7.0.1)(@typescript-eslint/parser@7.0.1)(eslint@8.47.0)(prettier@3.0.3)(typescript@5.2.2)
@@ -721,24 +721,24 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@figma-export/cli@4.8.0:
-    resolution: {integrity: sha512-Mz+LXNK30029lH4vIFKB8mDA2Kk31VLSu6mby64LxJ1AXwfaJABf+Pk1s9qXgYtyYy9Km60srX88wvMcniCRTA==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+  /@figma-export/cli@5.0.0:
+    resolution: {integrity: sha512-N/Z1iVjvsoTgtLj3diPZMJnNhhLYRhR79IjBoST3ZZtoMxEUxpCnGxIsLj6JlMnax3tvqi5Pu6pCexiZ2pDRag==}
+    engines: {node: '>= 16.14'}
     hasBin: true
     dependencies:
-      '@figma-export/core': 4.8.0
-      '@figma-export/types': 4.8.0
+      '@figma-export/core': 5.0.0
+      '@figma-export/types': 5.0.0
       ora: 5.4.1
       sade: 1.8.1
     transitivePeerDependencies:
       - debug
     dev: true
 
-  /@figma-export/core@4.8.0:
-    resolution: {integrity: sha512-7R0OmpPmGMe1Cd73hE7bUc4vFIwys8eR3m+1o+iU27kpOveCLF+C2cm3DUW4Q2rDF0QMkIL+O1mXQEvUM13dJQ==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+  /@figma-export/core@5.0.0:
+    resolution: {integrity: sha512-bKTL+ML6R80NRVPaa1KGttHBPAhDd0uFv+gJrhZBthpCRtBPMRgeTus484ZYFeeSdusz4dQ2WANWGEYW5LaUow==}
+    engines: {node: '>= 16.14'}
     dependencies:
-      '@figma-export/types': 4.8.0
+      '@figma-export/types': 5.0.0
       axios: 1.6.7
       figma-js: 1.16.0
       p-limit: 3.1.0
@@ -747,9 +747,9 @@ packages:
       - debug
     dev: true
 
-  /@figma-export/types@4.8.0:
-    resolution: {integrity: sha512-IRwE1DRvlfsR8aSxyCFfMPH8C73Hg/ApsvEUM+ncNzDGSWF09uKPoXfBEjfbVz02VDKa5/G6FJhtPk+pzXmC1A==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+  /@figma-export/types@5.0.0:
+    resolution: {integrity: sha512-LdcHDEeyYBh8/qMlmS+6ecI4El0zehE5W2U8dRo1qJ56EGSH/QpuQBO9VtB1pOUg57sVt1iboNQ3568Y2HeZaw==}
+    engines: {node: '>= 16.14'}
     dependencies:
       figma-js: 1.16.0
     transitivePeerDependencies:
