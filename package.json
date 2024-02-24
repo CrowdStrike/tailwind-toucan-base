@@ -81,9 +81,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "pnpm@8.15.3",
+  "packageManager": "pnpm@8.15.4",
   "volta": {
     "node": "18.19.1",
-    "pnpm": "8.15.3"
+    "pnpm": "8.15.4"
   }
 }
