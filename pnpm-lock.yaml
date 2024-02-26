@@ -59,7 +59,7 @@ importers:
         version: 6.1.2
       pnpm:
         specifier: ^8.6.10
-        version: 8.6.10
+        version: 8.15.4
       postcss:
         specifier: ^8.4.28
         version: 8.4.35
@@ -4880,8 +4880,8 @@ packages:
       pathe: 1.1.1
     dev: true
 
-  /pnpm@8.6.10:
-    resolution: {integrity: sha512-EBlPdgrAqmIDK6lflNm8M4lueWGM4PKJIDngt6vJ1+fmzh3e0482tg52nUjiuGvkzZ2sngA181GLqknXhAHgIg==}
+  /pnpm@8.15.4:
+    resolution: {integrity: sha512-C9Opvp6w6aaSZ23uwAowO6IYuiedmSQUdWFrOY267t0RFG+SwoQ0WPVXsdEn4J1MFx4QW9zWthACs5aFqAFrng==}
     engines: {node: '>=16.14'}
     hasBin: true
     dev: true
