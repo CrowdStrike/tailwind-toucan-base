@@ -275,145 +275,145 @@
         {
           "category": ["chart-data-visualization"],
           "fill": {
-            "r": 73,
-            "g": 198,
-            "b": 192,
+            "r": 21,
+            "g": 222,
+            "b": 223,
             "a": 1
           },
           "hasAlpha": false,
-          "rgbFill": "rgb(73, 198, 192)",
+          "rgbFill": "rgb(21, 222, 223)",
           "name": "chart-1",
-          "value": "#49c6c0"
+          "value": "#15dedf"
         },
         {
           "category": ["chart-data-visualization"],
           "fill": {
-            "r": 224,
-            "g": 255,
-            "b": 128,
+            "r": 160,
+            "g": 98,
+            "b": 255,
             "a": 1
           },
           "hasAlpha": false,
-          "rgbFill": "rgb(224, 255, 128)",
+          "rgbFill": "rgb(160, 98, 255)",
           "name": "chart-2",
-          "value": "#e0ff80"
-        },
-        {
-          "category": ["chart-data-visualization"],
-          "fill": {
-            "r": 119,
-            "g": 109,
-            "b": 233,
-            "a": 1
-          },
-          "hasAlpha": false,
-          "rgbFill": "rgb(119, 109, 233)",
-          "name": "chart-3",
-          "value": "#776de9"
-        },
-        {
-          "category": ["chart-data-visualization"],
-          "fill": {
-            "r": 237,
-            "g": 110,
-            "b": 153,
-            "a": 1
-          },
-          "hasAlpha": false,
-          "rgbFill": "rgb(237, 110, 153)",
-          "name": "chart-4",
-          "value": "#ed6e99"
+          "value": "#a062ff"
         },
         {
           "category": ["chart-data-visualization"],
           "fill": {
             "r": 255,
-            "g": 255,
-            "b": 224,
+            "g": 238,
+            "b": 135,
             "a": 1
           },
           "hasAlpha": false,
-          "rgbFill": "rgb(255, 255, 224)",
+          "rgbFill": "rgb(255, 238, 135)",
+          "name": "chart-3",
+          "value": "#ffee87"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 209,
+            "g": 13,
+            "b": 148,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(209, 13, 148)",
+          "name": "chart-4",
+          "value": "#d10d94"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 248,
+            "g": 147,
+            "b": 200,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(248, 147, 200)",
           "name": "chart-5",
-          "value": "#ffffe0"
+          "value": "#f893c8"
         },
         {
           "category": ["chart-data-visualization"],
           "fill": {
-            "r": 175,
-            "g": 29,
-            "b": 166,
-            "a": 1
-          },
-          "hasAlpha": false,
-          "rgbFill": "rgb(175, 29, 166)",
-          "name": "chart-6",
-          "value": "#af1da6"
-        },
-        {
-          "category": ["chart-data-visualization"],
-          "fill": {
-            "r": 251,
-            "g": 160,
-            "b": 145,
-            "a": 1
-          },
-          "hasAlpha": false,
-          "rgbFill": "rgb(251, 160, 145)",
-          "name": "chart-7",
-          "value": "#fba091"
-        },
-        {
-          "category": ["chart-data-visualization"],
-          "fill": {
-            "r": 125,
-            "g": 230,
-            "b": 177,
-            "a": 1
-          },
-          "hasAlpha": false,
-          "rgbFill": "rgb(125, 230, 177)",
-          "name": "chart-8",
-          "value": "#7de6b1"
-        },
-        {
-          "category": ["chart-data-visualization"],
-          "fill": {
-            "r": 0,
+            "r": 79,
             "g": 163,
-            "b": 240,
+            "b": 207,
             "a": 1
           },
           "hasAlpha": false,
-          "rgbFill": "rgb(0, 163, 240)",
+          "rgbFill": "rgb(79, 163, 207)",
+          "name": "chart-6",
+          "value": "#4fa3cf"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 187,
+            "g": 165,
+            "b": 250,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(187, 165, 250)",
+          "name": "chart-7",
+          "value": "#bba5fa"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 237,
+            "g": 104,
+            "b": 93,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(237, 104, 93)",
+          "name": "chart-8",
+          "value": "#ed685d"
+        },
+        {
+          "category": ["chart-data-visualization"],
+          "fill": {
+            "r": 253,
+            "g": 192,
+            "b": 131,
+            "a": 1
+          },
+          "hasAlpha": false,
+          "rgbFill": "rgb(253, 192, 131)",
           "name": "chart-9",
-          "value": "#00a3f0"
+          "value": "#fdc083"
         },
         {
           "category": ["chart-data-visualization"],
           "fill": {
-            "r": 219,
-            "g": 63,
-            "b": 163,
+            "r": 214,
+            "g": 128,
+            "b": 14,
             "a": 1
           },
           "hasAlpha": false,
-          "rgbFill": "rgb(219, 63, 163)",
+          "rgbFill": "rgb(214, 128, 14)",
           "name": "chart-10",
-          "value": "#db3fa3"
+          "value": "#d6800e"
         },
         {
           "category": ["chart-data-visualization"],
           "fill": {
-            "r": 94,
-            "g": 106,
-            "b": 130,
+            "r": 81,
+            "g": 92,
+            "b": 111,
             "a": 1
           },
           "hasAlpha": false,
-          "rgbFill": "rgb(94, 106, 130)",
+          "rgbFill": "rgb(81, 92, 111)",
           "name": "chart-disabled",
-          "value": "#5e6a82"
+          "value": "#515c6f"
         },
         {
           "category": ["chart-data-visualization"],
@@ -1163,21 +1163,6 @@
         },
         {
           "category": [
-            "surfaces"
-          ],
-          "fill": {
-            "r": 0,
-            "g": 0,
-            "b": 0,
-            "a": 1
-          },
-          "hasAlpha": false,
-          "rgbFill": "rgb(0, 0, 0)",
-          "name": "surface-dash-widget",
-          "value": "#000000"
-        },
-        {
-          "category": [
             "interactive",
             "text-and-icons"
           ],
@@ -1532,145 +1517,145 @@
         {
           "category": ["chart-data-visualization"],
           "fill": {
-            "r": 2,
-            "g": 167,
-            "b": 182,
+            "r": 0,
+            "g": 163,
+            "b": 164,
             "a": 1
           },
           "hasAlpha": false,
-          "rgbFill": "rgb(2, 167, 182)",
+          "rgbFill": "rgb(0, 163, 164)",
           "name": "chart-1",
-          "value": "#02a7b6"
+          "value": "#00a3a4"
         },
         {
           "category": ["chart-data-visualization"],
           "fill": {
-            "r": 133,
-            "g": 159,
-            "b": 4,
+            "r": 111,
+            "g": 48,
+            "b": 204,
             "a": 1
           },
           "hasAlpha": false,
-          "rgbFill": "rgb(133, 159, 4)",
+          "rgbFill": "rgb(111, 48, 204)",
           "name": "chart-2",
-          "value": "#859f04"
+          "value": "#6f30cc"
         },
         {
           "category": ["chart-data-visualization"],
           "fill": {
-            "r": 120,
-            "g": 8,
-            "b": 247,
+            "r": 214,
+            "g": 128,
+            "b": 14,
             "a": 1
           },
           "hasAlpha": false,
-          "rgbFill": "rgb(120, 8, 247)",
+          "rgbFill": "rgb(214, 128, 14)",
           "name": "chart-3",
-          "value": "#7808f7"
+          "value": "#d6800e"
         },
         {
           "category": ["chart-data-visualization"],
           "fill": {
-            "r": 245,
-            "g": 88,
-            "b": 167,
+            "r": 200,
+            "g": 0,
+            "b": 133,
             "a": 1
           },
           "hasAlpha": false,
-          "rgbFill": "rgb(245, 88, 167)",
+          "rgbFill": "rgb(200, 0, 133)",
           "name": "chart-4",
-          "value": "#f558a7"
+          "value": "#c80085"
         },
         {
           "category": ["chart-data-visualization"],
           "fill": {
-            "r": 211,
-            "g": 130,
-            "b": 23,
+            "r": 247,
+            "g": 82,
+            "b": 152,
             "a": 1
           },
           "hasAlpha": false,
-          "rgbFill": "rgb(211, 130, 23)",
+          "rgbFill": "rgb(247, 82, 152)",
           "name": "chart-5",
-          "value": "#d38217"
+          "value": "#f75298"
         },
         {
           "category": ["chart-data-visualization"],
           "fill": {
-            "r": 167,
-            "g": 99,
-            "b": 227,
+            "r": 19,
+            "g": 120,
+            "b": 138,
             "a": 1
           },
           "hasAlpha": false,
-          "rgbFill": "rgb(167, 99, 227)",
+          "rgbFill": "rgb(19, 120, 138)",
           "name": "chart-6",
-          "value": "#a763e3"
+          "value": "#13788a"
         },
         {
           "category": ["chart-data-visualization"],
           "fill": {
-            "r": 184,
-            "g": 61,
-            "b": 20,
+            "r": 160,
+            "g": 116,
+            "b": 255,
             "a": 1
           },
           "hasAlpha": false,
-          "rgbFill": "rgb(184, 61, 20)",
+          "rgbFill": "rgb(160, 116, 255)",
           "name": "chart-7",
-          "value": "#b83d14"
+          "value": "#a074ff"
         },
         {
           "category": ["chart-data-visualization"],
           "fill": {
-            "r": 40,
-            "g": 143,
-            "b": 95,
+            "r": 172,
+            "g": 30,
+            "b": 55,
             "a": 1
           },
           "hasAlpha": false,
-          "rgbFill": "rgb(40, 143, 95)",
+          "rgbFill": "rgb(172, 30, 55)",
           "name": "chart-8",
-          "value": "#288f5f"
+          "value": "#ac1e37"
         },
         {
           "category": ["chart-data-visualization"],
           "fill": {
-            "r": 66,
-            "g": 123,
-            "b": 227,
+            "r": 255,
+            "g": 79,
+            "b": 90,
             "a": 1
           },
           "hasAlpha": false,
-          "rgbFill": "rgb(66, 123, 227)",
+          "rgbFill": "rgb(255, 79, 90)",
           "name": "chart-9",
-          "value": "#427be3"
+          "value": "#ff4f5a"
         },
         {
           "category": ["chart-data-visualization"],
           "fill": {
-            "r": 154,
-            "g": 29,
-            "b": 125,
+            "r": 163,
+            "g": 97,
+            "b": 26,
             "a": 1
           },
           "hasAlpha": false,
-          "rgbFill": "rgb(154, 29, 125)",
+          "rgbFill": "rgb(163, 97, 26)",
           "name": "chart-10",
-          "value": "#9a1d7d"
+          "value": "#a3611a"
         },
         {
           "category": ["chart-data-visualization"],
           "fill": {
-            "r": 179,
-            "g": 189,
-            "b": 208,
+            "r": 173,
+            "g": 184,
+            "b": 204,
             "a": 1
           },
           "hasAlpha": false,
-          "rgbFill": "rgb(179, 189, 208)",
+          "rgbFill": "rgb(173, 184, 204)",
           "name": "chart-disabled",
-          "value": "#b3bdd0"
+          "value": "#adb8cc"
         },
         {
           "category": ["chart-data-visualization"],
@@ -2416,21 +2401,6 @@
           "hasAlpha": false,
           "rgbFill": "rgb(255, 255, 255)",
           "name": "surface-xl",
-          "value": "#ffffff"
-        },
-        {
-          "category": [
-            "surfaces"
-          ],
-          "fill": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1
-          },
-          "hasAlpha": false,
-          "rgbFill": "rgb(255, 255, 255)",
-          "name": "surface-dash-widget",
           "value": "#ffffff"
         },
         {
