@@ -1,5 +1,15 @@
 ## 4.1.0
 
+## 5.0.0
+
+### Major Changes
+
+- [#395](https://github.com/CrowdStrike/tailwind-toucan-base/pull/395) [`af83823`](https://github.com/CrowdStrike/tailwind-toucan-base/commit/af8382397f5f8b5d65d7064e18c5d0ad7149533d) Thanks [@JackRobards](https://github.com/JackRobards)! - This release contains a breaking change by removing `surface-dash-widget` classes. If you were previously using these classes, there is no replacement.
+
+### Minor Changes
+
+- [#395](https://github.com/CrowdStrike/tailwind-toucan-base/pull/395) [`af83823`](https://github.com/CrowdStrike/tailwind-toucan-base/commit/af8382397f5f8b5d65d7064e18c5d0ad7149533d) Thanks [@JackRobards](https://github.com/JackRobards)! - Update new Charts color palette for better accessibility and contrast with existing surface colors.
+
 ## 4.4.0
 
 ### Minor Changes
