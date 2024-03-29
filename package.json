@@ -71,7 +71,7 @@
     "npm-run-all2": "^6.0.0",
     "pnpm": "^8.6.10",
     "postcss": "^8.4.28",
-    "tailwind-config-viewer": "^1.7.2",
+    "tailwind-config-viewer": "^2.0.0",
     "typescript": "^5.2.2",
     "vitest": "0.34.6"
   },
