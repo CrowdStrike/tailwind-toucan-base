@@ -64,8 +64,8 @@ importers:
         specifier: ^8.4.28
         version: 8.4.38
       tailwind-config-viewer:
-        specifier: ^1.7.2
-        version: 1.7.3(tailwindcss@2.2.19)
+        specifier: ^2.0.0
+        version: 2.0.0(tailwindcss@2.2.19)
       typescript:
         specifier: ^5.2.2
         version: 5.4.3
@@ -3540,13 +3540,6 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /has-tostringtag@1.0.0:
-    resolution: {integrity: sha512-kFjcSNhnlGV1kyoGk7OXKSawH5JOb/LzUc5w9B02hOTO0dfFRjbHQKvg1d6cf3HbeUmtU9VbbV3qzZ2Teh97WQ==}
-    engines: {node: '>= 0.4'}
-    dependencies:
-      has-symbols: 1.0.3
-    dev: true
-
   /has-tostringtag@1.0.2:
     resolution: {integrity: sha512-NqADB8VjPFLM2V0VvHUewwwsw0ZWBaIdgo+ieHtK3hasLz4qeCRjYcqfB6AQrBggRKppKF8L52/VqdVsO47Dlw==}
     engines: {node: '>= 0.4'}
@@ -3889,7 +3882,7 @@ packages:
     resolution: {integrity: sha512-tE2UXzivje6ofPW7l23cjDOMa09gb7xlAqG6jG5ej6uPV32TlWP3NKPigtaGeHNu9fohccRYvIiZMfOOnOYUtg==}
     engines: {node: '>= 0.4'}
     dependencies:
-      has-tostringtag: 1.0.0
+      has-tostringtag: 1.0.2
     dev: true
 
   /is-subdir@1.2.0:
@@ -5692,9 +5685,9 @@ packages:
       - supports-color
     dev: true
 
-  /tailwind-config-viewer@1.7.3(tailwindcss@2.2.19):
-    resolution: {integrity: sha512-rgeFXe9vL4njtaSI1y2uUAD1aRx05RYHbReN72ARAVEVSlNmS0Zf46pj3/ORc3xQwLK/AzbaIs6UFcK7hJSIlA==}
-    engines: {node: '>=8'}
+  /tailwind-config-viewer@2.0.0(tailwindcss@2.2.19):
+    resolution: {integrity: sha512-Im4uvwqgkEuvrXUxhWEoss9G7KpQR7TkZoYrOJk9MZRLJ4asywBb6c9oqDnKUZ6jrXq9YtHh8AQtQi0WTZSwZQ==}
+    engines: {node: '>=13'}
     hasBin: true
     peerDependencies:
       tailwindcss: 1 || 2 || 2.0.1-compat || 3
