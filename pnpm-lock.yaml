@@ -19,8 +19,8 @@ importers:
         specifier: ^2.26.2
         version: 2.27.1
       '@figma-export/cli':
-        specifier: 6.0.0
-        version: 6.0.0
+        specifier: 6.0.1
+        version: 6.0.1
       '@nullvoxpopuli/eslint-configs':
         specifier: ^3.2.2
         version: 3.2.2(@babel/core@7.22.17)(@typescript-eslint/eslint-plugin@7.8.0)(@typescript-eslint/parser@7.8.0)(eslint@8.57.0)(prettier@3.2.5)(typescript@5.4.5)
@@ -708,8 +708,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@figma-export/cli@6.0.0:
-    resolution: {integrity: sha512-BMVazR/SPhcQheeFzgCLFDWLfiVa8TOBK4HZ9jvoShWEcRpyCx9RA83BxS8NnyorvdDf+puHJ5Mwyx9fL9fs0A==}
+  /@figma-export/cli@6.0.1:
+    resolution: {integrity: sha512-CANdYsyogWkDeL257nYcDaftNs2dfB0W+hRZLFE01voFUs6W05UvLoupPTGVYygCxOF/XGf9haIRSdl2DWGb/w==}
     engines: {node: '>= 18.17'}
     hasBin: true
     dependencies:
@@ -1523,7 +1523,7 @@ packages:
   /axios@0.21.4:
     resolution: {integrity: sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==}
     dependencies:
-      follow-redirects: 1.15.4
+      follow-redirects: 1.15.6
     transitivePeerDependencies:
       - debug
     dev: true
@@ -3200,16 +3200,6 @@ packages:
 
   /flatted@3.3.1:
     resolution: {integrity: sha512-X8cqMLLie7KsNUDSdzeN8FYK9rEt4Dt67OsG/DNGnYTSDBG4uFAJFBnUeiV+zCVAvwFy56IjM9sH51jVaEhNxw==}
-    dev: true
-
-  /follow-redirects@1.15.4:
-    resolution: {integrity: sha512-Cr4D/5wlrb0z9dgERpUL3LrmPKVDsETIJhaCMeDfuFYcqa5bldGV6wBsAN6X/vxlXQtFBMrXdXxdL8CbDTGniw==}
-    engines: {node: '>=4.0'}
-    peerDependencies:
-      debug: '*'
-    peerDependenciesMeta:
-      debug:
-        optional: true
     dev: true
 
   /follow-redirects@1.15.6:
