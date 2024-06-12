@@ -23,7 +23,7 @@ importers:
         version: 6.0.1
       '@nullvoxpopuli/eslint-configs':
         specifier: ^3.2.2
-        version: 3.2.2(@babel/core@7.22.17)(@typescript-eslint/eslint-plugin@7.12.0)(@typescript-eslint/parser@7.12.0)(eslint@8.57.0)(prettier@3.3.1)(typescript@5.4.5)
+        version: 3.2.2(@babel/core@7.22.17)(@typescript-eslint/eslint-plugin@7.12.0)(@typescript-eslint/parser@7.12.0)(eslint@8.57.0)(prettier@3.3.2)(typescript@5.4.5)
       '@types/fs-extra':
         specifier: ^11.0.1
         version: 11.0.4
@@ -41,7 +41,7 @@ importers:
         version: 10.4.19(postcss@8.4.38)
       c8:
         specifier: ^10.0.0
-        version: 10.0.0
+        version: 10.1.1
       common-tags:
         specifier: ^1.8.2
         version: 1.8.2
@@ -113,7 +113,7 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       '@jridgewell/gen-mapping': 0.3.4
-      '@jridgewell/trace-mapping': 0.3.23
+      '@jridgewell/trace-mapping': 0.3.25
     dev: true
 
   /@babel/code-frame@7.22.13:
@@ -165,7 +165,7 @@ packages:
     dependencies:
       '@babel/types': 7.22.17
       '@jridgewell/gen-mapping': 0.3.4
-      '@jridgewell/trace-mapping': 0.3.23
+      '@jridgewell/trace-mapping': 0.3.25
       jsesc: 2.5.2
     dev: true
 
@@ -175,7 +175,7 @@ packages:
     dependencies:
       '@babel/types': 7.23.0
       '@jridgewell/gen-mapping': 0.3.4
-      '@jridgewell/trace-mapping': 0.3.23
+      '@jridgewell/trace-mapping': 0.3.25
       jsesc: 2.5.2
     dev: true
 
@@ -863,7 +863,7 @@ packages:
     dependencies:
       '@jridgewell/set-array': 1.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
-      '@jridgewell/trace-mapping': 0.3.23
+      '@jridgewell/trace-mapping': 0.3.25
     dev: true
 
   /@jridgewell/resolve-uri@3.1.2:
@@ -880,8 +880,8 @@ packages:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
     dev: true
 
-  /@jridgewell/trace-mapping@0.3.23:
-    resolution: {integrity: sha512-9/4foRoUKp8s96tSkh8DlAAc5A0Ty8vLXld+l9gjKKY6ckwI8G15f0hskGmuLZu78ZlGa1vtsfOa+lnB4vG6Jg==}
+  /@jridgewell/trace-mapping@0.3.25:
+    resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
@@ -938,7 +938,7 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.17.1
 
-  /@nullvoxpopuli/eslint-configs@3.2.2(@babel/core@7.22.17)(@typescript-eslint/eslint-plugin@7.12.0)(@typescript-eslint/parser@7.12.0)(eslint@8.57.0)(prettier@3.3.1)(typescript@5.4.5):
+  /@nullvoxpopuli/eslint-configs@3.2.2(@babel/core@7.22.17)(@typescript-eslint/eslint-plugin@7.12.0)(@typescript-eslint/parser@7.12.0)(eslint@8.57.0)(prettier@3.3.2)(typescript@5.4.5):
     resolution: {integrity: sha512-Qm7TR7K+kb5emAoddPsoznmAgUptL7YWUOdtaBq2T4pgkEyr7JTS1v4TPg07LusfYi2He2nKJBdTcD++hrsNdw==}
     engines: {node: '>= v16.0.0'}
     peerDependencies:
@@ -976,10 +976,10 @@ packages:
       eslint-plugin-import: 2.28.1(@typescript-eslint/parser@7.12.0)(eslint-import-resolver-typescript@3.6.0)(eslint@8.57.0)
       eslint-plugin-json: 3.1.0
       eslint-plugin-n: 16.1.0(eslint@8.57.0)
-      eslint-plugin-prettier: 4.2.1(eslint@8.57.0)(prettier@3.3.1)
+      eslint-plugin-prettier: 4.2.1(eslint@8.57.0)(prettier@3.3.2)
       eslint-plugin-simple-import-sort: 10.0.0(eslint@8.57.0)
-      prettier: 3.3.1
-      prettier-plugin-ember-template-tag: 1.1.0(prettier@3.3.1)
+      prettier: 3.3.2
+      prettier-plugin-ember-template-tag: 1.1.0(prettier@3.3.2)
     transitivePeerDependencies:
       - eslint-config-prettier
       - eslint-import-resolver-node
@@ -1851,15 +1851,15 @@ packages:
   /builtins@5.0.1:
     resolution: {integrity: sha512-qwVpFEHNfhYJIzNRBvd2C1kyo6jz3ZSMPyyuR47OPdiKWlbYnZNyDWuyR175qDnAJLiCo5fBBqPb3RiXgWlkOQ==}
     dependencies:
-      semver: 7.6.2
+      semver: 7.6.0
     dev: true
 
   /bytes@3.1.2:
     resolution: {integrity: sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg==}
     engines: {node: '>= 0.8'}
 
-  /c8@10.0.0:
-    resolution: {integrity: sha512-rdQecjxw16P8kwgMBjruaQyfF+R2o/mucCCK4VPktwq2HFMWLOHGyUasb46+WlUOVJX94d6dZolcJxzjCzWmXg==}
+  /c8@10.1.1:
+    resolution: {integrity: sha512-+aAvpNMwnzncW27XsEf2eMrGTF8HXIGZ24UQ1dW679+8SQ/UvDXxHNoKwMohcI9ZVj0xl/bI4/meqxvIWOBYaw==}
     engines: {node: '>=18'}
     hasBin: true
     dependencies:
@@ -3003,7 +3003,7 @@ packages:
       semver: 7.6.0
     dev: true
 
-  /eslint-plugin-prettier@4.2.1(eslint@8.57.0)(prettier@3.3.1):
+  /eslint-plugin-prettier@4.2.1(eslint@8.57.0)(prettier@3.3.2):
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -3015,7 +3015,7 @@ packages:
         optional: true
     dependencies:
       eslint: 8.57.0
-      prettier: 3.3.1
+      prettier: 3.3.2
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -5091,7 +5091,7 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier-plugin-ember-template-tag@1.1.0(prettier@3.3.1):
+  /prettier-plugin-ember-template-tag@1.1.0(prettier@3.3.2):
     resolution: {integrity: sha512-zJTC+NhEU0kHNnVh7OtcvMmkJmYTgFTist76FP9q07m9+WCvcaunR1sTFIOlGE9TH/5UGm6rlF86Umt9ouorAg==}
     engines: {node: 16.* || 18.* || >= 20}
     peerDependencies:
@@ -5101,7 +5101,7 @@ packages:
       '@glimmer/syntax': 0.84.3
       ember-cli-htmlbars: 6.3.0
       ember-template-imports: 3.4.2
-      prettier: 3.3.1
+      prettier: 3.3.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5112,8 +5112,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier@3.3.1:
-    resolution: {integrity: sha512-7CAwy5dRsxs8PHXT3twixW9/OEll8MLE0VRPCJyl7CkS6VHGPSlsVaWTiASPTyGyYRyApxlaWTzwUxVNrhcwDg==}
+  /prettier@3.3.2:
+    resolution: {integrity: sha512-rAVeHYMcv8ATV5d508CFdn+8/pHPpXeIid1DdrPwXnaAdH7cqjVbpJaT5eq4yRAFU/lsbwYwSF/n5iNrdJHPQA==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
@@ -6190,7 +6190,7 @@ packages:
     resolution: {integrity: sha512-/EH/sDgxU2eGxajKdwLCDmQ4FWq+kpi3uCmBGpw1xJtnAxEjlD8j8PEiGWpCIMIs3ciNAgH0d3TTJiUkYzyZjA==}
     engines: {node: '>=10.12.0'}
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.23
+      '@jridgewell/trace-mapping': 0.3.25
       '@types/istanbul-lib-coverage': 2.0.6
       convert-source-map: 2.0.0
     dev: true
