@@ -65,7 +65,7 @@ importers:
         version: 8.4.38
       tailwind-config-viewer:
         specifier: ^2.0.0
-        version: 2.0.3(tailwindcss@2.2.19)
+        version: 2.0.4(tailwindcss@2.2.19)
       typescript:
         specifier: ^5.2.2
         version: 5.5.2
@@ -5839,8 +5839,8 @@ packages:
       - supports-color
     dev: true
 
-  /tailwind-config-viewer@2.0.3(tailwindcss@2.2.19):
-    resolution: {integrity: sha512-UxeBz6Q0XLCmVcJ2IiYqM1vuxjIkGTf0idxpwb7LkCb/FEebEmUGqwE7XSGPrD8uL7bmCfWskyPGiwNtzMmrJw==}
+  /tailwind-config-viewer@2.0.4(tailwindcss@2.2.19):
+    resolution: {integrity: sha512-icvcmdMmt9dphvas8wL40qttrHwAnW3QEN4ExJ2zICjwRsPj7gowd1cOceaWG3IfTuM/cTNGQcx+bsjMtmV+cw==}
     engines: {node: '>=13'}
     hasBin: true
     peerDependencies:
