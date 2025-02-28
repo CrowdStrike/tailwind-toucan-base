@@ -19,8 +19,8 @@ importers:
         specifier: ^2.26.2
         version: 2.28.1
       '@figma-export/cli':
-        specifier: 6.0.2
-        version: 6.0.2
+        specifier: 6.0.3
+        version: 6.0.3
       '@nullvoxpopuli/eslint-configs':
         specifier: ^4.0.0
         version: 4.3.0(@babel/core@7.26.0)(@typescript-eslint/eslint-plugin@7.18.0)(@typescript-eslint/parser@7.18.0)(eslint@8.57.1)(prettier@3.5.1)(typescript@5.6.2)
@@ -651,12 +651,12 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@figma-export/cli@6.0.2:
-    resolution: {integrity: sha512-IOAcS5S+ClKlJogN1ijjHOpiBBF8JXTdrJaw4Bs+lIHfG2tNNzWhwue9ie9lIK389wbawfuwVdtSUQTEI4SZQA==}
+  /@figma-export/cli@6.0.3:
+    resolution: {integrity: sha512-V+5WoIGI5ak3eclKsW+DB1QvuzLjdC6cJCXrDOGEPRs9HBXmKU/+XAYfiBFuQwtncl0miWi2703ImmHEhItz6A==}
     engines: {node: '>= 18.17'}
     hasBin: true
     dependencies:
-      '@figma-export/core': 6.0.2
+      '@figma-export/core': 6.0.3
       '@figma-export/types': 6.0.0
       ora: 8.1.0
       sade: 1.8.1
@@ -664,8 +664,8 @@ packages:
       - debug
     dev: true
 
-  /@figma-export/core@6.0.2:
-    resolution: {integrity: sha512-rBovS6CCfuXsREZd6N4wFcxCTQ7zrJys/XhKrgUtH/ba88gxA1CYany4QaEu4L4bfEQ2SHcy1gfbdAfojes/HQ==}
+  /@figma-export/core@6.0.3:
+    resolution: {integrity: sha512-T2y4IWv+2ltIFrPsthdSEJY4Vswp01V49nSTckH2vXuSdBe7/VbrWEUenRBsoB7VrN9andeF7+btSd+XPEbiDA==}
     engines: {node: '>= 18.17'}
     dependencies:
       '@figma-export/types': 6.0.0
