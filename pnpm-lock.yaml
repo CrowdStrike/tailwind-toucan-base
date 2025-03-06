@@ -19,8 +19,8 @@ importers:
         specifier: ^2.26.2
         version: 2.28.1
       '@figma-export/cli':
-        specifier: 6.0.3
-        version: 6.0.3
+        specifier: 6.1.0
+        version: 6.1.0
       '@nullvoxpopuli/eslint-configs':
         specifier: ^4.0.0
         version: 4.3.0(@babel/core@7.26.0)(@typescript-eslint/eslint-plugin@7.18.0)(@typescript-eslint/parser@7.18.0)(eslint@8.57.1)(prettier@3.5.1)(typescript@5.6.2)
@@ -651,35 +651,35 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@figma-export/cli@6.0.3:
-    resolution: {integrity: sha512-V+5WoIGI5ak3eclKsW+DB1QvuzLjdC6cJCXrDOGEPRs9HBXmKU/+XAYfiBFuQwtncl0miWi2703ImmHEhItz6A==}
-    engines: {node: '>= 18.17'}
+  /@figma-export/cli@6.1.0:
+    resolution: {integrity: sha512-r4B2ccKe2+VPiz9UA976D7GXYAE2zEYcwlh5M9+HasJTleVOi2PtKggYsybdkejU+ve/ZrUELC0VHXrXHqfGXA==}
+    engines: {node: '>= 18.18'}
     hasBin: true
     dependencies:
-      '@figma-export/core': 6.0.3
-      '@figma-export/types': 6.0.0
-      ora: 8.1.0
+      '@figma-export/core': 6.1.0
+      '@figma-export/types': 6.1.0
+      ora: 8.2.0
       sade: 1.8.1
     transitivePeerDependencies:
       - debug
     dev: true
 
-  /@figma-export/core@6.0.3:
-    resolution: {integrity: sha512-T2y4IWv+2ltIFrPsthdSEJY4Vswp01V49nSTckH2vXuSdBe7/VbrWEUenRBsoB7VrN9andeF7+btSd+XPEbiDA==}
-    engines: {node: '>= 18.17'}
+  /@figma-export/core@6.1.0:
+    resolution: {integrity: sha512-NKs23LKWFeJ8bSczmPNwS9dW7iFCK3F0VSLSv3WBG23znw62OLNiW2wzTaOlKpdMFG9A958N3vo4X3Q2WZR0+Q==}
+    engines: {node: '>= 18.18'}
     dependencies:
-      '@figma-export/types': 6.0.0
-      axios: 1.7.7
+      '@figma-export/types': 6.1.0
+      axios: 1.8.1
       figma-js: 1.16.0
-      p-limit: 6.1.0
-      p-retry: 6.2.0
+      p-limit: 6.2.0
+      p-retry: 6.2.1
     transitivePeerDependencies:
       - debug
     dev: true
 
-  /@figma-export/types@6.0.0:
-    resolution: {integrity: sha512-8Cgj564tUw2CHLk/thIGDBQma2AP4McNguly9LDR7T1IrCgoMqsqPTWvIP4ht9+O2G5huyAZfAj3Bec1b9KuoQ==}
-    engines: {node: '>= 18.17'}
+  /@figma-export/types@6.1.0:
+    resolution: {integrity: sha512-g/sF67r7XlxRkHU3TYIdRH45O98dNITXAH/DORPWgAPJ7cpH9rTiSlzWuEcwqBYUUUvk/4SDQrO0qlvkvChO/Q==}
+    engines: {node: '>= 18.18'}
     dependencies:
       figma-js: 1.16.0
     transitivePeerDependencies:
@@ -1400,8 +1400,8 @@ packages:
       - debug
     dev: true
 
-  /axios@1.7.7:
-    resolution: {integrity: sha512-S4kL7XrjgBmvdGut0sN3yJxqYzrDOnivkBiN0OFs6hLiUam3UPvswUo0kqGyhqUZGEOytHyumEdXsAkgCOUf3Q==}
+  /axios@1.8.1:
+    resolution: {integrity: sha512-NN+fvwH/kV01dYUQ3PTOZns4LWtWhOFCAhQ/pHb88WQ1hNe5V/dvFwc4VJcDL11LT9xSX0QtsR8sWUuyOuOq7g==}
     dependencies:
       follow-redirects: 1.15.6
       form-data: 4.0.0
@@ -3958,8 +3958,8 @@ packages:
       word-wrap: 1.2.5
     dev: true
 
-  /ora@8.1.0:
-    resolution: {integrity: sha512-GQEkNkH/GHOhPFXcqZs3IDahXEQcQxsSjEkK4KvEEST4t7eNzoMjxTzef+EZ+JluDEV+Raoi3WQ2CflnRdSVnQ==}
+  /ora@8.2.0:
+    resolution: {integrity: sha512-weP+BZ8MVNnlCm8c0Qdc1WSWq4Qn7I+9CJGm7Qali6g44e/PUzbjNqJX5NJ9ljlNMosfJvg1fKEGILklK9cwnw==}
     engines: {node: '>=18'}
     dependencies:
       chalk: 5.3.0
@@ -4010,8 +4010,8 @@ packages:
       yocto-queue: 1.0.0
     dev: true
 
-  /p-limit@6.1.0:
-    resolution: {integrity: sha512-H0jc0q1vOzlEk0TqAKXKZxdl7kX3OFUzCnNVUnq5Pc3DGo0kpeaMuPqxQn235HibwBEb0/pm9dgKTjXy66fBkg==}
+  /p-limit@6.2.0:
+    resolution: {integrity: sha512-kuUqqHNUqoIWp/c467RI4X6mmyuojY5jGutNU0wVTmEOOfcuwLqyMVoAi9MKi2Ak+5i9+nhmrK4ufZE8069kHA==}
     engines: {node: '>=18'}
     dependencies:
       yocto-queue: 1.1.1
@@ -4036,8 +4036,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /p-retry@6.2.0:
-    resolution: {integrity: sha512-JA6nkq6hKyWLLasXQXUrO4z8BUZGUt/LjlJxx8Gb2+2ntodU/SS63YZ8b0LUTbQ8ZB9iwOfhEPhg4ykKnn2KsA==}
+  /p-retry@6.2.1:
+    resolution: {integrity: sha512-hEt02O4hUct5wtwg4H4KcWgDdm+l1bOaEy/hWzd8xtXB9BqxTWBBhb+2ImAtH4Cv4rPjV76xN3Zumqk3k3AhhQ==}
     engines: {node: '>=16.17'}
     dependencies:
       '@types/retry': 0.12.2
