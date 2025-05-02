@@ -55,8 +55,8 @@ importers:
         specifier: ^11.1.1
         version: 11.2.0
       npm-run-all2:
-        specifier: ^7.0.0
-        version: 7.0.2
+        specifier: ^8.0.0
+        version: 8.0.0
       pnpm:
         specifier: ^8.6.10
         version: 8.15.9
@@ -3751,9 +3751,9 @@ packages:
     engines: {node: ^18.17.0 || >=20.5.0}
     dev: true
 
-  /npm-run-all2@7.0.2:
-    resolution: {integrity: sha512-7tXR+r9hzRNOPNTvXegM+QzCuMjzUIIq66VDunL6j60O4RrExx32XUhlrS7UK4VcdGw5/Wxzb3kfNcFix9JKDA==}
-    engines: {node: ^18.17.0 || >=20.5.0, npm: '>= 9'}
+  /npm-run-all2@8.0.0:
+    resolution: {integrity: sha512-HQ9Z8cQqDIKvTpZgxa7oPRqi07iEdau5E1V6vMkON05v5McgAEvLltVuWGmBE3fiObCTthkxlpJbCZJYGAVDjg==}
+    engines: {node: '>=20.5.0', npm: '>= 10'}
     hasBin: true
     dependencies:
       ansi-styles: 6.2.1
