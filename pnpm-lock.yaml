@@ -19,8 +19,8 @@ importers:
         specifier: ^2.26.2
         version: 2.29.6
       '@figma-export/cli':
-        specifier: 6.2.2
-        version: 6.2.2
+        specifier: 6.2.3
+        version: 6.2.3
       '@nullvoxpopuli/eslint-configs':
         specifier: ^4.0.0
         version: 4.3.0(@babel/core@7.26.0)(@typescript-eslint/eslint-plugin@7.18.0)(@typescript-eslint/parser@7.18.0)(eslint@8.57.1)(prettier@3.6.2)(typescript@5.6.2)
@@ -651,37 +651,37 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@figma-export/cli@6.2.2:
-    resolution: {integrity: sha512-5oIjv8qb8zf4nu03Gd4F8euZypz9NfCRUOAeLAZuKOsHiQzCMQiPWvMAXGhE1nndEZ4k6VpnfhA8Wj0v+Tu/Ww==}
+  /@figma-export/cli@6.2.3:
+    resolution: {integrity: sha512-GTJ9nLKNK8D8jvhiLtyCdJkTYCNe2/Pj87Y8/4G8n5KLplWfSd69hROssogg9AKoTR90myK+NXRCO3JS9Jhs6g==}
     engines: {node: '>= 18.18'}
     hasBin: true
     dependencies:
-      '@figma-export/core': 6.2.2
-      '@figma-export/types': 6.2.2
+      '@figma-export/core': 6.2.3
+      '@figma-export/types': 6.2.3
       ora: 8.2.0
       sade: 1.8.1
     dev: true
 
-  /@figma-export/core@6.2.2:
-    resolution: {integrity: sha512-j46FnJTlWEiYgDUZBtE0h9gtXXkPEY1BCKfO5Adj9zdwyVZVBZ0t4KfSPNSjNXi3RZ87pFcvqcHJTyEaeIWbmw==}
+  /@figma-export/core@6.2.3:
+    resolution: {integrity: sha512-uq9ApWQPBElVfhwn288xKUGzj79AV6GgaOaJXKFPKQpSs2VOqJNGWBV6DfTGovmTUmp/mzPA7eYp3thTH08SYg==}
     engines: {node: '>= 18.18'}
     dependencies:
-      '@figma-export/types': 6.2.2
-      '@figma/rest-api-spec': 0.31.0
+      '@figma-export/types': 6.2.3
+      '@figma/rest-api-spec': 0.33.0
       p-limit: 6.2.0
       p-retry: 6.2.1
-      undici: 6.21.2
+      undici: 6.21.3
     dev: true
 
-  /@figma-export/types@6.2.2:
-    resolution: {integrity: sha512-/pa4apebkKrPdm2tJCy1kXVEBUVMOHauusJROUq4kBQgN/fNUuNRAoHRbPBKTyL+GJLDbaMw3DTf3DWZ5XybFA==}
+  /@figma-export/types@6.2.3:
+    resolution: {integrity: sha512-C1tE0qTYVFwVqYcCBn/PX4vn3yc0/e+ZPTkt/chZ5QDinHdn3BKVamF6qzvDXCOlSM8++VYIDUPU0K2qU2UDCQ==}
     engines: {node: '>= 18.18'}
     dependencies:
-      '@figma/rest-api-spec': 0.31.0
+      '@figma/rest-api-spec': 0.33.0
     dev: true
 
-  /@figma/rest-api-spec@0.31.0:
-    resolution: {integrity: sha512-Mk9hAZjA71etfnydoj6J3f6VL1nYWII50547o0ybz3YqMT61Q/GWsPmZNulPtR6+EYngiZ+Jq2LvJuB5MSaYPA==}
+  /@figma/rest-api-spec@0.33.0:
+    resolution: {integrity: sha512-T/hxrxvnAejDHVzHr5av7eM09vCniyeyLy77QUMmnavUIZe+jA/Ex5mpFhMS6DHVAy/zuBUDJDZRMZ4t8OBwFg==}
     dev: true
 
   /@humanwhocodes/config-array@0.13.0:
@@ -4914,8 +4914,8 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: true
 
-  /undici@6.21.2:
-    resolution: {integrity: sha512-uROZWze0R0itiAKVPsYhFov9LxrPMHLMEQFszeI2gCN6bnIIZ8twzBCJcN2LJrBBLfrP0t1FW0g+JmKVl8Vk1g==}
+  /undici@6.21.3:
+    resolution: {integrity: sha512-gBLkYIlEnSp8pFbT64yFgGE6UIB9tAkhukC23PmMDCe5Nd+cRqKxSjw5y54MK2AZMgZfJWMaNE4nYUHgi1XEOw==}
     engines: {node: '>=18.17'}
     dev: true
 
