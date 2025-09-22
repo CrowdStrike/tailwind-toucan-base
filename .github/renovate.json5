@@ -5,7 +5,7 @@
     "config:base",
     ":semanticCommits"
   ],
-  "automerge": true,
+  "automerge": false,
   "masterIssue": true,
   // bump for apps
   // update-lockfile for addons/libraries
