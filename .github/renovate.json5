@@ -6,105 +6,52 @@
     ":semanticCommits"
   ],
   "automerge": false,
-  "masterIssue": true,
-  // bump for apps
-  // update-lockfile for addons/libraries
+  "dependencyDashboard": true,
   "rangeStrategy": "update-lockfile",
-  // From the docs:
-  // https://docs.renovatebot.com/configuration-options/#packagerules
-  // Important to know: Renovate will evaluate all packageRules and not stop once it gets a first match.
-  // Therefore, you should order your packageRules in order of importance so that later rules can override
-  // settings from earlier rules if necessary.
-  //
-  // (so if something is to be disabled, place that rule last)
   "packageRules": [
-    ////////////////////////////////////////
-    // Grouping namespaced packages together
-    //
-    // This reduces overall PR count
-    ////////////////////////////////////////
     {
       "groupName": "Type Definitions",
       "packagePatterns": ["^@types\/*"],
       "schedule": ["after 9pm on sunday"]
-    },
-    // This library needs to be bumped, because otherwise we would not
-    // receive blueprint updates whenever a release occurs
-    {
-      "packageNames": ["ember-addon-automated-ci"],
-      "rangeStrategy": "bump"
     },
     {
       "groupName": "Lint Dependencies",
       "schedule": ["after 9pm on sunday"],
       "packageNames": [
         "eslint",
-        "babel-eslint",
-        "ember-template-lint",
         "prettier"
       ],
       "packagePatterns": [
         "eslint-plugin-.*",
         "eslint-config-.*",
-        ".*typescript-eslint.*",
-        "^remark-*"
+        ".*typescript-eslint.*"
       ]
     },
-    // These are dependencies that come default when
-    // generating a new ember addon
     {
-      "groupName": "Framework Dependencies",
+      "groupName": "Vitest",
       "packageNames": [
-        "@ember/optional-features",
-        "@glimmer/component",
-        "@glimmer/tracking",
-        "ember-disable-prototype-extensions",
-        "ember-export-application-global",
-        "ember-load-initializers",
-        "ember-maybe-import-regenerator",
-        "ember-resolver",
-        "ember-source",
-        "ember-cli-page-title"
+        "vitest",
+        "@vitest/coverage-v8"
       ]
     },
     {
-      "groupName": "CLI Dependencies",
-      "packageNames": [
-        "broccoli-asset-rev",
-        "ember-cli",
-        "ember-auto-import",
-        "ember-cli-dependency-checker",
-        "ember-cli-inject-live-reload",
-        "ember-cli-sri",
-        "ember-cli-terser"
-      ]
+      // GitHub Actions version restrictions (matching foundry-sample repos)
+      "matchManagers": ["github-actions"],
+      "matchPackageNames": ["actions/checkout"],
+      "allowedVersions": "<6.0.3"
     },
     {
-      "groupName": "Testing Dependencies",
-      "schedule": ["after 9pm on sunday"],
-      "packageNames": [
-        "qunit-dom",
-        "ember-try",
-        "ember-source-channel-url",
-        "ember-qunit",
-        "qunit",
-        "npm-run-all"
-      ]
+      "matchManagers": ["github-actions"],
+      "matchPackageNames": ["actions/cache"],
+      "allowedVersions": "<5.0.4"
     },
     {
-      // changing peerDependencies *at all* is a breaking change
+      // changing peerDependencies is a breaking change
       "matchDepTypes": ["peerDependencies"],
       "enabled": false
     },
     {
-      // ensure maximum compatibility, when possible
-      "matchPaths": ["package.json"],
-      "matchDepTypes": ["dependencies"],
-      "enabled": false
-    },
-    {
-      // changing engines forces other people to need to upgrade their minimum node
-      // therefor engine changes are breaking changes
+      // changing engines forces minimum node upgrade
       "depTypeList": ["engines"],
       "enabled": false
     }

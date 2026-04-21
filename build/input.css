@@ -4,3 +4,9 @@
 @tailwind components;
 
 @tailwind utilities;
+
+@layer base {
+  html {
+    line-height: 1.15;
+  }
+}

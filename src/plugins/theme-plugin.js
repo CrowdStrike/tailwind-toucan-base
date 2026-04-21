@@ -3,7 +3,7 @@
 const plugin = require('tailwindcss/plugin');
 
 module.exports = function (themesData) {
-  const addThemeColorBaseClasses = ({ addBase }) => {
+  const addThemeColorClasses = ({ addComponents }) => {
     let generatedCss = Object.entries(themesData.themes).reduce((css, [, themeData]) => {
       css[themeData.cssSelector] = themeData.colors.reduce((acc, { name, value }) => {
         acc[`--${name}`] = value;
@@ -14,10 +14,10 @@ module.exports = function (themesData) {
       return css;
     }, {});
 
-    addBase(generatedCss);
+    addComponents(generatedCss);
   };
 
-  const addThemeShadowBaseClasses = ({ addBase }) => {
+  const addThemeShadowClasses = ({ addComponents }) => {
     let generatedCss = Object.entries(themesData.themes).reduce((css, [, themeData]) => {
       css[themeData.cssSelector] = themeData.shadows.reduce((acc, { name, effects }) => {
         acc[`--${name}`] = effects.join(', ');
@@ -28,15 +28,11 @@ module.exports = function (themesData) {
       return css;
     }, {});
 
-    addBase(generatedCss);
+    addComponents(generatedCss);
   };
 
-  /*
-    This plugin will add base classes for each theme which specify all of the color
-    values for that theme.
-  */
   return plugin(function (pluginApi) {
-    addThemeColorBaseClasses(pluginApi);
-    addThemeShadowBaseClasses(pluginApi);
+    addThemeColorClasses(pluginApi);
+    addThemeShadowClasses(pluginApi);
   });
 };
